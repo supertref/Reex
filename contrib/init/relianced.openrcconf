@@ -1,0 +1,26 @@
+# /etc/conf.d/relianced: config file for /etc/init.d/relianced
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/reliance/reliance.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/relianced"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/relianced.pid"
+
+# Where to write relianced data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/relianced"
+
+# User and group to own relianced process
+#BITCOIND_USER="reliance"
+#BITCOIND_GROUP="reliance"
+
+# Path to relianced executable
+#BITCOIND_BIN="/usr/bin/relianced"
+
+# Nice value to run relianced under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
