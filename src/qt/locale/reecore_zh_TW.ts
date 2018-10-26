@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>Reliance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reliance 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 REL 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 REL 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>送出錢幣到 REL 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reliance: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 reliance 位址)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 Reecore 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,16 +602,16 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Reliance Core</source>
-        <translation>&amp;關於 Reliance Core</translation>
+        <source>&amp;About Reecore Core</source>
+        <translation>&amp;關於 Reecore Core</translation>
     </message>
     <message>
-        <source>Show information about Reliance Core</source>
-        <translation>顯示 Reliance Core 相關資訊</translation>
+        <source>Show information about Reecore Core</source>
+        <translation>顯示 Reecore Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reliance</source>
-        <translation>修改 Reliance 設定</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>修改 Reecore 設定</translation>
     </message>
     <message>
         <source>Sign messages with your REL addresses to prove you own them</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a reliance: URI or payment request</source>
-        <translation>打開reliance: 位址或付款請求 </translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>打開Reecore: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the Reliance Core help message to get a list with possible Reliance command-line options</source>
-        <translation>顯示 Reliance Core 幫助訊息以取得 Reliance 命令列表選項</translation>
+        <source>Show the Reecore Core help message to get a list with possible Reecore command-line options</source>
+        <translation>顯示 Reecore Core 幫助訊息以取得 Reecore 命令列表選項</translation>
     </message>
     <message>
-        <source>Reliance Core client</source>
-        <translation>Reliance Core 客戶端</translation>
+        <source>Reecore Core client</source>
+        <translation>Reecore Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     </context>
 <context>
@@ -885,8 +885,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     </context>
 <context>
@@ -949,6 +949,6 @@
     </message>
     </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     </context>
 </TS>

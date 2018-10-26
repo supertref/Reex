@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/reliance/.reliance" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/reliance/.reliance"
+if [ -d "/var/lib/Reecore/.Reecore" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/Reecore/.Reecore"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/relianced"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/Reecored"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/reliance/reliance.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/relianced}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/relianced.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/Reecore/Reecore.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/Reecored}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/Reecored.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-reliance}
-BITCOIND_GROUP=${BITCOIND_GROUP:-reliance}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/relianced}
+BITCOIND_USER=${BITCOIND_USER:-Reecore}
+BITCOIND_GROUP=${BITCOIND_GROUP:-Reecore}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/Reecored}
 
-name="Reliance Core Daemon"
-description="Reliance crypto-currency p2p network daemon"
+name="Reecore Core Daemon"
+description="Reecore crypto-currency p2p network daemon"
 
-command="/usr/bin/relianced"
+command="/usr/bin/Reecored"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run relianced."
+		eerror "ERROR: You must set a secure rpcpassword to run Reecored."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Reliance Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Reecore Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

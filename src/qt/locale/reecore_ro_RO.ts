@@ -177,6 +177,6 @@
     </message>
     </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     </context>
 </TS>

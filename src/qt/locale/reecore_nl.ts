@@ -168,8 +168,8 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Reliance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reliance zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw RELs stelen.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw RELs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -590,16 +590,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Kern</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Kern</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>Verstuur munten naar een REL adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reliance: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en reliance: URI's)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en Reecore: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,16 +610,16 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Reliance Core</source>
-        <translation>&amp;Over Reliance Kern</translation>
+        <source>&amp;About Reecore Core</source>
+        <translation>&amp;Over Reecore Kern</translation>
     </message>
     <message>
-        <source>Show information about Reliance Core</source>
-        <translation>Toon informatie over Reliance Kern</translation>
+        <source>Show information about Reecore Core</source>
+        <translation>Toon informatie over Reecore Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reliance</source>
-        <translation>Wijzig Reliance configuratie opties</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>Wijzig Reecore configuratie opties</translation>
     </message>
     <message>
         <source>Sign messages with your REL addresses to prove you own them</source>
@@ -658,8 +658,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a reliance: URI or payment request</source>
-        <translation>Open een reliance: URI of betaalverzoek</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Open een Reecore: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Reliance Core client</source>
-        <translation>Reliance Core client</translation>
+        <source>Reecore Core client</source>
+        <translation>Reecore Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reliance network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het Reliance netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Reliance netwerk</numerusform></translation>
+        <source>%n active connection(s) to Reecore network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het Reecore netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Reecore netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -817,8 +817,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reliance.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (reliance.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (Reecore.conf).</translation>
     </message>
 </context>
 <context>
@@ -1064,16 +1064,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Kern</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Reliance Core</source>
-        <translation>Over Reliance Core</translation>
+        <source>About Reecore Core</source>
+        <translation>Over Reecore Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1103,16 +1103,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Reliance Core.</source>
-        <translation>Welkom bij Reliance Core</translation>
+        <source>Welcome to Reecore Core.</source>
+        <translation>Welkom bij Reecore Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Kern</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1309,20 +1309,20 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Reliance after logging in to the system.</source>
-        <translation>Reliance automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start Reecore after logging in to the system.</source>
+        <translation>Reecore automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start Reliance on system login</source>
-        <translation>&amp;Reliance starten bij systeemlogin</translation>
+        <source>&amp;Start Reecore on system login</source>
+        <translation>&amp;Reecore starten bij systeemlogin</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reliance.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Reliance.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Reecore.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Reecore.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1675,8 +1675,8 @@ MultiSend: %1</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the Reliance RPC console.</source>
-        <translation>Welkom bij de Reliance RPC console.</translation>
+        <source>Welcome to the Reecore RPC console.</source>
+        <translation>Welkom bij de Reecore RPC console.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2081,8 +2081,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Reliance Core is shutting down...</source>
-        <translation>Reliance Core is aan het afsluiten...</translation>
+        <source>Reecore Core is shutting down...</source>
+        <translation>Reecore Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2211,8 +2211,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Kern</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2231,8 +2231,8 @@ MultiSend: %1</translation>
         <translation>De PIVX Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The Reliance Core developers</source>
-        <translation>De Reliance Core ontwikkelaars</translation>
+        <source>The Reecore Core developers</source>
+        <translation>De Reecore Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2583,7 +2583,7 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>
@@ -2625,8 +2625,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Reliance Core Developers</source>
-        <translation>Copyright (C) 2017-%i The Reliance Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2017-%i The Reecore Core Developers</source>
+        <translation>Copyright (C) 2017-%i The Reecore Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>

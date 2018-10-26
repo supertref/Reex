@@ -1,19 +1,19 @@
 [Unit]
-Description=Reliance's distributed currency daemon
+Description=Reecore's distributed currency daemon
 After=network.target
 
 [Service]
-User=reliance
-Group=reliance
+User=Reecore
+Group=Reecore
 
 Type=forking
-PIDFile=/var/lib/relianced/relianced.pid
+PIDFile=/var/lib/Reecored/Reecored.pid
 
-ExecStart=/usr/bin/relianced -daemon -pid=/var/lib/relianced/relianced.pid \
-          -conf=/etc/reliance/reliance.conf -datadir=/var/lib/relianced
+ExecStart=/usr/bin/Reecored -daemon -pid=/var/lib/Reecored/Reecored.pid \
+          -conf=/etc/Reecore/Reecore.conf -datadir=/var/lib/Reecored
 
-ExecStop=-/usr/bin/reliance-cli -conf=/etc/reliance/reliance.conf \
-         -datadir=/var/lib/relianced stop
+ExecStop=-/usr/bin/Reecore-cli -conf=/etc/Reecore/Reecore.conf \
+         -datadir=/var/lib/Reecored stop
 
 Restart=always
 PrivateTmp=true

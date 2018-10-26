@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2017 The Reliance developers
+// Copyright (c) 2017-2017 The Reecore developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -48,10 +48,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Reliance Core reliance-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Reecore Core Reecore-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  reliance-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded bitcoin green transaction") + "\n" +
-                               "  reliance-tx [options] -create [commands]   " + _("Create hex-encoded bitcoin green transaction") + "\n" +
+                               "  Reecore-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded bitcoin green transaction") + "\n" +
+                               "  Reecore-tx [options] -create [commands]   " + _("Create hex-encoded bitcoin green transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations see [translation_process.md](https://github.com/reliance/reliance/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations see [translation_process.md](https://github.com/Reecore/Reecore/blob/master/doc/translation_process.md#synchronising-translations).
 
 Before every minor and major release:
 
@@ -24,12 +24,12 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/reliance/gitian.sigs.git
-    git clone https://github.com/reliance/reliance-detached-sigs.git
+    git clone https://github.com/Reecore/gitian.sigs.git
+    git clone https://github.com/Reecore/Reecore-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/reliance/reliance.git
+    git clone https://github.com/Reecore/Reecore.git
 
-### Reliance maintainers/release engineers, suggestion for writing release notes
+### Reecore maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -50,7 +50,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./reliance
+    pushd ./Reecore
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -84,7 +84,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../reliance/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../Reecore/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -92,55 +92,55 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url reliance=/path/to/reliance,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url Reecore=/path/to/Reecore,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Reliance Core for Linux, Windows, and OS X:
+### Build and sign Reecore Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit reliance=v${VERSION} ../reliance/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../reliance/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/reliance-*.tar.gz build/out/src/reliance-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit Reecore=v${VERSION} ../Reecore/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../Reecore/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/Reecore-*.tar.gz build/out/src/Reecore-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit reliance=v${VERSION} ../reliance/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../reliance/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/reliance-*-win-unsigned.tar.gz inputs/reliance-win-unsigned.tar.gz
-    mv build/out/reliance-*.zip build/out/reliance-*.exe ../
+    ./bin/gbuild --memory 3000 --commit Reecore=v${VERSION} ../Reecore/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../Reecore/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/Reecore-*-win-unsigned.tar.gz inputs/Reecore-win-unsigned.tar.gz
+    mv build/out/Reecore-*.zip build/out/Reecore-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit reliance=v${VERSION} ../reliance/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../reliance/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/reliance-*-osx-unsigned.tar.gz inputs/reliance-osx-unsigned.tar.gz
-    mv build/out/reliance-*.tar.gz build/out/reliance-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit Reecore=v${VERSION} ../Reecore/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../Reecore/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/Reecore-*-osx-unsigned.tar.gz inputs/Reecore-osx-unsigned.tar.gz
+    mv build/out/Reecore-*.tar.gz build/out/Reecore-*.dmg ../
 
-    ./bin/gbuild --memory 3000 --commit reliance=v${VERSION} ../reliance/contrib/gitian-descriptors/gitian-aarch64.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../reliance/contrib/gitian-descriptors/gitian-aarch64.yml
-    mv build/out/reliance-*.tar.gz build/out/src/reliance-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit Reecore=v${VERSION} ../Reecore/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../Reecore/contrib/gitian-descriptors/gitian-aarch64.yml
+    mv build/out/Reecore-*.tar.gz build/out/src/Reecore-*.tar.gz ../
     popd
 
 Build output expected:
 
-  1. source tarball (`reliance-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`reliance-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`reliance-${VERSION}-win[32|64]-setup-unsigned.exe`, `reliance-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`reliance-${VERSION}-osx-unsigned.dmg`, `reliance-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`Reecore-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`Reecore-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`Reecore-${VERSION}-win[32|64]-setup-unsigned.exe`, `Reecore-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`Reecore-${VERSION}-osx-unsigned.dmg`, `Reecore-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import reliance/contrib/gitian-keys/*.pgp
+    gpg --import Reecore/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../reliance/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../reliance/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../reliance/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../reliance/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../Reecore/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../Reecore/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../Reecore/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../Reecore/contrib/gitian-descriptors/gitian-aarch64.yml
     popd
 
 ### Next steps:
@@ -162,22 +162,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer reliance-osx-unsigned.tar.gz to osx for signing
-    tar xf reliance-osx-unsigned.tar.gz
+    transfer Reecore-osx-unsigned.tar.gz to osx for signing
+    tar xf Reecore-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf reliance-win-unsigned.tar.gz
+    tar xf Reecore-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/reliance-detached-sigs
+    cd ~/Reecore-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -190,25 +190,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [reliance-detached-sigs](https://github.com/reliance/reliance-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [Reecore-detached-sigs](https://github.com/Reecore/Reecore-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../reliance/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../reliance/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../reliance/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/reliance-osx-signed.dmg ../reliance-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../Reecore/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../Reecore/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../Reecore/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/Reecore-osx-signed.dmg ../Reecore-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../reliance/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../reliance/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../reliance/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/reliance-*win64-setup.exe ../reliance-${VERSION}-win64-setup.exe
-    mv build/out/reliance-*win32-setup.exe ../reliance-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../Reecore/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../Reecore/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../Reecore/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/Reecore-*win64-setup.exe ../Reecore-${VERSION}-win64-setup.exe
+    mv build/out/Reecore-*win32-setup.exe ../Reecore-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -230,17 +230,17 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-reliance-${VERSION}-aarch64-linux-gnu.tar.gz
-reliance-${VERSION}-arm-linux-gnueabihf.tar.gz
-reliance-${VERSION}-i686-pc-linux-gnu.tar.gz
-reliance-${VERSION}-x86_64-linux-gnu.tar.gz
-reliance-${VERSION}-osx64.tar.gz
-reliance-${VERSION}-osx.dmg
-reliance-${VERSION}.tar.gz
-reliance-${VERSION}-win32-setup.exe
-reliance-${VERSION}-win32.zip
-reliance-${VERSION}-win64-setup.exe
-reliance-${VERSION}-win64.zip
+Reecore-${VERSION}-aarch64-linux-gnu.tar.gz
+Reecore-${VERSION}-arm-linux-gnueabihf.tar.gz
+Reecore-${VERSION}-i686-pc-linux-gnu.tar.gz
+Reecore-${VERSION}-x86_64-linux-gnu.tar.gz
+Reecore-${VERSION}-osx64.tar.gz
+Reecore-${VERSION}-osx.dmg
+Reecore-${VERSION}.tar.gz
+Reecore-${VERSION}-win32-setup.exe
+Reecore-${VERSION}-win32.zip
+Reecore-${VERSION}-win64-setup.exe
+Reecore-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
@@ -262,10 +262,10 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/Reliance, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/Reecore, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/reliance/reliance/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/Reecore/Reecore/releases/new) with a link to the archived release notes.
 
   - Celebrate

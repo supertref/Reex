@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifdef HAVE_CONFIG_H
-#include "config/reliance-config.h"
+#include "config/Reecore-config.h"
 #endif
 
 #include "netbase.h"

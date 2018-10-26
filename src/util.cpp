@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/reliance-config.h"
+#include "config/Reecore-config.h"
 #endif
 
 #include "util.h"
@@ -105,7 +105,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-// Reliance only features
+// Reecore only features
 // Masternode
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
@@ -227,8 +227,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "reliance" is a composite category enabling all Reliance-related debug output
-            if (ptrCategory->count(string("reliance"))) {
+            // "Reecore" is a composite category enabling all Reecore-related debug output
+            if (ptrCategory->count(string("Reecore"))) {
                 ptrCategory->insert(string("swifttx"));
                 ptrCategory->insert(string("masternode"));
                 ptrCategory->insert(string("mnpayments"));
@@ -391,7 +391,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "reliance";
+    const char* pszModule = "Reecore";
 #endif
     if (pex)
         return strprintf(
@@ -412,13 +412,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\Reliance
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\Reliance
-// Mac: ~/Library/Application Support/Reliance
-// Unix: ~/.reliance
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\Reecore
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\Reecore
+// Mac: ~/Library/Application Support/Reecore
+// Unix: ~/.Reecore
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Reliance";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Reecore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -430,10 +430,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Reliance";
+    return pathRet / "Reecore";
 #else
     // Unix
-    return pathRet / ".reliance";
+    return pathRet / ".Reecore";
 #endif
 #endif
 }
@@ -480,7 +480,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "reliance.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "Reecore.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -499,7 +499,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty reliance.conf if it does not exist
+        // Create empty Reecore.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -510,7 +510,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override reliance.conf
+        // Don't overwrite existing settings so command line settings override Reecore.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);
@@ -525,7 +525,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "relianced.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "Reecored.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

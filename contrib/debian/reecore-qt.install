@@ -1,6 +1,6 @@
-usr/local/bin/reliance-qt usr/bin
+usr/local/bin/Reecore-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/reliance-qt.desktop usr/share/applications
-debian/reliance-qt.protocol usr/share/kde4/services/
+debian/Reecore-qt.desktop usr/share/applications
+debian/Reecore-qt.protocol usr/share/kde4/services/

@@ -77,7 +77,7 @@ HEADERS += src/bignum.h \
            src/compressor.h \
            src/core_io.h \
            src/crypter.h \
-           src/reliance-config.h \
+           src/Reecore-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/bignum.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/reliance-config.h \
+           src/config/Reecore-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -331,7 +331,7 @@ HEADERS += src/bignum.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/reliance.moc \
+           src/qt/Reecore.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -369,9 +369,9 @@ SOURCES += src/activemasternode.cpp \
            src/core_read.cpp \
            src/core_write.cpp \
            src/crypter.cpp \
-           src/reliance-cli.cpp \
-           src/reliance-tx.cpp \
-           src/reliance.cpp \
+           src/Reecore-cli.cpp \
+           src/Reecore-tx.cpp \
+           src/Reecore.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -466,8 +466,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroldialog.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
-           src/qt/reliance.cpp \
-           src/qt/reliancestrings.cpp \
+           src/qt/Reecore.cpp \
+           src/qt/Reecorestrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -545,7 +545,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_reliance.cpp \
+           src/test/test_Reecore.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -636,21 +636,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/reliance.qrc src/qt/reliance_locale.qrc
+RESOURCES += src/qt/Reecore.qrc src/qt/Reecore_locale.qrc
 
-TRANSLATIONS += src/qt/locale/reliance_bg.ts \
-                src/qt/locale/reliance_de.ts \
-                src/qt/locale/reliance_en.ts \
-                src/qt/locale/reliance_es.ts \
-                src/qt/locale/reliance_fi.ts \
-                src/qt/locale/reliance_fr.ts \
-                src/qt/locale/reliance_it.ts \
-                src/qt/locale/reliance_ja.ts \
-                src/qt/locale/reliance_pl.ts \
-                src/qt/locale/reliance_pt.ts \
-                src/qt/locale/reliance_ru.ts \
-                src/qt/locale/reliance_sk.ts \
-                src/qt/locale/reliance_sv.ts \
-                src/qt/locale/reliance_vi.ts \
-                src/qt/locale/reliance_zh_CN.ts \
-                src/qt/locale/reliance_zh_TW.ts
+TRANSLATIONS += src/qt/locale/Reecore_bg.ts \
+                src/qt/locale/Reecore_de.ts \
+                src/qt/locale/Reecore_en.ts \
+                src/qt/locale/Reecore_es.ts \
+                src/qt/locale/Reecore_fi.ts \
+                src/qt/locale/Reecore_fr.ts \
+                src/qt/locale/Reecore_it.ts \
+                src/qt/locale/Reecore_ja.ts \
+                src/qt/locale/Reecore_pl.ts \
+                src/qt/locale/Reecore_pt.ts \
+                src/qt/locale/Reecore_ru.ts \
+                src/qt/locale/Reecore_sk.ts \
+                src/qt/locale/Reecore_sv.ts \
+                src/qt/locale/Reecore_vi.ts \
+                src/qt/locale/Reecore_zh_CN.ts \
+                src/qt/locale/Reecore_zh_TW.ts

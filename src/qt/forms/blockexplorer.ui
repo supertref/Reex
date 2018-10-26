@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../reliance.qrc"/>
+  <include location="../Reecore.qrc"/>
  </resources>
  <connections/>
 </ui>

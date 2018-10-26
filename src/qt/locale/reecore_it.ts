@@ -172,8 +172,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Reliance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reliance verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi REL dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi REL dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -586,16 +586,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>Invia monete all'indirizzo REL</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reliance: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e reliance: URIs)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e Reecore: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,16 +606,16 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Reliance Core</source>
-        <translation>&amp;Informazioni Reliance Core</translation>
+        <source>&amp;About Reecore Core</source>
+        <translation>&amp;Informazioni Reecore Core</translation>
     </message>
     <message>
-        <source>Show information about Reliance Core</source>
-        <translation>Visualizza informazioni su Reliance Core</translation>
+        <source>Show information about Reecore Core</source>
+        <translation>Visualizza informazioni su Reecore Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reliance</source>
-        <translation>Modifica le opzioni di configurazione per Reliance</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>Modifica le opzioni di configurazione per Reecore</translation>
     </message>
     <message>
         <source>Sign messages with your REL addresses to prove you own them</source>
@@ -634,16 +634,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a reliance: URI or payment request</source>
-        <translation>Apri un reliance: URI o richiesta di pagamento</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Apri un Reecore: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Reliance Core help message to get a list with possible Reliance command-line options</source>
-        <translation>Mostra il messaggio di aiuto Reliance Core per ottenere un elenco con le possibili opzioni di riga di comando Reliance</translation>
+        <source>Show the Reecore Core help message to get a list with possible Reecore command-line options</source>
+        <translation>Mostra il messaggio di aiuto Reecore Core per ottenere un elenco con le possibili opzioni di riga di comando Reecore</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -745,8 +745,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reliance.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (reliance.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (Reecore.conf)</translation>
     </message>
 </context>
 <context>
@@ -880,8 +880,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -907,8 +907,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

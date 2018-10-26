@@ -242,10 +242,10 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Reliance server.");
+            "\nStop Reecore server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Reliance server stopping";
+    return "Reecore server stopping";
 }
 
 
@@ -327,33 +327,33 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Reliance features */
-        {"reliance", "masternode", &masternode, true, true, false},
-        {"reliance", "listmasternodes", &listmasternodes, true, true, false},
-        {"reliance", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"reliance", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"reliance", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"reliance", "masternodedebug", &masternodedebug, true, true, false},
-        {"reliance", "startmasternode", &startmasternode, true, true, false},
-        {"reliance", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"reliance", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"reliance", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"reliance", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"reliance", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"reliance", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"reliance", "mnbudget", &mnbudget, true, true, false},
-        {"reliance", "preparebudget", &preparebudget, true, true, false},
-        {"reliance", "submitbudget", &submitbudget, true, true, false},
-        {"reliance", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"reliance", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"reliance", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"reliance", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"reliance", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"reliance", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"reliance", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"reliance", "checkbudgets", &checkbudgets, true, true, false},
-        {"reliance", "mnsync", &mnsync, true, true, false},
-        {"reliance", "spork", &spork, true, true, false},
+        /* Reecore features */
+        {"Reecore", "masternode", &masternode, true, true, false},
+        {"Reecore", "listmasternodes", &listmasternodes, true, true, false},
+        {"Reecore", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"Reecore", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"Reecore", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"Reecore", "masternodedebug", &masternodedebug, true, true, false},
+        {"Reecore", "startmasternode", &startmasternode, true, true, false},
+        {"Reecore", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"Reecore", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"Reecore", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"Reecore", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"Reecore", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"Reecore", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"Reecore", "mnbudget", &mnbudget, true, true, false},
+        {"Reecore", "preparebudget", &preparebudget, true, true, false},
+        {"Reecore", "submitbudget", &submitbudget, true, true, false},
+        {"Reecore", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"Reecore", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"Reecore", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"Reecore", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"Reecore", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"Reecore", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"Reecore", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"Reecore", "checkbudgets", &checkbudgets, true, true, false},
+        {"Reecore", "mnsync", &mnsync, true, true, false},
+        {"Reecore", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
@@ -1070,7 +1070,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> reliance-cli " + methodname + " " + args + "\n";
+    return "> Reecore-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

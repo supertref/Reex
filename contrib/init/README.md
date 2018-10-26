@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: relianced.service
-Upstart: relianced.conf
-OpenRC:  relianced.openrc
-         relianced.openrcconf
-CentOS:  relianced.init
+SystemD: Reecored.service
+Upstart: Reecored.conf
+OpenRC:  Reecored.openrc
+         Reecored.openrcconf
+CentOS:  Reecored.init
 
 have been made available to assist packagers in creating node packages here.
 

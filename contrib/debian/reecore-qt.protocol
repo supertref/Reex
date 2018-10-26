@@ -1,6 +1,6 @@
 [Protocol]
-exec=reliance-qt '%u'
-protocol=reliance
+exec=Reecore-qt '%u'
+protocol=Reecore
 input=none
 output=none
 helper=true

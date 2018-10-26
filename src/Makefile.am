@@ -72,15 +72,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += relianced
+  bin_PROGRAMS += Reecored
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += reliance-cli reliance-tx
+  bin_PROGRAMS += Reecore-cli Reecore-tx
 endif
 
 .PHONY: FORCE
-# reliance core #
+# Reecore core #
 BITCOIN_CORE_H = \
   bignum.h \
   activemasternode.h \
@@ -183,7 +183,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between relianced and reliance-qt
+# server: shared between Reecored and Reecore-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -228,7 +228,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between relianced and reliance-qt, but only linked
+# wallet: shared between Reecored and Reecore-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -290,7 +290,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between relianced, and reliance-qt and non-server tools
+# common: shared between Reecored, and Reecore-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -348,7 +348,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between reliance-cli and reliance-qt
+# cli: shared between Reecore-cli and Reecore-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -358,7 +358,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-relianced_LDADD = \
+Reecored_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -369,26 +369,26 @@ relianced_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-relianced_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+Reecored_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-relianced_LDADD += libbitcoin_wallet.a
+Reecored_LDADD += libbitcoin_wallet.a
 endif
-relianced_SOURCES = relianced.cpp
+Reecored_SOURCES = Reecored.cpp
 #
 
 if TARGET_WINDOWS
-relianced_SOURCES += relianced-res.rc
+Reecored_SOURCES += Reecored-res.rc
 endif
 
-relianced_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-relianced_CPPFLAGS = $(BITCOIN_INCLUDES)
-relianced_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Reecored_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+Reecored_CPPFLAGS = $(BITCOIN_INCLUDES)
+Reecored_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# reliance-cli binary #
-reliance_cli_LDADD = \
+# Reecore-cli binary #
+Reecore_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
@@ -397,14 +397,14 @@ reliance_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-reliance_cli_SOURCES = \
-  reliance-cli.cpp
+Reecore_cli_SOURCES = \
+  Reecore-cli.cpp
 
-reliance_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+Reecore_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# reliance-tx binary #
-reliance_tx_LDADD = \
+# Reecore-tx binary #
+Reecore_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -413,15 +413,15 @@ reliance_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-reliance_tx_SOURCES = reliance-tx.cpp
-reliance_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+Reecore_tx_SOURCES = Reecore-tx.cpp
+Reecore_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-reliance_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Reecore_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-reliance_cli_SOURCES += reliance-cli-res.rc
+Reecore_cli_SOURCES += Reecore-cli-res.rc
 endif
-reliance_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Reecore_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

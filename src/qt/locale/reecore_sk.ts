@@ -172,8 +172,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Reliance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reliance sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše REL pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše REL pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -594,16 +594,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>Odoslať mince na adresu REL</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reliance: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a reliance: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a Reecore: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,16 +614,16 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About Reliance Core</source>
-        <translation>O Reliance Core</translation>
+        <source>&amp;About Reecore Core</source>
+        <translation>O Reecore Core</translation>
     </message>
     <message>
-        <source>Show information about Reliance Core</source>
-        <translation>Zobraziť informácie o Reliance Core</translation>
+        <source>Show information about Reecore Core</source>
+        <translation>Zobraziť informácie o Reecore Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reliance</source>
-        <translation>Zmeňte možnosti konfigurácie pre Reliance</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>Zmeňte možnosti konfigurácie pre Reecore</translation>
     </message>
     <message>
         <source>Sign messages with your REL addresses to prove you own them</source>
@@ -662,8 +662,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a reliance: URI or payment request</source>
-        <translation>Otvorte reliance: URI alebo žiadosť o platbu</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Otvorte Reecore: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,12 +674,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the Reliance Core help message to get a list with possible Reliance command-line options</source>
-        <translation>Zobraziť pomocnú správu programu Reliance Core a získajte zoznam možností príkazového riadka Reliance</translation>
+        <source>Show the Reecore Core help message to get a list with possible Reecore command-line options</source>
+        <translation>Zobraziť pomocnú správu programu Reecore Core a získajte zoznam možností príkazového riadka Reecore</translation>
     </message>
     <message>
-        <source>Reliance Core client</source>
-        <translation>Reliance Core klient</translation>
+        <source>Reecore Core client</source>
+        <translation>Reecore Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reliance.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (reliance.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (Reecore.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -900,15 +900,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

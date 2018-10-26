@@ -168,8 +168,8 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Reliance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reliance сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши REL от кражи с использованием вредоносного ПО.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши REL от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -590,16 +590,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>Отправить монеты на REL адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reliance: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и reliance: URI)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и Reecore: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,16 +610,16 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Reliance Core</source>
-        <translation>&amp;О Reliance Core</translation>
+        <source>&amp;About Reecore Core</source>
+        <translation>&amp;О Reecore Core</translation>
     </message>
     <message>
-        <source>Show information about Reliance Core</source>
-        <translation>Показать информацию о Reliance Core</translation>
+        <source>Show information about Reecore Core</source>
+        <translation>Показать информацию о Reecore Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reliance</source>
-        <translation>Изменение параметров конфигурации Reliance</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>Изменение параметров конфигурации Reecore</translation>
     </message>
     <message>
         <source>Sign messages with your REL addresses to prove you own them</source>
@@ -658,8 +658,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a reliance: URI or payment request</source>
-        <translation>Открыть reliance: URI или запрос платежа</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Открыть Reecore: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the Reliance Core help message to get a list with possible Reliance command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Reliance</translation>
+        <source>Show the Reecore Core help message to get a list with possible Reecore command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Reecore</translation>
     </message>
     <message>
-        <source>Reliance Core client</source>
-        <translation>Клиент Reliance Core</translation>
+        <source>Reecore Core client</source>
+        <translation>Клиент Reecore Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -801,8 +801,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reliance.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (reliance.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (Reecore.conf).</translation>
     </message>
 </context>
 <context>
@@ -1136,16 +1136,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Reliance Core</source>
-        <translation>О Reliance Core</translation>
+        <source>About Reecore Core</source>
+        <translation>О Reecore Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1191,16 +1191,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Reliance Core.</source>
-        <translation>Добро пожаловать в Reliance Core.</translation>
+        <source>Welcome to Reecore Core.</source>
+        <translation>Добро пожаловать в Reecore Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Reliance Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Reliance Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Reecore Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Reecore Core.</translation>
     </message>
     <message>
-        <source>Reliance Core will download and store a copy of the Reliance block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Reliance Core загрузит и сохранит копию цепочки блоков Reliance. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>Reecore Core will download and store a copy of the Reecore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Reecore Core загрузит и сохранит копию цепочки блоков Reecore. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1211,8 +1211,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1531,8 +1531,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the Reliance client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт Reliance через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the Reecore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт Reecore через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1551,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start Reliance after logging in to the system.</source>
-        <translation>Автоматически запускать Reliance после входа в систему.</translation>
+        <source>Automatically start Reecore after logging in to the system.</source>
+        <translation>Автоматически запускать Reecore после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Reliance on system login</source>
-        <translation>&amp;Запускать Reliance при входе в систему</translation>
+        <source>&amp;Start Reecore on system login</source>
+        <translation>&amp;Запускать Reecore при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1583,16 +1583,16 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reliance.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Reliance.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Reecore.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Reecore.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Reliance network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети Reliance через SOCKS5 прокси.</translation>
+        <source>Connect to the Reecore network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети Reecore через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1738,8 +1738,8 @@ Please check the address and try again.</source>
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reliance network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Reliance после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reecore network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Reecore после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1801,8 +1801,8 @@ Please check the address and try again.</source>
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start reliance: click-to-pay handler</source>
-        <translation>Не удалось запустить reliance: обработчик click-to-pay </translation>
+        <source>Cannot start Reecore: click-to-pay handler</source>
+        <translation>Не удалось запустить Reecore: обработчик click-to-pay </translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid REL address or malformed URI parameters.</source>
@@ -2025,8 +2025,8 @@ Please check the address and try again.</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Reliance debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки Reliance. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the Reecore debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки Reecore. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2186,8 +2186,8 @@ Please check the address and try again.</source>
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the Reliance RPC console.</source>
-        <translation>Добро пожаловать в окружение Reliance RPC.</translation>
+        <source>Welcome to the Reecore RPC console.</source>
+        <translation>Добро пожаловать в окружение Reecore RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2540,8 +2540,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Reliance Core is shutting down...</source>
-        <translation>Reliance Core выключается...</translation>
+        <source>Reecore Core is shutting down...</source>
+        <translation>Reecore Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2630,8 +2630,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2650,8 +2650,8 @@ Please check the address and try again.</source>
         <translation>Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>The Reliance Core developers</source>
-        <translation>Разработчики Reliance Core</translation>
+        <source>The Reecore Core developers</source>
+        <translation>Разработчики Reecore Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2902,7 +2902,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>
@@ -2940,8 +2940,8 @@ Please check the address and try again.</source>
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Reliance Core Developers</source>
-        <translation>Copyright (C) 2017-%i Разработчики Reliance Core</translation>
+        <source>Copyright (C) 2017-%i The Reecore Core Developers</source>
+        <translation>Copyright (C) 2017-%i Разработчики Reecore Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

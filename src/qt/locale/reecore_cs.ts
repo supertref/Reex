@@ -172,8 +172,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Reliance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reliance se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše RELy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše RELy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -594,16 +594,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>Odeslat platbuna REL adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reliance: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a reliance: URIs)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a Reecore: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,12 +614,12 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Reliance Core</source>
-        <translation>&amp;O Reliance Core</translation>
+        <source>&amp;About Reecore Core</source>
+        <translation>&amp;O Reecore Core</translation>
     </message>
     <message>
-        <source>Show information about Reliance Core</source>
-        <translation>Zobraz informace o Reliance Core</translation>
+        <source>Show information about Reecore Core</source>
+        <translation>Zobraz informace o Reecore Core</translation>
     </message>
     <message>
         <source>Modify configuration options for REL</source>
@@ -662,8 +662,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a reliance: URI or payment request</source>
-        <translation>Otevřít reliance: URI nebo platební žádost</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Otevřít Reecore: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,12 +674,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Reliance Core help message to get a list with possible Reliance command-line options</source>
-        <translation>Zobrazit Reliance Core pomocnou zpráv pro získání seznamu možných parametrů Reliance pro příkazy do příkazové řádky</translation>
+        <source>Show the Reecore Core help message to get a list with possible Reecore command-line options</source>
+        <translation>Zobrazit Reecore Core pomocnou zpráv pro získání seznamu možných parametrů Reecore pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Reliance Core client</source>
-        <translation>Reliance Core klient</translation>
+        <source>Reecore Core client</source>
+        <translation>Reecore Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -801,8 +801,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reliance.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (reliance.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (Reecore.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1104,12 +1104,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
-        <source>About Reliance Core</source>
-        <translation>O Reliance Core</translation>
+        <source>About Reecore Core</source>
+        <translation>O Reecore Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1143,16 +1143,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Reliance Core.</source>
-        <translation>Vítejte v Reliance Core.</translation>
+        <source>Welcome to Reecore Core.</source>
+        <translation>Vítejte v Reecore Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Reliance Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Reliance Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Reecore Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Reecore Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>Reliance Core will download and store a copy of the Reliance block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Reliance Core stáhne a uloží kopii Reliance blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>Reecore Core will download and store a copy of the Reecore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Reecore Core stáhne a uloží kopii Reecore blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1163,8 +1163,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1465,12 +1465,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Reliance after logging in to the system.</source>
-        <translation>Automaticky spustit Reliance po přihlášení do systému</translation>
+        <source>Automatically start Reecore after logging in to the system.</source>
+        <translation>Automaticky spustit Reecore po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Reliance on system login</source>
-        <translation>&amp;Spusti Reliance při přihlášení do systému</translation>
+        <source>&amp;Start Reecore on system login</source>
+        <translation>&amp;Spusti Reecore při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2135,8 +2135,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     </context>
 <context>
@@ -2239,7 +2239,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

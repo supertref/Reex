@@ -168,8 +168,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Reliance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reliance sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella RELien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella RELien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -587,16 +587,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Ydin</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Ydin</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>Lähetä kolikkoja REL osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reliance: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja reliance: URIja)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja Reecore: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -607,16 +607,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About Reliance Core</source>
-        <translation>Reliance Core &amp;ytimestä</translation>
+        <source>&amp;About Reecore Core</source>
+        <translation>Reecore Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about Reliance Core</source>
-        <translation>Näytä tietoja Reliance Ytimestä</translation>
+        <source>Show information about Reecore Core</source>
+        <translation>Näytä tietoja Reecore Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reliance</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja Reliance:lle</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja Reecore:lle</translation>
     </message>
     <message>
         <source>Sign messages with your REL addresses to prove you own them</source>
@@ -655,8 +655,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a reliance: URI or payment request</source>
-        <translation>Avaa reliance: URI tai pyydä maksua</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Avaa Reecore: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -667,12 +667,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the Reliance Core help message to get a list with possible Reliance command-line options</source>
-        <translation>Näytä Reliance Ydin apuviesti saadaksesi lista mahdollisista Reliance komentolinja komennoista.</translation>
+        <source>Show the Reecore Core help message to get a list with possible Reecore command-line options</source>
+        <translation>Näytä Reecore Ydin apuviesti saadaksesi lista mahdollisista Reecore komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>Reliance Core client</source>
-        <translation>Reliance Ydin asiakasohjelma</translation>
+        <source>Reecore Core client</source>
+        <translation>Reecore Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -930,8 +930,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Ydin</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -949,12 +949,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Reliance Core.</source>
-        <translation>Tervetuloa Reliance Ytimeen.</translation>
+        <source>Welcome to Reecore Core.</source>
+        <translation>Tervetuloa Reecore Ytimeen.</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Ydin</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1150,12 +1150,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start Reliance after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä Reliance kun kirjaudut sisään.</translation>
+        <source>Automatically start Reecore after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä Reecore kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start Reliance on system login</source>
-        <translation>&amp;Aloita Reliance järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start Reecore on system login</source>
+        <translation>&amp;Aloita Reecore järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1174,12 +1174,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reliance.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Reecore.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the Reliance network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Reliance verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the Reecore network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Reecore verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1396,8 +1396,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the Reliance debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Reliance debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the Reecore debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Reecore debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1508,8 +1508,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Reliance RPC console.</source>
-        <translation>Tervetuloa Reliance RPC konsoliin.</translation>
+        <source>Welcome to the Reecore RPC console.</source>
+        <translation>Tervetuloa Reecore RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1551,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reliance network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Reliance verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reecore network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Reecore verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reliance network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Reliance verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reecore network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Reecore verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1918,8 +1918,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Reliance Core is shutting down...</source>
-        <translation>Reliance core sammuu...</translation>
+        <source>Reecore Core is shutting down...</source>
+        <translation>Reecore core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2060,8 +2060,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Ydin</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2080,8 +2080,8 @@ Please check the address and try again.</source>
         <translation>PIVX core kehittäjät</translation>
     </message>
     <message>
-        <source>The Reliance Core developers</source>
-        <translation>Reliance core kehittäjät</translation>
+        <source>The Reecore Core developers</source>
+        <translation>Reecore core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2384,7 +2384,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2434,8 +2434,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Reliance Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Reliance Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Reecore Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version Reecore Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

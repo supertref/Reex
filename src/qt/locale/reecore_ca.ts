@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Reliance</source>
-        <translation>Reliance</translation>
+        <source>Reecore</source>
+        <translation>Reecore</translation>
     </message>
     <message>
-        <source>&amp;About Reliance</source>
-        <translation>&amp;Sobre Reliance</translation>
+        <source>&amp;About Reecore</source>
+        <translation>&amp;Sobre Reecore</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
-        <source>About Reliance Core</source>
-        <translation>Sobre Reliance Core</translation>
+        <source>About Reecore Core</source>
+        <translation>Sobre Reecore Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Reliance Core.</source>
-        <translation>Benvingut a Reliance Core.</translation>
+        <source>Welcome to Reecore Core.</source>
+        <translation>Benvingut a Reecore Core.</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1101,8 +1101,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance Core</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1253,7 +1253,7 @@
     </message>
     </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

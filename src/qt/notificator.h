@@ -6,7 +6,7 @@
 #define BITCOIN_QT_NOTIFICATOR_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/reliance-config.h"
+#include "config/Reecore-config.h"
 #endif
 
 #include <QIcon>

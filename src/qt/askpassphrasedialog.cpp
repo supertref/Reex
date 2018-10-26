@@ -119,7 +119,7 @@ void AskPassphraseDialog::accept()
                 if (model->setWalletEncrypted(true, newpass1)) {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                         "<qt>" +
-                            tr("Reliance will close now to finish the encryption process. "
+                            tr("Reecore will close now to finish the encryption process. "
                                "Remember that encrypting your wallet cannot fully protect "
                                "your RELs from being stolen by malware infecting your computer.") +
                             "<br><br><b>" +

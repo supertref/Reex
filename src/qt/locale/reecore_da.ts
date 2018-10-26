@@ -172,8 +172,8 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>Reliance will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reliance vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -594,16 +594,16 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance kerne</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore kerne</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>Send mønter til en REL adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reliance: URIs)</source>
-        <translation>Anmod om betaling (genrerer QR kode og Reliance URL)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Anmod om betaling (genrerer QR kode og Reecore URL)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,16 +614,16 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Reliance Core</source>
-        <translation>&amp;Om Reliance kerne</translation>
+        <source>&amp;About Reecore Core</source>
+        <translation>&amp;Om Reecore kerne</translation>
     </message>
     <message>
-        <source>Show information about Reliance Core</source>
-        <translation>Vis information om Reliance kerne</translation>
+        <source>Show information about Reecore Core</source>
+        <translation>Vis information om Reecore kerne</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reliance</source>
-        <translation>Ret konfigurationsindstillinger for Reliance</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>Ret konfigurationsindstillinger for Reecore</translation>
     </message>
     <message>
         <source>Sign messages with your REL addresses to prove you own them</source>
@@ -662,8 +662,8 @@
         <translation>ÅbnMasternode konfigurationsfil</translation>
     </message>
     <message>
-        <source>Open a reliance: URI or payment request</source>
-        <translation>Åbn en reliance URI eller betalingsanmodning</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Åbn en Reecore URI eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,12 +674,12 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the Reliance Core help message to get a list with possible Reliance command-line options</source>
-        <translation>Vis hjelpetekster fra Reliance kernen for at få en liste med mulige Reliance kommandolinie-startparametre</translation>
+        <source>Show the Reecore Core help message to get a list with possible Reecore command-line options</source>
+        <translation>Vis hjelpetekster fra Reecore kernen for at få en liste med mulige Reecore kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>Reliance Core client</source>
-        <translation>Reliance kerneklient</translation>
+        <source>Reecore Core client</source>
+        <translation>Reecore kerneklient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -805,8 +805,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reliance.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (reliance.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (Reecore.conf).</translation>
     </message>
 </context>
 <context>
@@ -1140,16 +1140,16 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance kerne</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore kerne</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Reliance Core</source>
-        <translation>om Reliance kerne</translation>
+        <source>About Reecore Core</source>
+        <translation>om Reecore kerne</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1195,16 +1195,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to Reliance Core.</source>
-        <translation>Velkommen til Reliance kerne</translation>
+        <source>Welcome to Reecore Core.</source>
+        <translation>Velkommen til Reecore kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Reliance Core will store its data.</source>
-        <translation>Da det er første gang programmet startes, kan De vælge hvor Reliance kernen skal lagre sine data</translation>
+        <source>As this is the first time the program is launched, you can choose where Reecore Core will store its data.</source>
+        <translation>Da det er første gang programmet startes, kan De vælge hvor Reecore kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>Reliance Core will download and store a copy of the Reliance block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Reliance kernen vil nu hente og gemme en kopi af Reliance blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
+        <source>Reecore Core will download and store a copy of the Reecore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Reecore kernen vil nu hente og gemme en kopi af Reecore blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1215,8 +1215,8 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance kerne</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore kerne</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1535,8 +1535,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgørelsen af saldoen.</translation>
     </message>
     <message>
-        <source>Automatically open the Reliance client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn Reliance klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
+        <source>Automatically open the Reecore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn Reecore klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1555,12 +1555,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start Reliance after logging in to the system.</source>
-        <translation>Start Reliance automatisk, når der logges på systemet</translation>
+        <source>Automatically start Reecore after logging in to the system.</source>
+        <translation>Start Reecore automatisk, når der logges på systemet</translation>
     </message>
     <message>
-        <source>&amp;Start Reliance on system login</source>
-        <translation>&amp;start Reliance når der logges på systemet</translation>
+        <source>&amp;Start Reecore on system login</source>
+        <translation>&amp;start Reecore når der logges på systemet</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1587,16 +1587,16 @@ Kontroller adressen og prøv igen.</translation>
         <translation>&amp;netværk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reliance.</source>
-        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang Reliance klienten startes</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Reecore.</source>
+        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang Reecore klienten startes</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Reliance network through a SOCKS5 proxy.</source>
-        <translation>Tilslut Reliance netværket gennem en SOCKS5 PROXY</translation>
+        <source>Connect to the Reecore network through a SOCKS5 proxy.</source>
+        <translation>Tilslut Reecore netværket gennem en SOCKS5 PROXY</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1742,8 +1742,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Indskyder- eller masternodebelønning er stadig under behandling</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reliance network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Reliance netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reecore network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Reecore netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1809,8 +1809,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start reliance: click-to-pay handler</source>
-        <translation>Kan ikke starte reliance "klik for at betale" systemet</translation>
+        <source>Cannot start Reecore: click-to-pay handler</source>
+        <translation>Kan ikke starte Reecore "klik for at betale" systemet</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid REL address or malformed URI parameters.</source>
@@ -2033,8 +2033,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the Reliance debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Reliance debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
+        <source>Open the Reecore debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn Reecore debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2201,8 +2201,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ud:</translation>
     </message>
     <message>
-        <source>Welcome to the Reliance RPC console.</source>
-        <translation>Velkommen til Reliance RPC konsollet</translation>
+        <source>Welcome to the Reecore RPC console.</source>
+        <translation>Velkommen til Reecore RPC konsollet</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2272,12 +2272,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Valgfri opmærkning som tilknyttes den nye modtageradresse.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reliance network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Reliance netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reecore network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Reecore netværket.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reliance network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Reliance netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reecore network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Reecore netværket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2553,7 +2553,7 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uRELs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uREL i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uRELs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Reliance transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Reecore transactions than the network can process.</source>
         <translation>Betaling af mindste transaktionsgebyr vil være fint så længe der er færre transaktioner end der er plads til i blokkene. &lt;br /&gt; Men opmærksomheden henledes på, at det kan resultere i en transaktion der aldrig bliver bekræftet i det øjeblik der er større behov for transaktioner end netværket har plads til. </translation>
     </message>
     <message>
@@ -2792,8 +2792,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Besked</translation>
     </message>
     <message>
-        <source>A message that was attached to the reliance: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reliance network.</source>
-        <translation>En besked, der var vedhæftet til reliance: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
+        <source>A message that was attached to the Reecore: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reecore network.</source>
+        <translation>En besked, der var vedhæftet til Reecore: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2819,8 +2819,8 @@ Kontroller adressen og prøv igen.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Reliance Core is shutting down...</source>
-        <translation>Reliance kernen lukker ned</translation>
+        <source>Reecore Core is shutting down...</source>
+        <translation>Reecore kernen lukker ned</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2969,8 +2969,8 @@ Kontroller adressen og prøv igen.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>Reliance kerne</translation>
+        <source>Reecore Core</source>
+        <translation>Reecore kerne</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2989,8 +2989,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>PIVX "core" udviklerne</translation>
     </message>
     <message>
-        <source>The Reliance Core developers</source>
-        <translation>Reliance "core" udviklerne</translation>
+        <source>The Reecore Core developers</source>
+        <translation>Reecore "core" udviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3521,7 +3521,7 @@ Kontroller adressen og prøv igen.</translation>
     </message>
 </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -3547,8 +3547,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Forbind til den opgivne adresse og lyt efter JSON-.RPC forbindelser. Brug [host]:port notation for IPv6. Der kan indsættes flere linier (standard: Forbind til alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Reliance Core is probably already running.</source>
-        <translation>Kan ikke låse datamappen %s. Reliance core kører sandsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. Reecore Core is probably already running.</source>
+        <translation>Kan ikke låse datamappen %s. Reecore core kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3567,8 +3567,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Slet alle tegnebogens transaktioner og genskab kun fra blokkæden ved at tilføje -rescan i forbindes med opstart.</translation>
     </message>
     <message>
-        <source>Disable all Reliance specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Slå alle Reliance funktioner fra (Masternoder, SwiftTX, Budgetting)(0-1,default:%u)</translation>
+        <source>Disable all Reecore specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Slå alle Reecore funktioner fra (Masternoder, SwiftTX, Budgetting)(0-1,default:%u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3704,32 +3704,32 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use relianced, or the -server option to reliance-qt, you must set an rpcpassword in the configuration file:
+        <source>To use Reecored, or the -server option to Reecore-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=reliancerpc
+rpcuser=Reecorerpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Reliance Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
 </source>
-        <translation>For at bruge relianced eller -server muligheden sammen med reliance-qt skal der angives et rpc kodeord i konfigurationsfilen:
+        <translation>For at bruge Reecored eller -server muligheden sammen med Reecore-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
 De anbefales at benytte følgende tilfældige kodeord
-Rpcuser=reliancerpc
+Rpcuser=Reecorerpc
 rpcpasswrd=%s
 (Det er ikke nødvendigt at huske dette kodeord)
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!
 Hvis filen ikke eksisterer, opret den med sikkerhedsindstillingen - ejer kun læserettigheder tilladelsen.
 Det anbefales tillige at vælge alertnotify til for at blive orienteret om eventuelle problemer.
-For eksempel: alertnotify=Echo %% | mail - s "Reliance ALARM!" e-mail@administrator.dk
+For eksempel: alertnotify=Echo %% | mail - s "Reecore ALARM!" e-mail@administrator.dk
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Reliance Core is probably already running.</source>
-        <translation>Det var ikke muligt at forbinde %s på denne computer. Reliance kører sandsynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. Reecore Core is probably already running.</source>
+        <translation>Det var ikke muligt at forbinde %s på denne computer. Reecore kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 REL.</source>
@@ -3748,8 +3748,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Reliance ALARM!" e-mail@administra
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Reliance Core will not work properly.</source>
-        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil Reliance core ikke fungere ordentligt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Reecore Core will not work properly.</source>
+        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil Reecore core ikke fungere ordentligt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3892,8 +3892,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Reliance ALARM!" e-mail@administra
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Reliance Core Developers</source>
-        <translation>Copyright (C) 2017-%i The Reliance Core Developers</translation>
+        <source>Copyright (C) 2017-%i The Reecore Core Developers</source>
+        <translation>Copyright (C) 2017-%i The Reecore Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3964,8 +3964,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Reliance ALARM!" e-mail@administra
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Reliance Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af Reliance core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Reecore Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af Reecore core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4068,8 +4068,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Reliance ALARM!" e-mail@administra
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Reliance Core is shutting down.</source>
-        <translation>Initiering af sanitetskontrollen fejlede. Reliance core lukker ned. </translation>
+        <source>Initialization sanity check failed. Reecore Core is shutting down.</source>
+        <translation>Initiering af sanitetskontrollen fejlede. Reecore core lukker ned. </translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4596,8 +4596,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Reliance ALARM!" e-mail@administra
         <translation>Tegnebogen er låst</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Reliance Core to complete</source>
-        <translation>Tegnebogen måtte genskrives. Genstart Reliance core for at gøre færdig</translation>
+        <source>Wallet needed to be rewritten: restart Reecore Core to complete</source>
+        <translation>Tegnebogen måtte genskrives. Genstart Reecore core for at gøre færdig</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -7,7 +7,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/reliance-config.h"
+#include "config/Reecore-config.h"
 #endif
 
 #ifdef WIN32

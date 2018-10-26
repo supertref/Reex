@@ -1,25 +1,25 @@
-# /etc/conf.d/relianced: config file for /etc/init.d/relianced
+# /etc/conf.d/Reecored: config file for /etc/init.d/Reecored
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/reliance/reliance.conf"
+#BITCOIND_CONFIGFILE="/etc/Reecore/Reecore.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/relianced"
+#BITCOIND_PIDDIR="/var/run/Reecored"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/relianced.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/Reecored.pid"
 
-# Where to write relianced data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/relianced"
+# Where to write Reecored data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/Reecored"
 
-# User and group to own relianced process
-#BITCOIND_USER="reliance"
-#BITCOIND_GROUP="reliance"
+# User and group to own Reecored process
+#BITCOIND_USER="Reecore"
+#BITCOIND_GROUP="Reecore"
 
-# Path to relianced executable
-#BITCOIND_BIN="/usr/bin/relianced"
+# Path to Reecored executable
+#BITCOIND_BIN="/usr/bin/Reecored"
 
-# Nice value to run relianced under
+# Nice value to run Reecored under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

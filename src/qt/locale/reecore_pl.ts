@@ -514,16 +514,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>&amp;Rdzeń Reliance</translation>
+        <source>Reecore Core</source>
+        <translation>&amp;Rdzeń Reecore</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>Wyślij monety do adresu REL</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reliance: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i reliance:URI)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i Reecore:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -534,16 +534,16 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Reliance Core</source>
+        <source>&amp;About Reecore Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Reliance Core</source>
+        <source>Show information about Reecore Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reliance</source>
-        <translation>Modyfikuj opcje konfiguracji Reliance</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>Modyfikuj opcje konfiguracji Reecore</translation>
     </message>
     <message>
         <source>Sign messages with your REL addresses to prove you own them</source>
@@ -578,8 +578,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a reliance: URI or payment request</source>
-        <translation>Otwórz reliance: URI i żądanie zapłaty</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Otwórz Reecore: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -590,12 +590,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Reliance Core help message to get a list with possible Reliance command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Reliance, aby dostać listę możliwych opcji Reliance command-line</translation>
+        <source>Show the Reecore Core help message to get a list with possible Reecore command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia Reecore, aby dostać listę możliwych opcji Reecore command-line</translation>
     </message>
     <message>
-        <source>Reliance Core client</source>
-        <translation>Rdzeń Reliance klient</translation>
+        <source>Reecore Core client</source>
+        <translation>Rdzeń Reecore klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -904,8 +904,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>&amp;Rdzeń Reliance</translation>
+        <source>Reecore Core</source>
+        <translation>&amp;Rdzeń Reecore</translation>
     </message>
     </context>
 <context>
@@ -919,8 +919,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Reliance Core</source>
-        <translation>&amp;Rdzeń Reliance</translation>
+        <source>Reecore Core</source>
+        <translation>&amp;Rdzeń Reecore</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1161,12 +1161,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Reliance after logging in to the system.</source>
-        <translation>Automatycznie uruchom Reliance po zalogowaniu do systemu</translation>
+        <source>Automatically start Reecore after logging in to the system.</source>
+        <translation>Automatycznie uruchom Reecore po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Reliance on system login</source>
-        <translation>&amp;Uruchom Reliance podczas logowania do systemu</translation>
+        <source>&amp;Start Reecore on system login</source>
+        <translation>&amp;Uruchom Reecore podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1185,12 +1185,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reliance.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Reliance</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Reecore.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Reecore</translation>
     </message>
     <message>
-        <source>Connect to the Reliance network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Reliance poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Reecore network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Reecore poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1835,8 +1835,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reliance Core</source>
-        <translation>&amp;Rdzeń Reliance</translation>
+        <source>Reecore Core</source>
+        <translation>&amp;Rdzeń Reecore</translation>
     </message>
     </context>
 <context>
@@ -1927,7 +1927,7 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     </context>
 <context>
-    <name>reliance-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package relianced/reliance-qt
-for Debian-based Linux systems. If you compile relianced/reliance-qt yourself, there are some useful files here.
+This directory contains files used to package Reecored/Reecore-qt
+for Debian-based Linux systems. If you compile Reecored/Reecore-qt yourself, there are some useful files here.
 
-## reliance: URI support ##
+## Reecore: URI support ##
 
 
-reliance-qt.desktop  (Gnome / Open Desktop)
+Reecore-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install reliance-qt.desktop
+	sudo desktop-file-install Reecore-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your relianceqt binary to `/usr/bin`
-and the `../../share/pixmaps/reliance128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your Reecoreqt binary to `/usr/bin`
+and the `../../share/pixmaps/Reecore128.png` to `/usr/share/pixmaps`
 
-reliance-qt.protocol (KDE)
+Reecore-qt.protocol (KDE)
 
