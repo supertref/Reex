@@ -55,7 +55,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x"));
+    (0, uint256("0x0000005a2d8578cab3b8b8ac2d317e7b2531fa52cd15bc2a91de47cce081698b"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -129,12 +129,12 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1540554602;
         genesis.nBits = 0x1e0ffff0;  // 00000ffff0000000000000000000000000000000000000000000000000000000
-        genesis.nNonce = 0;
+        genesis.nNonce = 495747;
         hashGenesisBlock = genesis.GetHash();
 
         if (genesis.nNonce != 0) {
-           assert(hashGenesisBlock == uint256("0x00000d6274a0459bc63c3b7ad6c03614bed636e2c43e10b466c553d03bb56ecc"));
-           assert(genesis.hashMerkleRoot == uint256("0xd356f4e8178a28f1ad5f15738db447731b86ca1a9a620ff8358fa607252f2220"));
+           assert(hashGenesisBlock == uint256("0x0000005a2d8578cab3b8b8ac2d317e7b2531fa52cd15bc2a91de47cce081698b"));
+           assert(genesis.hashMerkleRoot == uint256("0xe350ee33468f0a5306fc3a2599f63cf057eb6d3a97238ae044a3a9032c83aa1f"));
         }
 
         if (genesis.nNonce == 0) {
