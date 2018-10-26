@@ -59,10 +59,10 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    //1516926684, // * UNIX timestamp of last checkpoint block
-    //0,          // * total number of transactions between genesis and last checkpoint
+    1540554602, // * UNIX timestamp of last checkpoint block
+    0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    //2000        // * estimated number of transactions per day after checkpoint
+    200        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -116,7 +116,7 @@ public:
         //  nNonce: 474276
         //  Hash: 00000d6274a0459bc63c3b7ad6c03614bed636e2c43e10b466c553d03bb56ecc
         //  hashMerkleRoot: d356f4e8178a28f1ad5f15738db447731b86ca1a9a620ff8358fa607252f2220
-        const char* pszTimestamp = "Reecore mainnet july2018";
+        const char* pszTimestamp = "Reecore 2swap";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -127,9 +127,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1531169926;
+        genesis.nTime = 1540554602;
         genesis.nBits = 0x1e0ffff0;  // 00000ffff0000000000000000000000000000000000000000000000000000000
-        genesis.nNonce = 474276;
+        genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
 
         if (genesis.nNonce != 0) {
