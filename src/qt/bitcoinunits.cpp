@@ -57,7 +57,7 @@ QString BitcoinUnits::name(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case REL:
-            return QString("REL");
+            return QString(REEX);
         case mREL:
             return QString("mREL");
         case uREL:
@@ -84,7 +84,7 @@ QString BitcoinUnits::description(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case REL:
-            return QString("REL");
+            return QString(REEX);
         case mREL:
             return QString("Milli-REL (1 / 1" THIN_SP_UTF8 "000)");
         case uREL:
