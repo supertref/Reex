@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Reecore RPC command dispatcher.
+ * reecore RPC command dispatcher.
  */
 class CRPCTable
 {

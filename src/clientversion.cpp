@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both Reecored and Reecore-qt, to make it harder for attackers to
+ * for both reecored and reecore-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Reecore Core");
+const std::string CLIENT_NAME("ReeCore");
 
 /**
  * Client version number

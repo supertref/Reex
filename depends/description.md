@@ -9,7 +9,7 @@ specified when the defaults don't fit, and packages must be amended to work
 on new hosts. For now, a build architecture of x86_64 is assumed, either on
 Linux or OSX.
 
-### No Reecore on timestamps
+### No reecore on timestamps
 
 File presence is used to determine what needs to be built. This makes the
 results distributable and easily digestable by automated builders.

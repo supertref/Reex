@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  Reecored The Reecore core server.
+#  reecored The reecore core server.
 #
 #
 # chkconfig: 345 80 20
-# description: Reecored
-# processname: Reecored
+# description: reecored
+# processname: reecored
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/Reecored, see below
-if [ -f /etc/sysconfig/Reecored ]; then
-        . /etc/sysconfig/Reecored
+# you can override defaults in /etc/sysconfig/reecored, see below
+if [ -f /etc/sysconfig/reecored ]; then
+        . /etc/sysconfig/reecored
 fi
 
 RETVAL=0
 
-prog=Reecored
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/Reecored
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/Reecored}
+prog=reecored
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/reecored
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/reecored}
 
-# Reecored defaults to /usr/bin/Reecored, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/Reecored}
+# reecored defaults to /usr/bin/reecored, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/reecored}
 
-# Reecored opts default to -disablewallet, override with BITCOIND_OPTS
+# reecored opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

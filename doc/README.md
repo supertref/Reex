@@ -1,28 +1,28 @@
-Reecore Core
+reecore Core
 =====================
 
 Setup
 ---------------------
-[Reecore Core](http://savebitcoin.io) is the original Reecore client and it builds the backbone of the network. However, it downloads and stores the entire history of Reecore transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[reecore Core](http://savebitcoin.io) is the original reecore client and it builds the backbone of the network. However, it downloads and stores the entire history of reecore transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Reecore on your native platform.
+The following are some helpful notes on how to run reecore on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/Reecore-qt (GUI, 32-bit) or bin/32/Reecored (headless, 32-bit)
-- bin/64/Reecore-qt (GUI, 64-bit) or bin/64/Reecored (headless, 64-bit)
+- bin/32/reecore-qt (GUI, 32-bit) or bin/32/reecored (headless, 32-bit)
+- bin/64/reecore-qt (GUI, 64-bit) or bin/64/reecored (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run Reecore-qt.exe.
+Unpack the files into a directory, and then run reecore-qt.exe.
 
 ### OSX
 
-Drag Reecore-Qt to your applications folder, and then run Reecore-Qt.
+Drag reecore-Qt to your applications folder, and then run reecore-Qt.
 
 ### Need Help?
 
@@ -30,7 +30,7 @@ Drag Reecore-Qt to your applications folder, and then run Reecore-Qt.
 
 Building
 ---------------------
-The following are developer notes on how to build Reecore on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build reecore on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -38,7 +38,7 @@ The following are developer notes on how to build Reecore on your native platfor
 
 Development
 ---------------------
-The Reecore repo's [root README](https://github.com/Reecore/Reecore/blob/master/README.md) contains relevant information on the development process and automated testing.
+The reecore repo's [root README](https://github.com/reecore/reecore/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

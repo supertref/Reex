@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Reecore</source>
-        <translation>Reecore</translation>
+        <source>reecore</source>
+        <translation>reecore</translation>
     </message>
     <message>
-        <source>&amp;About Reecore</source>
-        <translation>&amp;Sobre Reecore</translation>
+        <source>&amp;About reecore</source>
+        <translation>&amp;Sobre reecore</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Core</translation>
+        <source>reecore Core</source>
+        <translation>reecore Core</translation>
     </message>
     <message>
-        <source>About Reecore Core</source>
-        <translation>Sobre Reecore Core</translation>
+        <source>About reecore Core</source>
+        <translation>Sobre reecore Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Reecore Core.</source>
-        <translation>Benvingut a Reecore Core.</translation>
+        <source>Welcome to reecore Core.</source>
+        <translation>Benvingut a reecore Core.</translation>
     </message>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Core</translation>
+        <source>reecore Core</source>
+        <translation>reecore Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1101,8 +1101,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Core</translation>
+        <source>reecore Core</source>
+        <translation>reecore Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1253,7 +1253,7 @@
     </message>
     </context>
 <context>
-    <name>Reecore-core</name>
+    <name>reecore-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build Reecored (headless client) for OSX.
+This guide will show you how to build reecored (headless client) for OSX.
 
 Notes
 -----
@@ -40,14 +40,14 @@ Instructions: Homebrew
 
         brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5 libzmq
 
-### Building `Reecored`
+### Building `reecored`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/Reecore/Reecore.git
-        cd Reecore
+        git clone https://github.com/reecore/reecore.git
+        cd reecore
 
-2.  Build Reecored:
+2.  Build reecored:
 
         ./autogen.sh
         ./configure --with-gui=qt5
@@ -57,7 +57,7 @@ Instructions: Homebrew
 
         make check
 
-4.  (Optional) You can also install Reecored to your path:
+4.  (Optional) You can also install reecored to your path:
 
         make install
 
@@ -69,7 +69,7 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 1. Make sure you installed everything through homebrew mentioned above
 2. Do a proper ./configure --with-gui=qt5 --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "Reecore-qt" as project name, enter src/qt as location
+4. Enter "reecore-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -79,11 +79,11 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `Reecored` for your own use.
+You can ignore this section if you are building `reecored` for your own use.
 
-Reecored/Reecore-cli binaries are not included in the Reecore-Qt.app bundle.
+reecored/reecore-cli binaries are not included in the reecore-Qt.app bundle.
 
-If you are building `Reecored` or `Reecore-qt` for others, your build machine should be set up
+If you are building `reecored` or `reecore-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -92,30 +92,30 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see release-process.md for how the Reecore-Qt.app
+Once dependencies are compiled, see release-process.md for how the reecore-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
 -------
 
-It's now available at `./Reecored`, provided that you are still in the `src`
+It's now available at `./reecored`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./Reecored` to get the filename where it should be put, or just try these
+Run `./reecored` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=Reecorerpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Reecore/Reecore.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Reecore/Reecore.conf"
+    echo -e "rpcuser=reecorerpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/reecore/reecore.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/reecore/reecore.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/Reecore/debug.log
+    tail -f $HOME/Library/Application\ Support/reecore/debug.log
 
 Other commands:
 -------
 
-    ./Reecored -daemon # to start the Reecore daemon.
-    ./Reecore-cli --help  # for a list of command-line options.
-    ./Reecore-cli help    # When the daemon is running, to get a list of RPC commands
+    ./reecored -daemon # to start the reecore daemon.
+    ./reecore-cli --help  # for a list of command-line options.
+    ./reecore-cli help    # When the daemon is running, to get a list of RPC commands

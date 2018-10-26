@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Reecore"
-            VALUE "FileDescription",    "Reecore Core (OSS GUI client for Reecore)"
+            VALUE "CompanyName",        "reecore"
+            VALUE "FileDescription",    "reecore Core (OSS GUI client for reecore)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "Reecore-qt"
+            VALUE "InternalName",       "reecore-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "Reecore-qt.exe"
-            VALUE "ProductName",        "Reecore Core"
+            VALUE "OriginalFilename",   "reecore-qt.exe"
+            VALUE "ProductName",        "reecore Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

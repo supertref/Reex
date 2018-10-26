@@ -1,33 +1,33 @@
-bin_PROGRAMS += qt/Reecore-qt
+bin_PROGRAMS += qt/reecore-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# Reecore qt core #
+# reecore qt core #
 QT_TS = \
-  qt/locale/Reecore_bg.ts \
-  qt/locale/Reecore_ca.ts \
-  qt/locale/Reecore_cs.ts \
-  qt/locale/Reecore_da.ts \
-  qt/locale/Reecore_de.ts \
-  qt/locale/Reecore_en.ts \
-  qt/locale/Reecore_en_US.ts \
-  qt/locale/Reecore_es.ts \
-  qt/locale/Reecore_fi.ts \
-  qt/locale/Reecore_fr_FR.ts \
-  qt/locale/Reecore_it.ts \
-  qt/locale/Reecore_ja.ts \
-  qt/locale/Reecore_ko_KR.ts \
-  qt/locale/Reecore_nl.ts \
-  qt/locale/Reecore_pl.ts \
-  qt/locale/Reecore_pt.ts \
-  qt/locale/Reecore_pt_BR.ts \
-  qt/locale/Reecore_ro_RO.ts \
-  qt/locale/Reecore_ru.ts \
-  qt/locale/Reecore_sk.ts \
-  qt/locale/Reecore_sv.ts \
-  qt/locale/Reecore_tr.ts \
-  qt/locale/Reecore_uk.ts \
-  qt/locale/Reecore_zh_CN.ts \
-  qt/locale/Reecore_zh_TW.ts
+  qt/locale/reecore_bg.ts \
+  qt/locale/reecore_ca.ts \
+  qt/locale/reecore_cs.ts \
+  qt/locale/reecore_da.ts \
+  qt/locale/reecore_de.ts \
+  qt/locale/reecore_en.ts \
+  qt/locale/reecore_en_US.ts \
+  qt/locale/reecore_es.ts \
+  qt/locale/reecore_fi.ts \
+  qt/locale/reecore_fr_FR.ts \
+  qt/locale/reecore_it.ts \
+  qt/locale/reecore_ja.ts \
+  qt/locale/reecore_ko_KR.ts \
+  qt/locale/reecore_nl.ts \
+  qt/locale/reecore_pl.ts \
+  qt/locale/reecore_pt.ts \
+  qt/locale/reecore_pt_BR.ts \
+  qt/locale/reecore_ro_RO.ts \
+  qt/locale/reecore_ru.ts \
+  qt/locale/reecore_sk.ts \
+  qt/locale/reecore_sv.ts \
+  qt/locale/reecore_tr.ts \
+  qt/locale/reecore_uk.ts \
+  qt/locale/reecore_zh_CN.ts \
+  qt/locale/reecore_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -107,16 +107,16 @@ BITCOIN_MM = \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/Reecore.moc \
+  qt/reecore.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_Reecore.cpp
-QT_QRC = qt/Reecore.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_Reecore_locale.cpp
-QT_QRC_LOCALE = qt/Reecore_locale.qrc
+QT_QRC_CPP = qt/qrc_reecore.cpp
+QT_QRC = qt/reecore.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_reecore_locale.cpp
+QT_QRC_LOCALE = qt/reecore_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -303,7 +303,7 @@ BITCOIN_QT_CPP += \
 endif
 
 RES_IMAGES = \
-  qt/res/images/Reecore_logo_horizontal.png \
+  qt/res/images/reecore_logo_horizontal.png \
   qt/res/images/about.png \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
@@ -321,7 +321,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/Reecore-qt-res.rc
+BITCOIN_RC = qt/res/reecore-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -341,69 +341,69 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_Reecore_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_reecore_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# Reecore-qt binary #
-qt_Reecore_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# reecore-qt binary #
+qt_reecore_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_Reecore_qt_SOURCES = qt/Reecore.cpp
+qt_reecore_qt_SOURCES = qt/reecore.cpp
 if TARGET_DARWIN
-  qt_Reecore_qt_SOURCES += $(BITCOIN_MM)
+  qt_reecore_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_Reecore_qt_SOURCES += $(BITCOIN_RC)
+  qt_reecore_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_Reecore_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_reecore_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_Reecore_qt_LDADD += $(LIBBITCOIN_WALLET)
+qt_reecore_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_Reecore_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_reecore_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_Reecore_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_reecore_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_Reecore_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_Reecore_qt_LIBTOOLFLAGS = --tag CXX
+qt_reecore_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_reecore_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 .SECONDARY: $(QT_QM)
 
-qt/Reecorestrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
+qt/reecorestrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/Reecorestrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/reecorestrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/Reecore_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/reecore_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name Reecore_locale $(@D)/$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name reecore_locale $(@D)/$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name Reecore $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name reecore $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
 
 CLEANFILES += $(CLEAN_QT)
 
-Reecore_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_Reecore_qt_OBJECTS) qt/Reecore-qt$(EXEEXT) $(LIBBITCOINQT)
+reecore_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_reecore_qt_OBJECTS) qt/reecore-qt$(EXEEXT) $(LIBBITCOINQT)
 
-Reecore_qt : qt/Reecore-qt$(EXEEXT)
+reecore_qt : qt/reecore-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

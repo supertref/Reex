@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Reecore"
-            VALUE "FileDescription",    "Reecore-cli (OSS RPC client for Reecore)"
+            VALUE "CompanyName",        "reecore"
+            VALUE "FileDescription",    "reecore-cli (OSS RPC client for reecore)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "Reecore-cli"
+            VALUE "InternalName",       "reecore-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "Reecore-cli.exe"
-            VALUE "ProductName",        "Reecore-cli"
+            VALUE "OriginalFilename",   "reecore-cli.exe"
+            VALUE "ProductName",        "reecore-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

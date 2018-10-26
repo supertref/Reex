@@ -168,8 +168,8 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reecore vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas RELs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>reecore vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas RELs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -582,16 +582,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Core</translation>
+        <source>reecore Core</source>
+        <translation>reecore Core</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>Enviar moedas para um endereço REL</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Reecore: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e Reecore: URIs)</translation>
+        <source>Request payments (generates QR codes and reecore: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e reecore: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,16 +602,16 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Reecore Core</source>
-        <translation>&amp;Sobre o Reecore Core</translation>
+        <source>&amp;About reecore Core</source>
+        <translation>&amp;Sobre o reecore Core</translation>
     </message>
     <message>
-        <source>Show information about Reecore Core</source>
-        <translation>Mostra informação sobre o Reecore Core</translation>
+        <source>Show information about reecore Core</source>
+        <translation>Mostra informação sobre o reecore Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reecore</source>
-        <translation>Modificar opções de configuração para Reecore</translation>
+        <source>Modify configuration options for reecore</source>
+        <translation>Modificar opções de configuração para reecore</translation>
     </message>
     <message>
         <source>Sign messages with your REL addresses to prove you own them</source>
@@ -650,8 +650,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a Reecore: URI or payment request</source>
-        <translation>Abrir um Reecore: URI ou requisição de pagamento</translation>
+        <source>Open a reecore: URI or payment request</source>
+        <translation>Abrir um reecore: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the Reecore Core help message to get a list with possible Reecore command-line options</source>
-        <translation>Mostra a ajuda da Reecore Core para receber uma lista com possíveis opções de linha de comando Reecore</translation>
+        <source>Show the reecore Core help message to get a list with possible reecore command-line options</source>
+        <translation>Mostra a ajuda da reecore Core para receber uma lista com possíveis opções de linha de comando reecore</translation>
     </message>
     <message>
-        <source>Reecore Core client</source>
-        <translation>Cliente Core Reecore</translation>
+        <source>reecore Core client</source>
+        <translation>Cliente Core reecore</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -798,8 +798,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (Reecore.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reecore.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (reecore.conf). </translation>
     </message>
 </context>
 <context>
@@ -1125,16 +1125,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Core</translation>
+        <source>reecore Core</source>
+        <translation>reecore Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Reecore Core</source>
-        <translation>Sobre o Reecore Core</translation>
+        <source>About reecore Core</source>
+        <translation>Sobre o reecore Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1168,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Reecore Core.</source>
-        <translation>Bem-vindo ao Reecore Core.</translation>
+        <source>Welcome to reecore Core.</source>
+        <translation>Bem-vindo ao reecore Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Reecore Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Reecore Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where reecore Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde reecore Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>Reecore Core will download and store a copy of the Reecore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Reecore Core vai baixar e armazenar uma cópia da blockchain Reecore. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>reecore Core will download and store a copy of the reecore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>reecore Core vai baixar e armazenar uma cópia da blockchain reecore. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1188,8 +1188,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Core</translation>
+        <source>reecore Core</source>
+        <translation>reecore Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1471,8 +1471,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the Reecore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente Reecore no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the reecore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente reecore no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1491,12 +1491,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Reecore after logging in to the system.</source>
-        <translation>Iniciar automaticamente Reecore depois de logar no sistema.</translation>
+        <source>Automatically start reecore after logging in to the system.</source>
+        <translation>Iniciar automaticamente reecore depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Reecore on system login</source>
-        <translation>&amp;Iniciar Reecore ao logar no sistema</translation>
+        <source>&amp;Start reecore on system login</source>
+        <translation>&amp;Iniciar reecore ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1511,12 +1511,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reecore.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Reecore.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting reecore.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do reecore.</translation>
     </message>
     <message>
-        <source>Connect to the Reecore network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede Reecore através de um proxy SOCKS5</translation>
+        <source>Connect to the reecore network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede reecore através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1646,8 +1646,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reecore network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Reecore após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the reecore network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede reecore após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1989,8 +1989,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the Reecore RPC console.</source>
-        <translation>Bem-vindo ao console da Reecore RPC</translation>
+        <source>Welcome to the reecore RPC console.</source>
+        <translation>Bem-vindo ao console da reecore RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2285,8 +2285,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Se a taxa padrão estiver definida para 1000 uRELs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uRELs em taxa,&lt;br /&gt; pagará pelo menos 1000 uRELs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Reecore transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Reecore do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for reecore transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de reecore do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2523,8 +2523,8 @@ Favor verificar o endereço e tente novamente.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Reecore Core is shutting down...</source>
-        <translation>Reecore Core está desligando...</translation>
+        <source>reecore Core is shutting down...</source>
+        <translation>reecore Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2665,8 +2665,8 @@ Favor verificar o endereço e tente novamente.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Core</translation>
+        <source>reecore Core</source>
+        <translation>reecore Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2685,8 +2685,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Os desenvolvedores do PIVX Core</translation>
     </message>
     <message>
-        <source>The Reecore Core developers</source>
-        <translation>Os desenvolvedores do Reecore Core</translation>
+        <source>The reecore Core developers</source>
+        <translation>Os desenvolvedores do reecore Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3201,14 +3201,14 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
 </context>
 <context>
-    <name>Reecore-core</name>
+    <name>reecore-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Reecore specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas Reecore (Masternodes, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all reecore specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas reecore (Masternodes, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3267,8 +3267,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Reecore Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Reecore não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong reecore Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core reecore não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3347,8 +3347,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Reecore Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do Reecore Core</translation>
+        <source>Copyright (C) 2017-%i The reecore Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do reecore Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3399,8 +3399,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Reecore Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Reecore Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of reecore Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da reecore Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3847,8 +3847,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Reecore Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o Reecore Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart reecore Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o reecore Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

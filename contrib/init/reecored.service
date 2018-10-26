@@ -1,19 +1,19 @@
 [Unit]
-Description=Reecore's distributed currency daemon
+Description=reecore's distributed currency daemon
 After=network.target
 
 [Service]
-User=Reecore
-Group=Reecore
+User=reecore
+Group=reecore
 
 Type=forking
-PIDFile=/var/lib/Reecored/Reecored.pid
+PIDFile=/var/lib/reecored/reecored.pid
 
-ExecStart=/usr/bin/Reecored -daemon -pid=/var/lib/Reecored/Reecored.pid \
-          -conf=/etc/Reecore/Reecore.conf -datadir=/var/lib/Reecored
+ExecStart=/usr/bin/reecored -daemon -pid=/var/lib/reecored/reecored.pid \
+          -conf=/etc/reecore/reecore.conf -datadir=/var/lib/reecored
 
-ExecStop=-/usr/bin/Reecore-cli -conf=/etc/Reecore/Reecore.conf \
-         -datadir=/var/lib/Reecored stop
+ExecStop=-/usr/bin/reecore-cli -conf=/etc/reecore/reecore.conf \
+         -datadir=/var/lib/reecored stop
 
 Restart=always
 PrivateTmp=true

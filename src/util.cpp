@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/Reecore-config.h"
+#include "config/reecore-config.h"
 #endif
 
 #include "util.h"
@@ -105,7 +105,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-// Reecore only features
+// reecore only features
 // Masternode
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
@@ -227,8 +227,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "Reecore" is a composite category enabling all Reecore-related debug output
-            if (ptrCategory->count(string("Reecore"))) {
+            // "reecore" is a composite category enabling all reecore-related debug output
+            if (ptrCategory->count(string("reecore"))) {
                 ptrCategory->insert(string("swifttx"));
                 ptrCategory->insert(string("masternode"));
                 ptrCategory->insert(string("mnpayments"));
@@ -391,7 +391,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "Reecore";
+    const char* pszModule = "reecore";
 #endif
     if (pex)
         return strprintf(
@@ -412,10 +412,10 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\Reecore
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\Reecore
-// Mac: ~/Library/Application Support/Reecore
-// Unix: ~/.Reecore
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\reecore
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\reecore
+// Mac: ~/Library/Application Support/reecore
+// Unix: ~/.reecore
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Reecore";
@@ -499,7 +499,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty Reecore.conf if it does not exist
+        // Create empty reecore.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -510,7 +510,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override Reecore.conf
+        // Don't overwrite existing settings so command line settings override reecore.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);

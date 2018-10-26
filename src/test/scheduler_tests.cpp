@@ -5,7 +5,7 @@
 #include "random.h"
 #include "scheduler.h"
 #if defined(HAVE_CONFIG_H)
-#include "config/Reecore-config.h"
+#include "config/reecore-config.h"
 #else
 #define HAVE_WORKING_BOOST_SLEEP_FOR
 #endif

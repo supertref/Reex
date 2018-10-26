@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package Reecored/Reecore-qt
-for Debian-based Linux systems. If you compile Reecored/Reecore-qt yourself, there are some useful files here.
+This directory contains files used to package reecored/reecore-qt
+for Debian-based Linux systems. If you compile reecored/reecore-qt yourself, there are some useful files here.
 
-## Reecore: URI support ##
+## reecore: URI support ##
 
 
-Reecore-qt.desktop  (Gnome / Open Desktop)
+reecore-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install Reecore-qt.desktop
+	sudo desktop-file-install reecore-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your Reecoreqt binary to `/usr/bin`
-and the `../../share/pixmaps/Reecore128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your reecoreqt binary to `/usr/bin`
+and the `../../share/pixmaps/reecore128.png` to `/usr/share/pixmaps`
 
-Reecore-qt.protocol (KDE)
+reecore-qt.protocol (KDE)
 

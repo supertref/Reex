@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.savebitcoin.Reecore-Qt";
+        return @"io.savebitcoin.reecore-Qt";
     } else {
         return [self __bundleIdentifier];
     }

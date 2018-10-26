@@ -22,7 +22,7 @@
 #endif
 
 #if defined(HAVE_CONFIG_H)
-#include "config/Reecore-config.h" /* for USE_QRCODE */
+#include "config/reecore-config.h" /* for USE_QRCODE */
 #endif
 
 #ifdef USE_QRCODE

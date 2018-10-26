@@ -160,8 +160,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reecore kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina RELs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>reecore kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina RELs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Kärna</translation>
+        <source>reecore Core</source>
+        <translation>reecore Kärna</translation>
     </message>
     <message>
         <source>Send coins to a REL address</source>
         <translation>Skicka mynt till en REL adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Reecore: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och Reecore: URls)</translation>
+        <source>Request payments (generates QR codes and reecore: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och reecore: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,16 +603,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Reecore Core</source>
-        <translation>Om Reecore Kärnan</translation>
+        <source>&amp;About reecore Core</source>
+        <translation>Om reecore Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Reecore Core</source>
-        <translation>Visa information om Reecore Kärnan</translation>
+        <source>Show information about reecore Core</source>
+        <translation>Visa information om reecore Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reecore</source>
-        <translation>Ändra konfigurationsval för Reecore</translation>
+        <source>Modify configuration options for reecore</source>
+        <translation>Ändra konfigurationsval för reecore</translation>
     </message>
     <message>
         <source>Sign messages with your REL addresses to prove you own them</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Reecore Core client</source>
-        <translation>Reecore kärn klient</translation>
+        <source>reecore Core client</source>
+        <translation>reecore kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Kärna</translation>
+        <source>reecore Core</source>
+        <translation>reecore Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Kärna</translation>
+        <source>reecore Core</source>
+        <translation>reecore Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1170,8 +1170,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reecore Core</source>
-        <translation>Reecore Kärna</translation>
+        <source>reecore Core</source>
+        <translation>reecore Kärna</translation>
     </message>
     </context>
 <context>
@@ -1354,7 +1354,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
-    <name>Reecore-core</name>
+    <name>reecore-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

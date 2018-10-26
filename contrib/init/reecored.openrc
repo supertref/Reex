@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/Reecore/.Reecore" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/Reecore/.Reecore"
+if [ -d "/var/lib/reecore/.reecore" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/reecore/.reecore"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/Reecored"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/reecored"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/Reecore/Reecore.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/Reecored}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/Reecored.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/reecore/reecore.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/reecored}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/reecored.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-Reecore}
-BITCOIND_GROUP=${BITCOIND_GROUP:-Reecore}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/Reecored}
+BITCOIND_USER=${BITCOIND_USER:-reecore}
+BITCOIND_GROUP=${BITCOIND_GROUP:-reecore}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/reecored}
 
-name="Reecore Core Daemon"
-description="Reecore crypto-currency p2p network daemon"
+name="reecore Core Daemon"
+description="reecore crypto-currency p2p network daemon"
 
-command="/usr/bin/Reecored"
+command="/usr/bin/reecored"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run Reecored."
+		eerror "ERROR: You must set a secure rpcpassword to run reecored."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Reecore Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"reecore Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

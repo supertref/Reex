@@ -1,6 +1,6 @@
 [Protocol]
-exec=Reecore-qt '%u'
-protocol=Reecore
+exec=reecore-qt '%u'
+protocol=reecore
 input=none
 output=none
 helper=true

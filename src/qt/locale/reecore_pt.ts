@@ -172,8 +172,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>Reecore encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas RELs contra roubo por malware infectando seu computador.</translation>
+        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <translation>reecore encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas RELs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -861,14 +861,14 @@
     </message>
     </context>
 <context>
-    <name>Reecore-core</name>
+    <name>reecore-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Reecore specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da Reecore (Masternodes, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all reecore specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da reecore (Masternodes, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -1215,8 +1215,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Reecore Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o Reecore Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart reecore Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o reecore Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
