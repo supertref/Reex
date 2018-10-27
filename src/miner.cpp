@@ -460,7 +460,7 @@ bool fGenerateBitcoins = false;
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrintf("reecoreMiner started\n");
+    LogPrintf("ReecoreMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("reecore-miner");
 
