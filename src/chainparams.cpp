@@ -3,7 +3,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The reecore developers
+// Copyright (c) 2017 The Reliance developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -55,14 +55,14 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x0000005a2d8578cab3b8b8ac2d317e7b2531fa52cd15bc2a91de47cce081698b"));
+    (0, uint256("0x"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1540554602, // * UNIX timestamp of last checkpoint block
-    0,          // * total number of transactions between genesis and last checkpoint
+    //1516926684, // * UNIX timestamp of last checkpoint block
+    //0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    200        // * estimated number of transactions per day after checkpoint
+    //2000        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -116,7 +116,7 @@ public:
         //  nNonce: 474276
         //  Hash: 00000d6274a0459bc63c3b7ad6c03614bed636e2c43e10b466c553d03bb56ecc
         //  hashMerkleRoot: d356f4e8178a28f1ad5f15738db447731b86ca1a9a620ff8358fa607252f2220
-        const char* pszTimestamp = "reecore 2swap";
+        const char* pszTimestamp = "reliance mainnet july2018";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -127,14 +127,14 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1540554602;
+        genesis.nTime = 1531169926;
         genesis.nBits = 0x1e0ffff0;  // 00000ffff0000000000000000000000000000000000000000000000000000000
-        genesis.nNonce = 495747;
+        genesis.nNonce = 474276;
         hashGenesisBlock = genesis.GetHash();
 
         if (genesis.nNonce != 0) {
-           assert(hashGenesisBlock == uint256("0x0000005a2d8578cab3b8b8ac2d317e7b2531fa52cd15bc2a91de47cce081698b"));
-           assert(genesis.hashMerkleRoot == uint256("0xe350ee33468f0a5306fc3a2599f63cf057eb6d3a97238ae044a3a9032c83aa1f"));
+           assert(hashGenesisBlock == uint256("0x00000d6274a0459bc63c3b7ad6c03614bed636e2c43e10b466c553d03bb56ecc"));
+           assert(genesis.hashMerkleRoot == uint256("0xd356f4e8178a28f1ad5f15738db447731b86ca1a9a620ff8358fa607252f2220"));
         }
 
         if (genesis.nNonce == 0) {
@@ -146,7 +146,15 @@ public:
         } 
 
         //vSeeds.push_back(CDNSSeedData("", ""));
-        vSeeds.push_back(CDNSSeedData("173.249.1.107", "173.249.1.107"));  
+          vSeeds.push_back(CDNSSeedData("45.32.135.117", "45.32.135.117"));
+          vSeeds.push_back(CDNSSeedData("144.202.120.52", "144.202.120.52"));
+          vSeeds.push_back(CDNSSeedData("207.246.77.104", "207.246.77.104"));
+          vSeeds.push_back(CDNSSeedData("45.77.250.242", "45.77.250.242"));
+          vSeeds.push_back(CDNSSeedData("217.69.0.231", "217.69.0.231"));
+          vSeeds.push_back(CDNSSeedData("202.182.126.128", "202.182.126.128"));
+          vSeeds.push_back(CDNSSeedData("45.76.115.225", "45.76.115.225"));
+          vSeeds.push_back(CDNSSeedData("140.82.35.167", "140.82.35.167"));
+          vSeeds.push_back(CDNSSeedData("173.249.1.107", "173.249.1.107"));  
           
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 61);  // R
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 122); // r
@@ -168,8 +176,8 @@ public:
 
         nPoolMaxTransactions = 3;
         strSporkKey = "04cc17389379a0e323f53ea504d38cd71f43dc22f597805fed33a51b05ced1a3ae0db84089985f351b3737721736a82f58c8bd529f79c8ffe57e922bda792146ab";
-        strMasternodePoolDummyAddress = "RsJVWUkt6HtSCY2SaJ2akeyJUg8bg1hW3S";
-        nStartMasternodePayments = genesis.nTime + (3600); // one hour after genesis creation
+        strMasternodePoolDummyAddress = "SsJVWUkt6HtSCY2SaJ2akeyJUg8bg1hW3S";
+        nStartMasternodePayments = genesis.nTime + (86400*7); // one week after genesis creation
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
     }
@@ -201,8 +209,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // reecore: 1 day
-        nTargetSpacing = 2 * 60;  // reecore: 1 minute
+        nTargetTimespan = 1 * 60; // Reliance: 1 day
+        nTargetSpacing = 2 * 60;  // Reliance: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -219,17 +227,17 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        // Testnet reecore addresses start with 's'
+        // Testnet Reliance addresses start with 's'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 48);
-        // Testnet reecore script addresses start with '5' or '6'
+        // Testnet Reliance script addresses start with '5' or '6'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);
         // Testnet private keys start with 'k'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 108);
-        // Testnet reecore BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Reliance BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet reecore BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Reliance BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet reecore BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet bitcoin green BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -275,8 +283,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // reecore: 1 day
-        nTargetSpacing = 2 * 60;        // reecore: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Reliance: 1 day
+        nTargetSpacing = 2 * 60;        // Reliance: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1525777781;
         genesis.nBits = 0x1e0ffff0;
