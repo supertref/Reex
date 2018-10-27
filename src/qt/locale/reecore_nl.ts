@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your REL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw REL adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your REEX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw REEX adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your REL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw REL adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your REEX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw REEX adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>reecore zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw RELs stelen.</translation>
+        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>reecore zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw REEXs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REL&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW REL VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REEX&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW REEX VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a REL Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een REL adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een REEX adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>Het REL adres om het bericht met te ondertekenen</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>Het REEX adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het REL adres bezit</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het REEX adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>Het REL adres waarmee het bericht was ondertekend</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>Het REEX adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde REL adres</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde REEX adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,8 +594,8 @@
         <translation>reecore Kern</translation>
     </message>
     <message>
-        <source>Send coins to a REL address</source>
-        <translation>Verstuur munten naar een REL adres</translation>
+        <source>Send coins to a REEX address</source>
+        <translation>Verstuur munten naar een REEX adres</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and reecore: URIs)</source>
@@ -622,12 +622,12 @@
         <translation>Wijzig reecore configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your REL addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw REL adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your REEX addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw REEX adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified REL addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde REL adressen</translation>
+        <source>Verify messages to ensure they were signed with specified REEX addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde REEX adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -1034,8 +1034,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid REL address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig REL adres.</translation>
+        <source>The entered address "%1" is not a valid REEX address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig REEX adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1473,8 +1473,8 @@ MultiSend: %1</translation>
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a REL address (e.g. %1)</source>
-        <translation>Voer een REL adres in (b.v. %1)</translation>
+        <source>Enter a REEX address (e.g. %1)</source>
+        <translation>Voer een REEX adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1883,8 +1883,8 @@ MultiSend: %1</translation>
         <translation>Wijzig:</translation>
     </message>
     <message>
-        <source>0 REL</source>
-        <translation>0 REL</translation>
+        <source>0 REEX</source>
+        <translation>0 REEX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1971,8 +1971,8 @@ MultiSend: %1</translation>
         <translation>gebruikt</translation>
     </message>
     <message>
-        <source>Warning: Invalid REL address</source>
-        <translation>Waarschuwing: Ongeldig REL adres</translation>
+        <source>Warning: Invalid REEX address</source>
+        <translation>Waarschuwing: Ongeldig REEX adres</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2026,8 +2026,8 @@ MultiSend: %1</translation>
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The REL address to send the payment to</source>
-        <translation>Het REL adres om de betaling naar te verzenden</translation>
+        <source>The REEX address to send the payment to</source>
+        <translation>Het REEX adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2100,8 +2100,8 @@ MultiSend: %1</translation>
         <translation>&amp;Onderteken Bericht</translation>
     </message>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>Het REL adres om het bericht met te ondertekenen</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>Het REEX adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2132,16 +2132,16 @@ MultiSend: %1</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het REL adres bezit</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het REEX adres bezit</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>Het REL adres waarmee het bericht was ondertekend</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>Het REEX adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde REL adres</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde REEX adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2745,8 +2745,8 @@ MultiSend: %1</translation>
         <translation>Geen Masternodes gedetecteerd.</translation>
     </message>
     <message>
-        <source>Node relay options:</source>
-        <translation>Node relay opties:</translation>
+        <source>Node REEXay options:</source>
+        <translation>Node REEXay opties:</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>

@@ -62,12 +62,12 @@
         <translation>Receiving addresses</translation>
     </message>
     <message>
-        <source>These are your REL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your REL addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your REEX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your REEX addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
-        <source>These are your REL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your REL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your REEX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your REEX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</translation>
+        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REL&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REL&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REEX&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REEX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Encrypt</translation>
     </message>
     <message>
-        <source>Enter a REL Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Enter a REL Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
+        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Address:</translation>
     </message>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>The REL address to sign the message with</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>The REEX address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Sign the message to prove you own this REL address</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Sign the message to prove you own this REEX address</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>The REL address the message was signed with</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>The REEX address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>Verify the message to ensure it was signed with the specified REL address</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>Verify the message to ensure it was signed with the specified REEX address</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,8 +602,8 @@
         <translation>reecore Core</translation>
     </message>
     <message>
-        <source>Send coins to a REL address</source>
-        <translation>Send coins to a REL address</translation>
+        <source>Send coins to a REEX address</source>
+        <translation>Send coins to a REEX address</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and reecore: URIs)</source>
@@ -630,12 +630,12 @@
         <translation>Modify configuration options for reecore</translation>
     </message>
     <message>
-        <source>Sign messages with your REL addresses to prove you own them</source>
-        <translation>Sign messages with your REL addresses to prove you own them</translation>
+        <source>Sign messages with your REEX addresses to prove you own them</source>
+        <translation>Sign messages with your REEX addresses to prove you own them</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified REL addresses</source>
-        <translation>Verify messages to ensure they were signed with specified REL addresses</translation>
+        <source>Verify messages to ensure they were signed with specified REEX addresses</source>
+        <translation>Verify messages to ensure they were signed with specified REEX addresses</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -1122,8 +1122,8 @@ Address: %4
         <translation>Edit sending address</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid REL address.</source>
-        <translation>The entered address "%1" is not a valid REL address.</translation>
+        <source>The entered address "%1" is not a valid REEX address.</source>
+        <translation>The entered address "%1" is not a valid REEX address.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1385,12 +1385,12 @@ Address: %4
         <translation>Enter Address to Send to</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other REL addresses after it matures.
-To Add: enter percentage to give and REL address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other REEX addresses after it matures.
+To Add: enter percentage to give and REEX address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other REL addresses after it matures.
-To Add: enter percentage to give and REL address to add to the MultiSend vector.
+        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other REEX addresses after it matures.
+To Add: enter percentage to give and REEX address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</translation>
     </message>
@@ -1857,8 +1857,8 @@ Please check the address and try again.</translation>
         <translation>Cannot start reecore: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid REL address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid REL address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid REEX address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid REEX address or malformed URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1943,8 +1943,8 @@ Please check the address and try again.</translation>
         <translation>Amount</translation>
     </message>
     <message>
-        <source>Enter a REL address (e.g. %1)</source>
-        <translation>Enter a REL address (e.g. %1)</translation>
+        <source>Enter a REEX address (e.g. %1)</source>
+        <translation>Enter a REEX address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2553,8 +2553,8 @@ Please check the address and try again.</translation>
         <translation>UTXO Size:</translation>
     </message>
     <message>
-        <source>0 REL</source>
-        <translation>0 REL</translation>
+        <source>0 REEX</source>
+        <translation>0 REEX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2597,12 +2597,12 @@ Please check the address and try again.</translation>
         <translation>Confirmation time:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRELs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRELs in fee,&lt;br /&gt;while "at least" pays 1000 uRELs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uRELs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRELs in fee,&lt;br /&gt;while "at least" pays 1000 uRELs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uREEXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREEXs in fee,&lt;br /&gt;while "at least" pays 1000 uREEXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uREEXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREEXs in fee,&lt;br /&gt;while "at least" pays 1000 uREEXs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRELs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRELs in fee,&lt;br /&gt;while "total at least" pays 1000 uRELs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uRELs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRELs in fee,&lt;br /&gt;while "total at least" pays 1000 uRELs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uREEXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREEXs in fee,&lt;br /&gt;while "total at least" pays 1000 uREEXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uREEXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREEXs in fee,&lt;br /&gt;while "total at least" pays 1000 uREEXs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for reecore transactions than the network can process.</source>
@@ -2705,8 +2705,8 @@ Please check the address and try again.</translation>
         <translation>using</translation>
     </message>
     <message>
-        <source>Warning: Invalid REL address</source>
-        <translation>Warning: Invalid REL address</translation>
+        <source>Warning: Invalid REEX address</source>
+        <translation>Warning: Invalid REEX address</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2804,8 +2804,8 @@ Please check the address and try again.</translation>
         <translation>Pay &amp;To:</translation>
     </message>
     <message>
-        <source>The REL address to send the payment to</source>
-        <translation>The REL address to send the payment to</translation>
+        <source>The REEX address to send the payment to</source>
+        <translation>The REEX address to send the payment to</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2894,8 +2894,8 @@ Please check the address and try again.</translation>
         <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>The REL address to sign the message with</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>The REEX address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2926,16 +2926,16 @@ Please check the address and try again.</translation>
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Sign the message to prove you own this REL address</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Sign the message to prove you own this REEX address</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>The REL address the message was signed with</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>The REEX address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>Verify the message to ensure it was signed with the specified REL address</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>Verify the message to ensure it was signed with the specified REEX address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3545,8 +3545,8 @@ Please check the address and try again.</translation>
         <translation>Send Coins</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 REL.</source>
-        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 REL.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 REEX.</source>
+        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 REEX.</translation>
     </message>
 </context>
 <context>
@@ -3663,8 +3663,8 @@ Please check the address and try again.</translation>
         <translation>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</translation>
     </message>
     <message>
-        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</translation>
+        <source>Execute command when a REEXevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Execute command when a REEXevant alert is received or we see a really long fork (%s in cmd is replaced by message)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -3675,12 +3675,12 @@ Please check the address and try again.</translation>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in REL/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in REL/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in REEX/Kb) smaller than this are considered zero fee for REEXaying (default: %s)</source>
+        <translation>Fees (in REEX/Kb) smaller than this are considered zero fee for REEXaying (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in REL/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in REL/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in REEX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in REEX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3699,8 +3699,8 @@ Please check the address and try again.</translation>
         <translation>In this mode -genproclimit controls how many blocks are generated immediately.</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minREEXay fee of %s to prevent stuck transactions)</source>
+        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minREEXay fee of %s to prevent stuck transactions)</translation>
     </message>
     <message>
         <source>Keep the specified amount available for spending at all times (default: 0)</source>
@@ -3715,8 +3715,8 @@ Please check the address and try again.</translation>
         <translation>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</translation>
     </message>
     <message>
-        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
+        <source>Maximum size of data in data carrier transactions we REEXay and mine (default: %u)</source>
+        <translation>Maximum size of data in data carrier transactions we REEXay and mine (default: %u)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
@@ -3735,8 +3735,8 @@ Please check the address and try again.</translation>
         <translation>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
     </message>
     <message>
-        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
-        <translation>Require high priority for relaying free or low-fee transactions (default:%u)</translation>
+        <source>Require high priority for REEXaying free or low-fee transactions (default:%u)</source>
+        <translation>Require high priority for REEXaying free or low-fee transactions (default:%u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
@@ -3799,8 +3799,8 @@ for example: alertnotify=echo %%s | mail -s "reecore Alert" admin@foo.com
         <translation>Unable to bind to %s on this computer. reecore Core is probably already running.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 REL.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 10000 REL.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 REEX.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 REEX.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3839,8 +3839,8 @@ for example: alertnotify=echo %%s | mail -s "reecore Alert" admin@foo.com
         <translation>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</translation>
     </message>
     <message>
-        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</translation>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always REEXayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>Whitelisted peers cannot be DoS banned and their transactions are always REEXayed, even if they are already in the mempool, useful e.g. for a gateway</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
@@ -4075,8 +4075,8 @@ for example: alertnotify=echo %%s | mail -s "reecore Alert" admin@foo.com
         <translation>Failed to read block</translation>
     </message>
     <message>
-        <source>Fee (in REL/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in REL/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in REEX/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in REEX/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4159,8 +4159,8 @@ for example: alertnotify=echo %%s | mail -s "reecore Alert" admin@foo.com
         <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -minREEXaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Invalid amount for -minREEXaytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
@@ -4199,8 +4199,8 @@ for example: alertnotify=echo %%s | mail -s "reecore Alert" admin@foo.com
         <translation>Invalid script detected.</translation>
     </message>
     <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
-        <translation>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</translation>
+        <source>This is a pre-REEXease test build - use at your own risk - do not use for staking or merchant applications!</source>
+        <translation>This is a pre-REEXease test build - use at your own risk - do not use for staking or merchant applications!</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -4343,8 +4343,8 @@ for example: alertnotify=echo %%s | mail -s "reecore Alert" admin@foo.com
         <translation>No compatible Masternode found.</translation>
     </message>
     <message>
-        <source>Node relay options:</source>
-        <translation>Node relay options:</translation>
+        <source>Node REEXay options:</source>
+        <translation>Node REEXay options:</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
@@ -4419,12 +4419,12 @@ for example: alertnotify=echo %%s | mail -s "reecore Alert" admin@foo.com
         <translation>Receive and display P2P network alerts (default: %u)</translation>
     </message>
     <message>
-        <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Relay and mine data carrier transactions (default: %u)</translation>
+        <source>REEXay and mine data carrier transactions (default: %u)</source>
+        <translation>REEXay and mine data carrier transactions (default: %u)</translation>
     </message>
     <message>
-        <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Relay non-P2SH multisig (default: %u)</translation>
+        <source>REEXay non-P2SH multisig (default: %u)</source>
+        <translation>REEXay non-P2SH multisig (default: %u)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>

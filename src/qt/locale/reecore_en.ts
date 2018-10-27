@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your REL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your REEX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your REL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your REEX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -216,7 +216,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -226,7 +226,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REL&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REEX&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -302,7 +302,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a REL Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -313,7 +313,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The REL address to sign the message with</source>
+        <source>The REEX address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -355,7 +355,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this REL address</source>
+        <source>Sign the message to prove you own this REEX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -386,12 +386,12 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>The REL address the message was signed with</source>
+        <source>The REEX address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -806,7 +806,7 @@
     </message>
     <message>
         <location line="-707"/>
-        <source>Send coins to a REL address</source>
+        <source>Send coins to a REEX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -846,12 +846,12 @@
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your REL addresses to prove you own them</source>
+        <source>Sign messages with your REEX addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified REL addresses</source>
+        <source>Verify messages to ensure they were signed with specified REEX addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1481,7 +1481,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid REL address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid REEX address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1807,8 +1807,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other REL addresses after it matures.
-To Add: enter percentage to give and REL address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other REEX addresses after it matures.
+To Add: enter percentage to give and REEX address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -2063,7 +2063,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send REL to</source>
+        <source>Add destinations to send REEX to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2473,7 +2473,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+43"/>
-        <source>REL Balances</source>
+        <source>REEX Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2574,7 +2574,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+36"/>
-        <source>REL:</source>
+        <source>REEX:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2589,7 +2589,7 @@ p, li { white-space: pre-wrap; }
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 REL</source>
+        <source>0.000 000 00 REEX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2650,7 +2650,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+114"/>
-        <source>URI cannot be parsed! This can be caused by an invalid REL address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid REEX address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2758,7 +2758,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a REL address (e.g. %1)</source>
+        <source>Enter a REEX address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3584,7 +3584,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+7"/>
-        <source>0 REL</source>
+        <source>0 REEX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3654,12 +3654,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uRELs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uRELs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uRELs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uREEXs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uREEXs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uREEXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uRELs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uRELs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uRELs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uREEXs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uREEXs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uREEXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3786,7 +3786,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+622"/>
-        <source>Warning: Invalid REL address</source>
+        <source>Warning: Invalid REEX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3915,7 +3915,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+18"/>
-        <source>The REL address to send the payment to</source>
+        <source>The REEX address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4032,7 +4032,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+18"/>
-        <source>The REL address to sign the message with</source>
+        <source>The REEX address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4074,17 +4074,17 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this REL address</source>
+        <source>Sign the message to prove you own this REEX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The REL address the message was signed with</source>
+        <source>The REEX address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4882,7 +4882,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 REL.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 REEX.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5018,8 +5018,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+3"/>
-        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation type="unfinished">Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</translation>
+        <source>Execute command when a REEXevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation type="unfinished">Execute command when a REEXevant alert is received or we see a really long fork (%s in cmd is replaced by message)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5033,12 +5033,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in REL/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in REEX/Kb) smaller than this are considered zero fee for REEXaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in REL/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in REEX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5063,8 +5063,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+3"/>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation type="unfinished">Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minREEXay fee of %s to prevent stuck transactions)</source>
+        <translation type="unfinished">Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minREEXay fee of %s to prevent stuck transactions)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5083,8 +5083,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+3"/>
-        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation type="unfinished">Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
+        <source>Maximum size of data in data carrier transactions we REEXay and mine (default: %u)</source>
+        <translation type="unfinished">Maximum size of data in data carrier transactions we REEXay and mine (default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5113,8 +5113,8 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+3"/>
-        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
-        <translation type="unfinished">Require high priority for relaying free or low-fee transactions (default:%u)</translation>
+        <source>Require high priority for REEXaying free or low-fee transactions (default:%u)</source>
+        <translation type="unfinished">Require high priority for REEXaying free or low-fee transactions (default:%u)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -5173,7 +5173,7 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 REL.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 REEX.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5223,8 +5223,8 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation type="unfinished">Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</translation>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always REEXayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation type="unfinished">Whitelisted peers cannot be DoS banned and their transactions are always REEXayed, even if they are already in the mempool, useful e.g. for a gateway</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5553,7 +5553,7 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in REL/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in REEX/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5663,8 +5663,8 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished">Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <source>Invalid amount for -minREEXaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished">Invalid amount for -minREEXaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5723,7 +5723,7 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-273"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
+        <source>This is a pre-REEXease test build - use at your own risk - do not use for staking or merchant applications!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5945,8 +5945,8 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Node relay options:</source>
-        <translation type="unfinished">Node relay options:</translation>
+        <source>Node REEXay options:</source>
+        <translation type="unfinished">Node REEXay options:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6045,13 +6045,13 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation type="unfinished">Relay and mine data carrier transactions (default: %u)</translation>
+        <source>REEXay and mine data carrier transactions (default: %u)</source>
+        <translation type="unfinished">REEXay and mine data carrier transactions (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation type="unfinished">Relay non-P2SH multisig (default: %u)</translation>
+        <source>REEXay non-P2SH multisig (default: %u)</source>
+        <translation type="unfinished">REEXay non-P2SH multisig (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>

@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your REL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše REL adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your REEX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše REEX adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your REL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše REL adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your REEX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše REEX adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>reecore se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše RELy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>reecore se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše REEXy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REL&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE RELy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REEX&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE REEXy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a REL Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte REL adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte REEX adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>REL adresa pro podepsání zprávy</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>REEX adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto REL adresu</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto REEX adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>REL adresa zprávy byla podpsána</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>REEX adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou REL adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou REEX adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,8 +598,8 @@
         <translation>reecore Core</translation>
     </message>
     <message>
-        <source>Send coins to a REL address</source>
-        <translation>Odeslat platbuna REL adresu</translation>
+        <source>Send coins to a REEX address</source>
+        <translation>Odeslat platbuna REEX adresu</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and reecore: URIs)</source>
@@ -622,16 +622,16 @@
         <translation>Zobraz informace o reecore Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for REL</source>
-        <translation>Upravit možnosti konfigurace pro REL</translation>
+        <source>Modify configuration options for REEX</source>
+        <translation>Upravit možnosti konfigurace pro REEX</translation>
     </message>
     <message>
-        <source>Sign messages with your REL addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší REL adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your REEX addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší REEX adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified REL addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými REL adresami</translation>
+        <source>Verify messages to ensure they were signed with specified REEX addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými REEX adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -1058,8 +1058,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid REL address.</source>
-        <translation>Zadaná adresa "%1" není validní REL adresa.</translation>
+        <source>The entered address "%1" is not a valid REEX address.</source>
+        <translation>Zadaná adresa "%1" není validní REEX adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1927,8 +1927,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 REL</source>
-        <translation>0 REL</translation>
+        <source>0 REEX</source>
+        <translation>0 REEX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2056,8 +2056,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>REL adresa pro podepsání zprávy</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>REEX adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2084,16 +2084,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto REL adresu</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto REEX adresu</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>REL adresa zprávy byla podpsána</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>REEX adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou REL adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou REEX adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

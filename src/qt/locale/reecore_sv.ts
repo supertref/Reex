@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your REL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina REL adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your REEX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina REEX adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your REL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina REL adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your REEX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina REEX adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>reecore kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina RELs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>reecore kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina REEXs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REL&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA REL&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REEX&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA REEX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a REL Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en REL adress som du vill kryptera med BIP 38.
+        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en REEX adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>REL adressen för signera meddelandet med</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>REEX adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna REL adress</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna REEX adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>REL adressen meddelandet blev signerat med</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>REEX adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika REL adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika REEX adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -392,7 +392,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Visa generell översikt av plånbok</translation>
+        <translation>Visa geneREEXl översikt av plånbok</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -587,8 +587,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>reecore Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a REL address</source>
-        <translation>Skicka mynt till en REL adress</translation>
+        <source>Send coins to a REEX address</source>
+        <translation>Skicka mynt till en REEX adress</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and reecore: URIs)</source>
@@ -615,12 +615,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ändra konfigurationsval för reecore</translation>
     </message>
     <message>
-        <source>Sign messages with your REL addresses to prove you own them</source>
-        <translation>Signera meddelanden med din REL adress för att visa att du äger dem</translation>
+        <source>Sign messages with your REEX addresses to prove you own them</source>
+        <translation>Signera meddelanden med din REEX adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified REL addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika REL adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified REEX addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika REEX adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -1095,8 +1095,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>REL adressen för signera meddelandet med</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>REEX adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1119,16 +1119,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna REL adress</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna REEX adress</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>REL adressen meddelandet blev signerat med</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>REEX adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika REL adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika REEX adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1404,8 +1404,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Masternod:</translation>
     </message>
     <message>
-        <source>Node relay options:</source>
-        <translation>Nod relä val:</translation>
+        <source>Node REEXay options:</source>
+        <translation>Nod REEXä val:</translation>
     </message>
     <message>
         <source>Options:</source>

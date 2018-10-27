@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your REL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços REL para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your REEX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços REEX para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your REL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços REL para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your REEX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços REEX para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
-        <translation>reecore vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas RELs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>reecore vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas REEXs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REL&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS REL&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REEX&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS REEX&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,7 +231,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a REL Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -239,8 +239,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>O endereço REL para assinar a mensagem</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>O endereço REEX para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço REL</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço REEX</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>O endereço REL que assinou a mensagem</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>O endereço REEX que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço REL especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço REEX especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,8 +586,8 @@
         <translation>reecore Core</translation>
     </message>
     <message>
-        <source>Send coins to a REL address</source>
-        <translation>Enviar moedas para um endereço REL</translation>
+        <source>Send coins to a REEX address</source>
+        <translation>Enviar moedas para um endereço REEX</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and reecore: URIs)</source>
@@ -614,12 +614,12 @@
         <translation>Modificar opções de configuração para reecore</translation>
     </message>
     <message>
-        <source>Sign messages with your REL addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços REL para provar que você os detém</translation>
+        <source>Sign messages with your REEX addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços REEX para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified REL addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços REL especificados</translation>
+        <source>Verify messages to ensure they were signed with specified REEX addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços REEX especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -1079,8 +1079,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid REL address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de REL</translation>
+        <source>The entered address "%1" is not a valid REEX address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de REEX</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1739,8 +1739,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a REL address (e.g. %1)</source>
-        <translation>Insira um endereço REL (e.g. %1)</translation>
+        <source>Enter a REEX address (e.g. %1)</source>
+        <translation>Insira um endereço REEX (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2241,8 +2241,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 REL</source>
-        <translation>0 REL</translation>
+        <source>0 REEX</source>
+        <translation>0 REEX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2281,8 +2281,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRELs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRELs in fee,&lt;br /&gt;while "at least" pays 1000 uRELs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uRELs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uRELs em taxa,&lt;br /&gt; pagará pelo menos 1000 uRELs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uREEXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREEXs in fee,&lt;br /&gt;while "at least" pays 1000 uREEXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uREEXs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uREEXs em taxa,&lt;br /&gt; pagará pelo menos 1000 uREEXs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for reecore transactions than the network can process.</source>
@@ -2369,8 +2369,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>usando</translation>
     </message>
     <message>
-        <source>Warning: Invalid REL address</source>
-        <translation>Aviso: endereço REL inválido</translation>
+        <source>Warning: Invalid REEX address</source>
+        <translation>Aviso: endereço REEX inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2460,8 +2460,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The REL address to send the payment to</source>
-        <translation>O endereço REL para enviar o pagamento</translation>
+        <source>The REEX address to send the payment to</source>
+        <translation>O endereço REEX para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2542,8 +2542,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>O endereço REL para assinar a mensagem</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>O endereço REEX para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2574,16 +2574,16 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço REL</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço REEX</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>O endereço REL que assinou a mensagem</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>O endereço REEX que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço REL especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço REEX especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3157,8 +3157,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 REL.</source>
-        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 REL.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 REEX.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 REEX.</translation>
     </message>
 </context>
 <context>
@@ -3215,20 +3215,20 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Erro: Argumento não suportado -socks encontrado. Definir a versão SOCKS não é mais possível, somente proxies SOCKS5 são suportados.</translation>
     </message>
     <message>
-        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Executar o comando quando um alerta relevante for recebido ou vermos uma grande bifurcação da rede (%s no cmd é substituído pela mensagem)</translation>
+        <source>Execute command when a REEXevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Executar o comando quando um alerta REEXevante for recebido ou vermos uma grande bifurcação da rede (%s no cmd é substituído pela mensagem)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in REL/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em REL/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in REEX/Kb) smaller than this are considered zero fee for REEXaying (default: %s)</source>
+        <translation>Taxas (em REEX/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in REL/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em REL/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in REEX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em REEX/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3239,7 +3239,7 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Número de segundos a manter pares em mal comportamento de se reconectarem (padrão: %u)</translation>
     </message>
     <message>
-        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <source>Require high priority for REEXaying free or low-fee transactions (default:%u)</source>
         <translation>Requerir alta prioridade na propagação gratuita ou com taxa baixa em transações (padrão:%u)</translation>
     </message>
     <message>
@@ -3251,8 +3251,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 REL.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 REL.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 REEX.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 REEX.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3268,7 +3268,7 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong reecore Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core reecore não vai funcionar corretamente.</translation>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu REEXógio estiver errado o Core reecore não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3435,8 +3435,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in REL/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em REL/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in REEX/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em REEX/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3503,8 +3503,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Quantia inválida para -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Quantia inválida para -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -minREEXaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantia inválida para -minREEXaytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
@@ -3607,7 +3607,7 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Nenhum Masternode compatível encontrado.</translation>
     </message>
     <message>
-        <source>Node relay options:</source>
+        <source>Node REEXay options:</source>
         <translation>Opções de propagação do Nó:</translation>
     </message>
     <message>

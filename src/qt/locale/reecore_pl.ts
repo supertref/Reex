@@ -144,8 +144,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REL&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE REL!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REEX&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE REEX!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres REL jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres REEX jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,8 +518,8 @@
         <translation>&amp;Rdzeń reecore</translation>
     </message>
     <message>
-        <source>Send coins to a REL address</source>
-        <translation>Wyślij monety do adresu REL</translation>
+        <source>Send coins to a REEX address</source>
+        <translation>Wyślij monety do adresu REEX</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and reecore: URIs)</source>
@@ -546,12 +546,12 @@
         <translation>Modyfikuj opcje konfiguracji reecore</translation>
     </message>
     <message>
-        <source>Sign messages with your REL addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami REL, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your REEX addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami REEX, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified REL addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu REL</translation>
+        <source>Verify messages to ensure they were signed with specified REEX addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu REEX</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -1361,8 +1361,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a REL address (e.g. %1)</source>
-        <translation>Wprowadź adres REL (np. %1)</translation>
+        <source>Enter a REEX address (e.g. %1)</source>
+        <translation>Wprowadź adres REEX (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1800,8 +1800,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres REL jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres REEX jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>

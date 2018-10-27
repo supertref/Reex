@@ -62,11 +62,11 @@
         <translation>Modtageradresse</translation>
     </message>
     <message>
-        <source>These are your REL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your REEX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dine adresser til at sende betalinger med. Kontroller altid både beløb og modtageradresse før afsendelse.</translation>
     </message>
     <message>
-        <source>These are your REL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your REEX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine modtager adresser. Det anbefales at anvende en ny adresse til hver transaktion</translation>
     </message>
     <message>
@@ -172,7 +172,7 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your RELs from being stolen by malware infecting your computer.</source>
+        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
         <translation>reecore vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
@@ -180,8 +180,8 @@
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REL&lt;/b&gt;!</source>
-        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE REL&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REEX&lt;/b&gt;!</source>
+        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE REEX&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>BIP 38 kryptografering</translation>
     </message>
     <message>
-        <source>Enter a REL Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Indtast den REL adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
+        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Indtast den REEX adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>Den REL adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>Den REEX adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne REL adresse.</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne REEX adresse.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Indtast den krypterede BIP 38 nøgle. Indtast kodeordet i den midterste boks. Klik på dekryptér for at generere den private nøgle. Når nøglen er dekrypteret vil klip på "importér adresse" overføre den private nøgle til tegnebogen.</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne REL adresse</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne REEX adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige REL adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige REEX adresse.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -403,7 +403,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Vis et generelt overblik over tegnebogen</translation>
+        <translation>Vis et geneREEXt overblik over tegnebogen</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -598,8 +598,8 @@
         <translation>reecore kerne</translation>
     </message>
     <message>
-        <source>Send coins to a REL address</source>
-        <translation>Send mønter til en REL adresse</translation>
+        <source>Send coins to a REEX address</source>
+        <translation>Send mønter til en REEX adresse</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and reecore: URIs)</source>
@@ -626,12 +626,12 @@
         <translation>Ret konfigurationsindstillinger for reecore</translation>
     </message>
     <message>
-        <source>Sign messages with your REL addresses to prove you own them</source>
-        <translation>Underskriv beskeder med Deres REL adresser for at bekræfte at De ejer dem.</translation>
+        <source>Sign messages with your REEX addresses to prove you own them</source>
+        <translation>Underskriv beskeder med Deres REEX adresser for at bekræfte at De ejer dem.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified REL addresses</source>
-        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne REL adresse</translation>
+        <source>Verify messages to ensure they were signed with specified REEX addresses</source>
+        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne REEX adresse</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -979,8 +979,8 @@ Adresse: %4
         <translation>middelhøj</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uREL per input.</source>
-        <translation>kan variere +/- %1 uREL pr. input</translation>
+        <source>Can vary +/- %1 uREEX per input.</source>
+        <translation>kan variere +/- %1 uREEX pr. input</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1020,7 +1020,7 @@ Adresse: %4
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Denne tekstmarkør bliver rød, hvis transaktionens størrelse overstiger 1000 bytes.</translation>
+        <translation>Denne tekstmarkør bliver rød, hvis transaktionens størREEXse overstiger 1000 bytes.</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
@@ -1094,8 +1094,8 @@ Adresse: %4
         <translation>Ret afsenderadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid REL address.</source>
-        <translation>Den indtastede adresse %1 er ikke en gyldig REL adresse</translation>
+        <source>The entered address "%1" is not a valid REEX address.</source>
+        <translation>Den indtastede adresse %1 er ikke en gyldig REEX adresse</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1357,12 +1357,12 @@ Adresse: %4
         <translation>Indtast modtageradresse</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other REL addresses after it matures.
-To Add: enter percentage to give and REL address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other REEX addresses after it matures.
+To Add: enter percentage to give and REEX address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre REL adressater når den er tilstrækkelig stor.
-For at tilføje: Indtast procentsatsen De ønsker at overføre samt den REL adresse som skal modtage via Multisendsystemet.
+        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre REEX adressater når den er tilstrækkelig stor.
+For at tilføje: Indtast procentsatsen De ønsker at overføre samt den REEX adresse som skal modtage via Multisendsystemet.
 For at fjerne: Indtast adressen som skal slettes og klik på slet.
 Multisend vil ikke fungere med mindre systemet er aktiveret.</translation>
     </message>
@@ -1512,7 +1512,7 @@ Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Størrelse på &amp;databasecache</translation>
+        <translation>StørREEXse på &amp;databasecache</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1532,7 +1532,7 @@ Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgørelsen af saldoen.</translation>
+        <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgøREEXsen af saldoen.</translation>
     </message>
     <message>
         <source>Automatically open the reecore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
@@ -1813,7 +1813,7 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Kan ikke starte reecore "klik for at betale" systemet</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid REL address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid REEX address or malformed URI parameters.</source>
         <translation>URl kan ikke fortolkes! Det kan skyldes en ugyldig adresse, eller forkerte URl parametre.</translation>
     </message>
     <message>
@@ -1899,8 +1899,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a REL address (e.g. %1)</source>
-        <translation>Indtast en REL adresse (F.eks. %1)</translation>
+        <source>Enter a REEX address (e.g. %1)</source>
+        <translation>Indtast en REEX adresse (F.eks. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1970,7 +1970,7 @@ Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Generelt</translation>
+        <translation>GeneREEXt</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2498,11 +2498,11 @@ Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
         <source>UTXO Size:</source>
-        <translation>UTXO størrelse:</translation>
+        <translation>UTXO størREEXse:</translation>
     </message>
     <message>
-        <source>0 REL</source>
-        <translation>0 REL</translation>
+        <source>0 REEX</source>
+        <translation>0 REEX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2545,12 +2545,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Bekræftelsestid</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRELs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRELs in fee,&lt;br /&gt;while "at least" pays 1000 uRELs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uRELs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uREL i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uRELs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uREEXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREEXs in fee,&lt;br /&gt;while "at least" pays 1000 uREEXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uREEXs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uREEX i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uREEXs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uRELs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uRELs in fee,&lt;br /&gt;while "total at least" pays 1000 uRELs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uRELs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uREL i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uRELs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uREEXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREEXs in fee,&lt;br /&gt;while "total at least" pays 1000 uREEXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uREEXs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uREEX i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uREEXs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for reecore transactions than the network can process.</source>
@@ -2653,8 +2653,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Anvender</translation>
     </message>
     <message>
-        <source>Warning: Invalid REL address</source>
-        <translation>Advarsel! Ugyldig REL adresse</translation>
+        <source>Warning: Invalid REEX address</source>
+        <translation>Advarsel! Ugyldig REEX adresse</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2752,8 +2752,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The REL address to send the payment to</source>
-        <translation>REL adressen, som betalingen skal sendes til</translation>
+        <source>The REEX address to send the payment to</source>
+        <translation>REEX adressen, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2842,8 +2842,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>De kan underskrive beskeder med Deres adresser or at bevise ejerskab. Vær forsigtig med at underskrive noget De er usikker på såsom forsøg op at narre Dem til at oplyse Deres identitet. Skriv kun under på noget De kan stå inde for, og som De er enig i. </translation>
     </message>
     <message>
-        <source>The REL address to sign the message with</source>
-        <translation>Den REL adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The REEX address to sign the message with</source>
+        <translation>Den REEX adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2874,16 +2874,16 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REL address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne REL adresse.</translation>
+        <source>Sign the message to prove you own this REEX address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne REEX adresse.</translation>
     </message>
     <message>
-        <source>The REL address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne REL adresse</translation>
+        <source>The REEX address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne REEX adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified REL address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige REL adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified REEX address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige REEX adresse.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3477,8 +3477,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Send mønter</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 REL.</source>
-        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1 REL.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 REEX.</source>
+        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1 REEX.</translation>
     </message>
 </context>
 <context>
@@ -3596,7 +3596,7 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Fejl! Argumentet er ikke understøttet -socks found. Det er ikke muligt at bestemme hvilken SOCKS version længere. Kun SOCKS5 proxies understøttes.</translation>
     </message>
     <message>
-        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <source>Execute command when a REEXevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>Udfør en kommando når der modtages en alarm, eller der opdages en meget lang fork (%s in cmd erstattet af en besked)</translation>
     </message>
     <message>
@@ -3608,12 +3608,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Udfør en kommando når den bedste blok ændres (%s in cmd erstattes med blok hashen)</translation>
     </message>
     <message>
-        <source>Fees (in REL/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (in REL/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
+        <source>Fees (in REEX/Kb) smaller than this are considered zero fee for REEXaying (default: %s)</source>
+        <translation>Gebyrer (in REEX/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in REL/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (in REL/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
+        <source>Fees (in REEX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (in REEX/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3632,7 +3632,7 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Denne indstilling -genproclimit kontrollerer hvor mange blokke der bliver genereret med det samme.</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minREEXay fee of %s to prevent stuck transactions)</source>
         <translation>Ugyldigt beløb for -maxtxfee=&lt;amount&gt;: '%s' (skal være mindst det samme som minimumsgebyret på %s for at forhindre at transaktionen blokeres).</translation>
     </message>
     <message>
@@ -3648,12 +3648,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Vedligehold et fuldgyldigt transaktionsindeks fra getrawtransaktion fra rpc kald (default: %u)</translation>
     </message>
     <message>
-        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maksimal størrelse på data hos databærerens transaktioner der videresendes og mineres (default: %u)</translation>
+        <source>Maximum size of data in data carrier transactions we REEXay and mine (default: %u)</source>
+        <translation>Maksimal størREEXse på data hos databærerens transaktioner der videresendes og mineres (default: %u)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Maksimal gebyrstørrelse der an bruges i en enkelt transaktion. Hvis denne er sat for lavt kan det medføre afvisning af store transaktioner (default: %s)</translation>
+        <translation>Maksimal gebyrstørREEXse der an bruges i en enkelt transaktion. Hvis denne er sat for lavt kan det medføre afvisning af store transaktioner (default: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
@@ -3668,7 +3668,7 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Forespørg peer adresser via DNS opslag, hvis antallet af adresser er laft (default: 1 med mindre -connect)</translation>
     </message>
     <message>
-        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <source>Require high priority for REEXaying free or low-fee transactions (default:%u)</source>
         <translation>anmod om høj prioritet for videresendelse af gratis transaktioner eller transaktioner med lavt gebyr (default: %u)</translation>
     </message>
     <message>
@@ -3677,7 +3677,7 @@ Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Angiv maksimumstørrelsen på højprioritets/lavgebyrstransaktioner i bytes (default: %d)</translation>
+        <translation>Angiv maksimumstørREEXsen på højprioritets/lavgebyrstransaktioner i bytes (default: %d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
@@ -3732,8 +3732,8 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
         <translation>Det var ikke muligt at forbinde %s på denne computer. reecore kører sandsynligvis allerede.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 REL.</source>
-        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 REL.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 REEX.</source>
+        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 REEX.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3772,7 +3772,7 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
         <translation>Sæt peers, der forbinder fra denne netmaske eller IP adresse på listen over godkendte peers. Der kan indføjes flere linier.</translation>
     </message>
     <message>
-        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always REEXayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Peers, der optræder i listen over godkendte peers kan ikke blokeres på baggrund af DoS, og deres transaktioner vil altid blive videresendt - også selvom de allerede findes i mempoolen - anvendes til f.eks. gateways.</translation>
     </message>
     <message>
@@ -4008,8 +4008,8 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
         <translation>Læsning af blokken mislykkedes</translation>
     </message>
     <message>
-        <source>Fee (in REL/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i REL/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
+        <source>Fee (in REEX/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i REEX/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4092,8 +4092,8 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
         <translation>Ugyldigt beløb til -maxtxfee=&lt;beløb&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ugyldigt beløb til -minrelaytxfee=&lt;beløb&gt;: '%s'</translation>
+        <source>Invalid amount for -minREEXaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ugyldigt beløb til -minREEXaytxfee=&lt;beløb&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
@@ -4132,8 +4132,8 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
         <translation>Ugyldigt script fundet.</translation>
     </message>
     <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
-        <translation>Denne release er en testrelease. Anvendelse på eget ansvar - bør ikke anvendes til staking eller handelsapplikationer!</translation>
+        <source>This is a pre-REEXease test build - use at your own risk - do not use for staking or merchant applications!</source>
+        <translation>Denne REEXease er en testREEXease. Anvendelse på eget ansvar - bør ikke anvendes til staking eller handelsapplikationer!</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -4149,7 +4149,7 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
-        <translation>Begræns størrelsen på signatur cachen til &lt;n&gt; poster (default: %u)</translation>
+        <translation>Begræns størREEXsen på signatur cachen til &lt;n&gt; poster (default: %u)</translation>
     </message>
     <message>
         <source>Line: %d</source>
@@ -4217,11 +4217,11 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimal størrelse på per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
+        <translation>Maksimal størREEXse på per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimal størrelse på per-connection send buffer, &lt;n&gt; *1000 bytes (default: %u)</translation>
+        <translation>Maksimal størREEXse på per-connection send buffer, &lt;n&gt; *1000 bytes (default: %u)</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
@@ -4240,7 +4240,7 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
         <translation>Ingen kompatible masternoder fundet.</translation>
     </message>
     <message>
-        <source>Node relay options:</source>
+        <source>Node REEXay options:</source>
         <translation>Node videresendelsesoptioner:</translation>
     </message>
     <message>
@@ -4312,11 +4312,11 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
         <translation>Modtag og vis P2P netværksalarmer (default: %u)</translation>
     </message>
     <message>
-        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <source>REEXay and mine data carrier transactions (default: %u)</source>
         <translation>Videresend og minér databærer transaktioner (default: %u)</translation>
     </message>
     <message>
-        <source>Relay non-P2SH multisig (default: %u)</source>
+        <source>REEXay non-P2SH multisig (default: %u)</source>
         <translation>Videresend ikke-P2SH mulisig (default %u)</translation>
     </message>
     <message>
@@ -4357,7 +4357,7 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Angiv databasecachens størrelse i megabytes (%d til  %d, default: %d)</translation>
+        <translation>Angiv databasecachens størREEXse i megabytes (%d til  %d, default: %d)</translation>
     </message>
     <message>
         <source>Set external address:port to get to this masternode (example: %s)</source>
@@ -4365,15 +4365,15 @@ For eksempel: alertnotify=Echo %% | mail - s "reecore ALARM!" e-mail@administrat
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Angiv hoved poolstørrelse til &lt;n&gt; (default %u)</translation>
+        <translation>Angiv hoved poolstørREEXse til &lt;n&gt; (default %u)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Angiv maksimal blokstørrelse i bytes (default: %d)</translation>
+        <translation>Angiv maksimal blokstørREEXse i bytes (default: %d)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>Angiv minimums blokstørrelse i bytes (default: %u)</translation>
+        <translation>Angiv minimums blokstørREEXse i bytes (default: %u)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
