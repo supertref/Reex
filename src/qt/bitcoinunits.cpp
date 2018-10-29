@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2017 The reecore developers
+// Copyright (c) 2017-2017 The Reliance developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -57,22 +57,22 @@ QString BitcoinUnits::name(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case REL:
-            return QString(REEX);
+            return QString("REEX");
         case mREL:
-            return QString("mREL");
+            return QString("mREEX");
         case uREL:
-            return QString::fromUtf8("μREL");
+            return QString::fromUtf8("μREEX");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case REL:
-            return QString("tREL");
+            return QString("tREEX");
         case mREL:
-            return QString("mtREL");
+            return QString("mtREEX");
         case uREL:
-            return QString::fromUtf8("μtREL");
+            return QString::fromUtf8("μtREEX");
         default:
             return QString("???");
         }
@@ -84,22 +84,22 @@ QString BitcoinUnits::description(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case REL:
-            return QString(REEX);
+            return QString("REEX");
         case mREL:
-            return QString("Milli-REL (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-REEX (1 / 1" THIN_SP_UTF8 "000)");
         case uREL:
-            return QString("Micro-REL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-REEX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case REL:
-            return QString("TestRELs");
+            return QString("TestREEXs");
         case mREL:
-            return QString("Milli-TestREL (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-TestREEX (1 / 1" THIN_SP_UTF8 "000)");
         case uREL:
-            return QString("Micro-TestREL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-TestREEX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
