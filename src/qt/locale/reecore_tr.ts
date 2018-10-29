@@ -172,8 +172,8 @@
         <translation>cüzdan şifREEXemesini onayla</translation>
     </message>
     <message>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
-        <translation>reecore şifREEXeme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifREEXemenin, REEX'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore şifREEXeme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifREEXemenin, REEX'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -385,6 +385,6 @@
     </message>
     </context>
 <context>
-    <name>reecore-core</name>
+    <name>Reecore-core</name>
     </context>
 </TS>

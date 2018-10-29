@@ -168,8 +168,8 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
-        <translation>reecore zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw REEXs stelen.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw REEXs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -590,16 +590,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Kern</translation>
+        <source>ReeCore</source>
+        <translation>Reecore Kern</translation>
     </message>
     <message>
         <source>Send coins to a REEX address</source>
         <translation>Verstuur munten naar een REEX adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reecore: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en reecore: URI's)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en Reecore: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,16 +610,16 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About reecore Core</source>
-        <translation>&amp;Over reecore Kern</translation>
+        <source>&amp;About ReeCore</source>
+        <translation>&amp;Over Reecore Kern</translation>
     </message>
     <message>
-        <source>Show information about reecore Core</source>
-        <translation>Toon informatie over reecore Kern</translation>
+        <source>Show information about ReeCore</source>
+        <translation>Toon informatie over Reecore Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for reecore</source>
-        <translation>Wijzig reecore configuratie opties</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>Wijzig Reecore configuratie opties</translation>
     </message>
     <message>
         <source>Sign messages with your REEX addresses to prove you own them</source>
@@ -658,8 +658,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a reecore: URI or payment request</source>
-        <translation>Open een reecore: URI of betaalverzoek</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Open een Reecore: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>reecore Core client</source>
-        <translation>reecore Core client</translation>
+        <source>ReeCore client</source>
+        <translation>ReeCore client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to reecore network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het reecore netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het reecore netwerk</numerusform></translation>
+        <source>%n active connection(s) to Reecore network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het Reecore netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Reecore netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -817,8 +817,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reecore.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (reecore.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (Reecore.conf).</translation>
     </message>
 </context>
 <context>
@@ -1064,16 +1064,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Kern</translation>
+        <source>ReeCore</source>
+        <translation>Reecore Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About reecore Core</source>
-        <translation>Over reecore Core</translation>
+        <source>About ReeCore</source>
+        <translation>Over ReeCore</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1103,16 +1103,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to reecore Core.</source>
-        <translation>Welkom bij reecore Core</translation>
+        <source>Welcome to ReeCore.</source>
+        <translation>Welkom bij ReeCore</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Kern</translation>
+        <source>ReeCore</source>
+        <translation>Reecore Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1309,20 +1309,20 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start reecore after logging in to the system.</source>
-        <translation>reecore automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start Reecore after logging in to the system.</source>
+        <translation>Reecore automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start reecore on system login</source>
-        <translation>&amp;reecore starten bij systeemlogin</translation>
+        <source>&amp;Start Reecore on system login</source>
+        <translation>&amp;Reecore starten bij systeemlogin</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting reecore.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van reecore.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Reecore.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Reecore.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1675,8 +1675,8 @@ MultiSend: %1</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the reecore RPC console.</source>
-        <translation>Welkom bij de reecore RPC console.</translation>
+        <source>Welcome to the Reecore RPC console.</source>
+        <translation>Welkom bij de Reecore RPC console.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2081,8 +2081,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>reecore Core is shutting down...</source>
-        <translation>reecore Core is aan het afsluiten...</translation>
+        <source>ReeCore is shutting down...</source>
+        <translation>ReeCore is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2211,8 +2211,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Kern</translation>
+        <source>ReeCore</source>
+        <translation>Reecore Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2231,8 +2231,8 @@ MultiSend: %1</translation>
         <translation>De PIVX Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The reecore Core developers</source>
-        <translation>De reecore Core ontwikkelaars</translation>
+        <source>The ReeCore developers</source>
+        <translation>De ReeCore ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2583,7 +2583,7 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>reecore-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>
@@ -2625,8 +2625,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The reecore Core Developers</source>
-        <translation>Copyright (C) 2017-%i The reecore Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2017-%i The ReeCore Developers</source>
+        <translation>Copyright (C) 2017-%i The ReeCore Ontwikkelaars</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>

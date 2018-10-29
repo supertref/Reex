@@ -216,7 +216,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -801,7 +801,7 @@
     <message>
         <location line="-427"/>
         <location line="+890"/>
-        <source>reecore Core</source>
+        <source>ReeCore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -811,7 +811,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and reecore: URIs)</source>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -831,17 +831,17 @@
     </message>
     <message>
         <location line="+31"/>
-        <source>&amp;About reecore Core</source>
+        <source>&amp;About ReeCore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about reecore Core</source>
+        <source>Show information about ReeCore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for reecore</source>
+        <source>Modify configuration options for Reecore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -891,7 +891,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Open a reecore: URI or payment request</source>
+        <source>Open a Reecore: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -906,17 +906,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the reecore Core help message to get a list with possible reecore command-line options</source>
+        <source>Show the ReeCore help message to get a list with possible Reecore command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+214"/>
-        <source>reecore Core client</source>
+        <source>ReeCore client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+212"/>
-        <source>%n active connection(s) to reecore network</source>
+        <source>%n active connection(s) to Reecore network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1112,7 +1112,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+476"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reecore.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1537,7 +1537,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>reecore Core</source>
+        <source>ReeCore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1548,7 +1548,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About reecore Core</source>
+        <source>About ReeCore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1606,17 +1606,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to reecore Core.</source>
+        <source>Welcome to ReeCore.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where reecore Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where ReeCore will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>reecore Core will download and store a copy of the reecore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>ReeCore will download and store a copy of the Reecore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1631,7 +1631,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>reecore Core</source>
+        <source>ReeCore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2238,7 +2238,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the reecore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Reecore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2263,12 +2263,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-176"/>
-        <source>Automatically start reecore after logging in to the system.</source>
+        <source>Automatically start Reecore after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start reecore on system login</source>
+        <source>&amp;Start Reecore on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2303,7 +2303,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting reecore.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Reecore.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2313,7 +2313,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+114"/>
-        <source>Connect to the reecore network through a SOCKS5 proxy.</source>
+        <source>Connect to the Reecore network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2512,7 +2512,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-153"/>
         <location line="+1393"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the reecore network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reecore network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2645,7 +2645,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start reecore: click-to-pay handler</source>
+        <source>Cannot start Reecore: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2953,7 +2953,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the reecore debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Reecore debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3180,7 +3180,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the reecore RPC console.</source>
+        <source>Welcome to the Reecore RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3296,12 +3296,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the reecore network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reecore network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the reecore network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reecore network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3665,7 +3665,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for reecore transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Reecore transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3969,7 +3969,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the reecore: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the reecore network.</source>
+        <source>A message that was attached to the Reecore: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reecore network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4004,7 +4004,7 @@ p, li { white-space: pre-wrap; }
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>reecore Core is shutting down...</source>
+        <source>ReeCore is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4199,7 +4199,7 @@ p, li { white-space: pre-wrap; }
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>reecore Core</source>
+        <source>ReeCore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4224,7 +4224,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+1"/>
-        <source>The reecore Core developers</source>
+        <source>The ReeCore developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4935,9 +4935,9 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>reecore-core</name>
+    <name>Reecore-core</name>
     <message>
-        <location filename="../reecorestrings.cpp" line="+15"/>
+        <location filename="../Reecorestrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -4968,7 +4968,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot obtain a lock on data directory %s. reecore Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. ReeCore is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5153,22 +5153,22 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+4"/>
-        <source>To use reecored, or the -server option to reecore-qt, you must set an rpcpassword in the configuration file:
+        <source>To use Reecored, or the -server option to Reecore-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=reecorerpc
+rpcuser=Reecorerpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Reecore Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. reecore Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. ReeCore is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5193,7 +5193,7 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong reecore Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ReeCore will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5378,7 +5378,7 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2017-%i The reecore Core Developers</source>
+        <source>Copyright (C) 2017-%i The ReeCore Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5488,7 +5488,7 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of reecore Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of ReeCore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5628,7 +5628,7 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. reecore Core is shutting down.</source>
+        <source>Initialization sanity check failed. ReeCore is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5745,7 +5745,7 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+38"/>
-        <source>Disable all reecore specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all Reecore specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6420,7 +6420,7 @@ for example: alertnotify=echo %%s | mail -s &quot;reecore Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart reecore Core to complete</source>
+        <source>Wallet needed to be rewritten: restart ReeCore to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

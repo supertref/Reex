@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>reecore</source>
-        <translation>reecore</translation>
+        <source>Reecore</source>
+        <translation>Reecore</translation>
     </message>
     <message>
-        <source>&amp;About reecore</source>
-        <translation>&amp;Sobre reecore</translation>
+        <source>&amp;About Reecore</source>
+        <translation>&amp;Sobre Reecore</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     <message>
-        <source>About reecore Core</source>
-        <translation>Sobre reecore Core</translation>
+        <source>About ReeCore</source>
+        <translation>Sobre ReeCore</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to reecore Core.</source>
-        <translation>Benvingut a reecore Core.</translation>
+        <source>Welcome to ReeCore.</source>
+        <translation>Benvingut a ReeCore.</translation>
     </message>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1101,8 +1101,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1253,7 +1253,7 @@
     </message>
     </context>
 <context>
-    <name>reecore-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

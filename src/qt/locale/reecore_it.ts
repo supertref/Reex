@@ -172,8 +172,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
-        <translation>reecore verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi REEX dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi REEX dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -586,16 +586,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     <message>
         <source>Send coins to a REEX address</source>
         <translation>Invia monete all'indirizzo REEX</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reecore: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e reecore: URIs)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e Reecore: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,16 +606,16 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About reecore Core</source>
-        <translation>&amp;Informazioni reecore Core</translation>
+        <source>&amp;About ReeCore</source>
+        <translation>&amp;Informazioni ReeCore</translation>
     </message>
     <message>
-        <source>Show information about reecore Core</source>
-        <translation>Visualizza informazioni su reecore Core</translation>
+        <source>Show information about ReeCore</source>
+        <translation>Visualizza informazioni su ReeCore</translation>
     </message>
     <message>
-        <source>Modify configuration options for reecore</source>
-        <translation>Modifica le opzioni di configurazione per reecore</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>Modifica le opzioni di configurazione per Reecore</translation>
     </message>
     <message>
         <source>Sign messages with your REEX addresses to prove you own them</source>
@@ -634,16 +634,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a reecore: URI or payment request</source>
-        <translation>Apri un reecore: URI o richiesta di pagamento</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Apri un Reecore: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the reecore Core help message to get a list with possible reecore command-line options</source>
-        <translation>Mostra il messaggio di aiuto reecore Core per ottenere un elenco con le possibili opzioni di riga di comando reecore</translation>
+        <source>Show the ReeCore help message to get a list with possible Reecore command-line options</source>
+        <translation>Mostra il messaggio di aiuto ReeCore per ottenere un elenco con le possibili opzioni di riga di comando Reecore</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -745,8 +745,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reecore.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (reecore.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (Reecore.conf)</translation>
     </message>
 </context>
 <context>
@@ -880,8 +880,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -907,8 +907,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>reecore-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

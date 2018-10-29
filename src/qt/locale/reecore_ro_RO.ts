@@ -177,6 +177,6 @@
     </message>
     </context>
 <context>
-    <name>reecore-core</name>
+    <name>Reecore-core</name>
     </context>
 </TS>

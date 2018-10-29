@@ -172,8 +172,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
-        <translation>reecore sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše REEX pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>Reecore sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše REEX pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -594,16 +594,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     <message>
         <source>Send coins to a REEX address</source>
         <translation>Odoslať mince na adresu REEX</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reecore: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a reecore: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and Reecore: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a Reecore: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,16 +614,16 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About reecore Core</source>
-        <translation>O reecore Core</translation>
+        <source>&amp;About ReeCore</source>
+        <translation>O ReeCore</translation>
     </message>
     <message>
-        <source>Show information about reecore Core</source>
-        <translation>Zobraziť informácie o reecore Core</translation>
+        <source>Show information about ReeCore</source>
+        <translation>Zobraziť informácie o ReeCore</translation>
     </message>
     <message>
-        <source>Modify configuration options for reecore</source>
-        <translation>Zmeňte možnosti konfigurácie pre reecore</translation>
+        <source>Modify configuration options for Reecore</source>
+        <translation>Zmeňte možnosti konfigurácie pre Reecore</translation>
     </message>
     <message>
         <source>Sign messages with your REEX addresses to prove you own them</source>
@@ -662,8 +662,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a reecore: URI or payment request</source>
-        <translation>Otvorte reecore: URI alebo žiadosť o platbu</translation>
+        <source>Open a Reecore: URI or payment request</source>
+        <translation>Otvorte Reecore: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,12 +674,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the reecore Core help message to get a list with possible reecore command-line options</source>
-        <translation>Zobraziť pomocnú správu programu reecore Core a získajte zoznam možností príkazového riadka reecore</translation>
+        <source>Show the ReeCore help message to get a list with possible Reecore command-line options</source>
+        <translation>Zobraziť pomocnú správu programu ReeCore a získajte zoznam možností príkazového riadka Reecore</translation>
     </message>
     <message>
-        <source>reecore Core client</source>
-        <translation>reecore Core klient</translation>
+        <source>ReeCore client</source>
+        <translation>ReeCore klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reecore.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (reecore.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (Reecore.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -900,15 +900,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>reecore Core</source>
-        <translation>reecore Core</translation>
+        <source>ReeCore</source>
+        <translation>ReeCore</translation>
     </message>
     </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>reecore-core</name>
+    <name>Reecore-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>
