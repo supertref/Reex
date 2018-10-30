@@ -109,7 +109,7 @@ public:
         nMaxMoneyOut = 55000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 1000;
+        nLastPOWBlock = 200;
         nModifierUpdateBlock = 1;
 
         //  nTime: 1531169926
@@ -170,7 +170,7 @@ public:
         nPoolMaxTransactions = 3;
         strSporkKey = "04cc17389379a0e323f53ea504d38cd71f43dc22f597805fed33a51b05ced1a3ae0db84089985f351b3737721736a82f58c8bd529f79c8ffe57e922bda792146ab";
         strMasternodePoolDummyAddress = "SsJVWUkt6HtSCY2SaJ2akeyJUg8bg1hW3S";
-        nStartMasternodePayments = genesis.nTime + (86400*7); // one week after genesis creation
+        nStartMasternodePayments = genesis.nTime + (3600); // one week after genesis creation
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
     }
