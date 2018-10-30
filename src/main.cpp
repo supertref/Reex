@@ -1619,8 +1619,8 @@ int64_t GetBlockValue(int nHeight)
     int64_t nSubsidy = 0;
 
     if (nHeight == 1)                                { nSubsidy = 3000000 * COIN;  }
-    if (nHeight > 1 && nHeight <= 1000)              { nSubsidy = 0 * COIN;  }
-    if (nHeight >= 1001 && nHeight <= 530201)        { nSubsidy = 20 * COIN; }
+    if (nHeight > 1 && nHeight <= 130)               { nSubsidy = 0 * COIN;  }
+    if (nHeight >= 131 && nHeight <= 530201)         { nSubsidy = 20 * COIN; }
     if (nHeight >= 530202 && nHeight <= 1055801)     { nSubsidy = 16 * COIN; }
     if (nHeight >= 1055802 && nHeight <= 1581401)    { nSubsidy = 14 * COIN; }
     if (nHeight >= 1581402 && nHeight <= 2107001)    { nSubsidy = 12 * COIN; }
@@ -1644,7 +1644,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         return 0;
 
     // Check if we reached coin supply
-    if (nHeight >= 1001 && nHeight <= 10801)       { ret = blockValue * 0.5;  }
+    if (nHeight >= 131 && nHeight <= 10801)       { ret = blockValue * 0.5;  }
     if (nHeight >= 10802 && nHeight <= 140401)     { ret = blockValue * 0.6;  }
     if (nHeight >= 140402 && nHeight <= 270001)    { ret = blockValue * 0.65; }
     if (nHeight >= 270002 && nHeight <= 399601)    { ret = blockValue * 0.7;  }
