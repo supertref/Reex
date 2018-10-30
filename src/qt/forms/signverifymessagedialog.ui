@@ -48,7 +48,7 @@
          <item>
           <widget class="QValidatedLineEdit" name="addressIn_SM">
            <property name="toolTip">
-            <string>The REL address to sign the message with</string>
+            <string>The REEX address to sign the message with</string>
            </property>
           </widget>
          </item>
@@ -102,7 +102,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="signatureLabel_SM">
+        <widget class="QLabel" name="signatuREEXabel_SM">
          <property name="text">
           <string>Signature</string>
          </property>
@@ -152,7 +152,7 @@
          <item>
           <widget class="QPushButton" name="signMessageButton_SM">
            <property name="toolTip">
-            <string>Sign the message to prove you own this REL address</string>
+            <string>Sign the message to prove you own this REEX address</string>
            </property>
            <property name="text">
             <string>Sign &amp;Message</string>
@@ -258,7 +258,7 @@
          <item>
           <widget class="QValidatedLineEdit" name="addressIn_VM">
            <property name="toolTip">
-            <string>The REL address the message was signed with</string>
+            <string>The REEX address the message was signed with</string>
            </property>
           </widget>
          </item>
@@ -295,7 +295,7 @@
          <item>
           <widget class="QPushButton" name="verifyMessageButton_VM">
            <property name="toolTip">
-            <string>Verify the message to ensure it was signed with the specified REL address</string>
+            <string>Verify the message to ensure it was signed with the specified REEX address</string>
            </property>
            <property name="text">
             <string>Verify &amp;Message</string>
