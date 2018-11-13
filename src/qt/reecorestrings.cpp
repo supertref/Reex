@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("reecore-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("reecore-core", ""
-"Cannot obtain a lock on data directory %s. reecore Core is probably already "
+"Cannot obtain a lock on data directory %s. ReeCore is probably already "
 "running."),
 QT_TRANSLATE_NOOP("reecore-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -291,7 +291,7 @@ QT_TRANSLATE_NOOP("reecore-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("reecore-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("reecore-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("reecore-core", "Information"),
-QT_TRANSLATE_NOOP("reecore-core", "Initialization sanity check failed. reecore Core is shutting down."),
+QT_TRANSLATE_NOOP("reecore-core", "Initialization sanity check failed. ReeCore is shutting down."),
 QT_TRANSLATE_NOOP("reecore-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("reecore-core", "Insufficient funds"),
 QT_TRANSLATE_NOOP("reecore-core", "Insufficient funds."),
