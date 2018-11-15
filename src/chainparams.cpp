@@ -92,7 +92,7 @@ public:
         pchMessageStart[0] = 0x01;
         pchMessageStart[1] = 0xf3;
         pchMessageStart[2] = 0x02;
-        pchMessageStart[3] = 0xf4;
+        pchMessageStart[3] = 0xa4;
         vAlertPubKey = ParseHex("");
         nDefaultPort = 43210;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
