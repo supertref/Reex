@@ -116,7 +116,7 @@ public:
         //  nNonce: 474276
         //  Hash: 00000d6274a0459bc63c3b7ad6c03614bed636e2c43e10b466c553d03bb56ecc
         //  hashMerkleRoot: d356f4e8178a28f1ad5f15738db447731b86ca1a9a620ff8358fa607252f2220
-        const char* pszTimestamp = "reliance mainnet july2018";
+        const char* pszTimestamp = "reecore mainnet nov2018";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -127,14 +127,14 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1531169926;
+        genesis.nTime = 1542907235;
         genesis.nBits = 0x1e0ffff0;  // 00000ffff0000000000000000000000000000000000000000000000000000000
-        genesis.nNonce = 474276;
+        genesis.nNonce = 347336;
         hashGenesisBlock = genesis.GetHash();
 
         if (genesis.nNonce != 0) {
-           assert(hashGenesisBlock == uint256("0x00000d6274a0459bc63c3b7ad6c03614bed636e2c43e10b466c553d03bb56ecc"));
-           assert(genesis.hashMerkleRoot == uint256("0xd356f4e8178a28f1ad5f15738db447731b86ca1a9a620ff8358fa607252f2220"));
+           assert(hashGenesisBlock == uint256("0x00000c1b8abb8755561c46ea298cf725c940ca71409f7024bc3ad82fdb1bdc7f"));
+           assert(genesis.hashMerkleRoot == uint256("0x71db3668e0435a23f1222acfcc186b84699bc1f9da54dcbb3cff6bf04dbc04af"));
         }
 
         if (genesis.nNonce == 0) {
