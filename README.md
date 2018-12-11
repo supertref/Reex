@@ -16,11 +16,11 @@ ReeCore is fork of Pivx, improved with some of the following features:
 
 The project is leaded by 5 members: (telegram)
 
-@Cryptowaker: Team leader
-@CryptoExtrem: Social manager
-@saajan4: Community leader
-@Wundef: Marketing developer
-@dacapel: Core developer
+- @Cryptowaker: Team leader
+- @CryptoExtrem: Social manager
+- @saajan4: Community leader
+- @Wundef: Marketing developer
+- @dacapel: Core developer
 
 ReeCore Specifications:
 
