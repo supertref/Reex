@@ -25,21 +25,13 @@ The project is leaded by 5 members:
 ReeCore Specifications:
 
 - Type: POS + MASTERNODE
-
 - Ticker: REEX
-
 - Block time: 90 seconds
-
 - Block size: 3 MB
-
 - Transaction confirmation: 15 blocks
-
 - Min Stake: 10 hours
-
 - Max Supply: 21 Millions
-
-- Swap Supply: 1 Million 
- 
+- Swap Supply: 1 Million  
 - Premined amount: 240.000 REEX (0.11% premined aprox)
 
 ReeCore Rewards:
@@ -66,4 +58,32 @@ POS Rewards:
 	850.000> block < 900.000: 5 REEX
 	900.000> block < 950.000: 4 REEX
 	950.000> block: 2 REEX
+```
+- Masternode amount: 1.000 REEX
+
+- Masternode Governance: 
+
+```
+   	      0> block <= 200: 0.10% //Preparing last pow block
+	    200> block <= 50.000:  0.70%
+ 	50.000> block  <= 100.000: 0.71%
+        100.000> block <= 150.000: 0.73%
+	150.000> block <= 200.000: 0.73%
+	200.000> block <= 250.000: 0.74%
+	250.000> block <= 300.000: 0.75%
+	300.000> block <= 350.000: 0.76%
+	350.000> block <= 400.000: 0.77%
+	400.000> block <= 450.000: 0.78%
+	450.000> block <= 500.000: 0.79%
+	500.000> block <= 550.000: 0.80%
+	550.000> block <= 600.000: 0.81%
+	600.000> block <= 650.000: 0.82%
+ 	650.000> block <= 700.000: 0.83%
+	700.000> block <= 750.000: 0.84%
+	750.000> block <= 800.000: 0.85%
+	800.000> block <= 850.000: 0.86%
+	850.000> block <= 900.000: 0.87%
+	900.000> block <= 950.000: 0.88%
+	950.000> block:	0.90%
+
 ```
