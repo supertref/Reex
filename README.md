@@ -14,13 +14,13 @@ ReeCore is fork of Pivx, improved with some of the following features:
 - Low transaction fee
 
 
-The project is leaded by 5 members: 
+The project is leaded by 5 members: (telegram)
 
-- @Cryptowaker: Team leader
-- @CryptoExtrem: Social manager
-- @saajan4: Community leader
-- @Wundef: Marketing developer
-- @dacapel: Core developer
+@Cryptowaker: Team leader
+@CryptoExtrem: Social manager
+@saajan4: Community leader
+@Wundef: Marketing developer
+@dacapel: Core developer
 
 ReeCore Specifications:
 
@@ -33,6 +33,8 @@ ReeCore Specifications:
 - Max Supply: 21 Millions
 - Swap Supply: 1 Million  
 - Premined amount: 240.000 REEX (0.11% premined aprox)
+- Masternode amount: 1.000 REEX
+
 
 ReeCore Rewards:
 
@@ -59,9 +61,8 @@ POS Rewards:
 	900.000> block < 950.000: 4 REEX
 	950.000> block: 2 REEX
 ```
-- Masternode amount: 1.000 REEX
 
-- Masternode Governance: 
+Masternode Governance: 
 
 ```
    	      0> block <= 200: 0.10% //Preparing last pow block
