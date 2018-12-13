@@ -20,7 +20,7 @@ The project is leaded by 5 members: (telegram)
 - @CryptoExtrem: Social manager
 - @saajan4: Community leader
 - @Wundef: Marketing developer
-- @dacapel: Core developer
+- @lanoes: Core developer
 
 ReeCore Specifications:
 
