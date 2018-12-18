@@ -96,4 +96,5 @@ cd Reex
 ./configure --disable-tests
 make -j2 (2 is must be changed for number os Cpus that have VPS)
 cd src
+strip reecoredd reecore-cli
 ./reecoredd -daemon
