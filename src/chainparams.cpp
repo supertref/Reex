@@ -132,19 +132,9 @@ public:
         genesis.nNonce = 347336;
         hashGenesisBlock = genesis.GetHash();
 
-        if (genesis.nNonce != 0) {
            assert(hashGenesisBlock == uint256("0x00000c1b8abb8755561c46ea298cf725c940ca71409f7024bc3ad82fdb1bdc7f"));
            assert(genesis.hashMerkleRoot == uint256("0x71db3668e0435a23f1222acfcc186b84699bc1f9da54dcbb3cff6bf04dbc04af"));
-        }
-
-        if (genesis.nNonce == 0) {
-           for(genesis.nNonce == 0; genesis.GetHash() > bnProofOfWorkLimit; genesis.nNonce++){ } 
-           printf("  nTime: %u\n", genesis.nTime);
-           printf("  nNonce: %u\n", genesis.nNonce);
-           printf("  Hash: %s\n", genesis.GetHash().ToString().c_str());
-           printf("  hashMerkleRoot: %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        } 
-
+        
         //vSeeds.push_back(CDNSSeedData("", ""));
           
           vSeeds.push_back(CDNSSeedData("173.249.1.107", "173.249.1.107"));  
