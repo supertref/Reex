@@ -36,7 +36,7 @@ ReeCore Specifications:
 - Masternode amount: 1.000 REEX
 
 
-ReeCore Rewards:
+# ReeCore Rewards:
 
 POS Rewards:
 ```
@@ -89,6 +89,7 @@ Masternode Governance:
 
 ```
 # Debian/Ubuntu Linux Daemon Build Instructions
+
 ```
 git clone https://github.com/Hser2bio/Reex.git
 cd Reex
