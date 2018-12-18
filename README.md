@@ -36,7 +36,7 @@ ReeCore Specifications:
 - Masternode amount: 1.000 REEX
 
 
-# ReeCore Rewards:
+ReeCore Rewards:
 
 POS Rewards:
 ```
