@@ -88,3 +88,12 @@ Masternode Governance:
 	950.000> block:	0.90%
 
 ```
+Debian/Ubuntu Linux Daemon Build Instructions
+```
+git clone https://github.com/Hser2bio/Reex.git
+cd Reex
+./autogen.sh
+./configure --disable-tests
+make -j2 (2 is must be changed for number os Cpus that have VPS)
+cd src
+./reecoredd -daemon
