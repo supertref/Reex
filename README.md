@@ -88,7 +88,7 @@ Masternode Governance:
 	950.000> block:	0.90%
 
 ```
-Debian/Ubuntu Linux Daemon Build Instructions
+# Debian/Ubuntu Linux Daemon Build Instructions
 ```
 git clone https://github.com/Hser2bio/Reex.git
 cd Reex
