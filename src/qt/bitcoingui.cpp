@@ -414,8 +414,8 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     quitAction->setStatusTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(networkStyle->getAppIcon(), tr("&About reecore Core"), this);
-    aboutAction->setStatusTip(tr("Show information about reecore Core"));
+    aboutAction = new QAction(networkStyle->getAppIcon(), tr("&About ReeCore"), this);
+    aboutAction->setStatusTip(tr("Show information about ReeCore"));
     aboutAction->setMenuRole(QAction::AboutRole);
 #if QT_VERSION < 0x050000
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
@@ -486,7 +486,7 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
 
     showHelpMessageAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_MessageBoxInformation), tr("&Command-line options"), this);
     showHelpMessageAction->setMenuRole(QAction::NoRole);
-    showHelpMessageAction->setStatusTip(tr("Show the reecore Core help message to get a list with possible reecore command-line options"));
+    showHelpMessageAction->setStatusTip(tr("Show the ReeCore help message to get a list with possible reecore command-line options"));
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutClicked()));
@@ -1035,7 +1035,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
 void BitcoinGUI::message(const QString& title, const QString& message, unsigned int style, bool* ret)
 {
-    QString strTitle = tr("reecore Core"); // default title
+    QString strTitle = tr("ReeCore"); // default title
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
