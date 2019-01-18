@@ -1,48 +1,51 @@
-Multiwallet Qt Development and Integration Strategy
+Masternode Linux Creation
 ===================================================
+# Debian/Ubuntu Linux Masternode Build Instructions: 
 
-In order to support loading of multiple wallets in reecore-qt, a few changes in the UI architecture will be needed.
-Fortunately, only four of the files in the existing project are affected by this change.
+before this you need runing daemon in linux, you can make following this instructions: https://github.com/Hser2bio/Reex#debianubuntu-linux-daemon-build-instructions
 
-Two new classes have been implemented in two new .h/.cpp file pairs, with much of the functionality that was previously
-implemented in the BitcoinGUI class moved over to these new classes.
+In windows wallet go to console and type: 
+```
+getnewaddress MN1
+```
+take this address and send exact 1000 reexs, when is confirmed atleast with 1 confirmations, type in console:
+```
+masternode genkey 
+masternode outputs
+```
+take note of this info in txt, later we will need. 
 
-The two existing files most affected, by far, are bitcoingui.h and bitcoingui.cpp, as the BitcoinGUI class will require
-some major retrofitting.
+In linux, stop daemon:
+```
+./reecore-cli stop
+```
+now we need modify daemon conf:
+```
+cd .Reecore
+nano Reecore.conf
+```
+need add this info in your reecore.conf
+```
+rpcuser=xxxx
+rpcpassword=xxxx
+rpcallowip=127.0.0.1
+listen=1
+server=1
+daemon=1
+logintimestamps=1
+maxconnections=256
+masternode=1
+externalip=yourvpsIP:3010
+masternodeprivkey=xxxxxxxxxxxxxxxxx (that you get in windows console)
+```
+now we come back to windows wallet, go to tools, and open masternode conf file and add:
+```
+MN1 IP:PORT masternodekey masternodeouputs txnumber
+EXAMPLE: 38.25.122.251:31000 7NEGGttKZojkAzViEYXXXxKTFdAtC2uSiMg8NSFqYVBtN6mYdU 7a1ebb4baadf9ff39bbbfc2d58fd57ff15b65a5096069c8XXX3fb4cb5c 1
+```
+save masternode conf file reopen wallet and in masternode section type START ALL
 
-Only requiring some minor changes is reecore.cpp.
+need atleast 22 blocks to be confirmed and start to work
 
-Finally, two new headers and source files will have to be added to bitcoin-qt.pro.
 
-Changes to class BitcoinGUI
----------------------------
-The principal change to the BitcoinGUI class concerns the QStackedWidget instance called centralWidget.
-This widget owns five page views: overviewPage, transactionsPage, addressBookPage, receiveCoinsPage, and sendCoinsPage.
 
-A new class called *WalletView* inheriting from QStackedWidget has been written to handle all renderings and updates of
-these page views. In addition to owning these five page views, a WalletView also has a pointer to a WalletModel instance.
-This allows the construction of multiple WalletView objects, each rendering a distinct wallet.
-
-A second class called *WalletFrame* inheriting from QFrame has been written as a container for embedding all wallet-related
-controls into BitcoinGUI. At present it contains the WalletView instances for the wallets and does little more than passing on messages
-from BitcoinGUI to the currently selected WalletView. It is a WalletFrame instance
-that takes the place of what used to be centralWidget in BitcoinGUI. The purpose of this class is to allow future
-refinements of the wallet controls with minimal need for further modifications to BitcoinGUI, thus greatly simplifying
-merges while reducing the risk of breaking top-level stuff.
-
-Changes to reecore.cpp
-----------------------
-reecore.cpp is the entry point into reecore-qt, and as such, will require some minor modifications to provide hooks for
-multiple wallet support. Most importantly will be the way it instantiates WalletModels and passes them to the
-singleton BitcoinGUI instance called window. Formerly, BitcoinGUI kept a pointer to a single instance of a WalletModel.
-The initial change required is very simple: rather than calling `window.setWalletModel(&walletModel);` we perform the
-following two steps:
-
-	window.addWallet("~Default", &walletModel);
-	window.setCurrentWallet("~Default");
-
-The string parameter is just an arbitrary name given to the default wallet. It's been prepended with a tilde to avoid name collisions in the future with additional wallets.
-
-The shutdown call `window.setWalletModel(0)` has also been removed. In its place is now:
-
-window.removeAllWallets();
