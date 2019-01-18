@@ -1,8 +1,8 @@
-Masternode Linux Creation
-===================================================
-# Debian/Ubuntu Linux Masternode Build Instructions: 
 
-before this you need runing daemon in linux, you can make following this instructions: https://github.com/Hser2bio/Reex#debianubuntu-linux-daemon-build-instructions
+# Debian/Ubuntu Linux Masternode Build Instructions: 
+===================================================
+
+Before this you need runing headless daemon in linux, you can make following this instructions: https://github.com/Hser2bio/Reex#debianubuntu-linux-daemon-build-instructions
 
 In windows wallet go to console and type: 
 ```
