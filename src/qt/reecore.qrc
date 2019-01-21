@@ -30,6 +30,7 @@
         <file alias="bitcoin_testnet">res/icons/bitcoin_testnet.png</file>
         <file alias="edit">res/icons/edit.png</file>
         <file alias="history">res/icons/history.png</file>
+        <file alias="explorer">res/icons/explorer.png</file>
         <file alias="history_active">res/icons/history_active.png</file>
         <file alias="overview">res/icons/overview.png</file>
         <file alias="overview_active">res/icons/overview_active.png</file>
