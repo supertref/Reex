@@ -55,16 +55,17 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000c1b8abb8755561c46ea298cf725c940ca71409f7024bc3ad82fdb1bdc7f"));
-    (500, uint256("0xa41b51720be8443abaf9445d1f80e8137d8834fd394dd9665ac107606d5428dc"));
-    (3500, uint256("0xdb2a3cbeb8a5d101893a2d2e6f19dc11bc96dd9e635267ef6b29909d46c15e43"));
-    (15000, uint256("0x108dc0938f6285a53d074b9c2a803ade651102e8c9587970d014d7bf8d559944"));
-    (28000, uint256("0x8d5cca7aceb236db91018887aa0df5f51ce4b06cc70ea656d8321bc804fda6cf"));
-    (62000, uint256("0x03d938fb7b372b34ae710631b9e716d8f2687457938635f544d5b01b53954ae3")); 
-    (79000, uint256("0xe5d9136fe32f26ff0d6a23b31bcf84dfaa7a1ecd242e6cf224aaded3895e67bf"));
-    (95000, uint256("0xb7bde5d0a8a224cf0766113774452c64f430fff7336f527ef3e3a4cb6057ae38"));
-    (122000, uint256("0x6f07dd05a2281613c63121281bbaa68b7248a40a58c251af6924feeb8c8ca89d"));
+    (0, uint256("0x00000c1b8abb8755561c46ea298cf725c940ca71409f7024bc3ad82fdb1bdc7f"))
+    (500, uint256("0xa41b51720be8443abaf9445d1f80e8137d8834fd394dd9665ac107606d5428dc"))
+    (3500, uint256("0xdb2a3cbeb8a5d101893a2d2e6f19dc11bc96dd9e635267ef6b29909d46c15e43"))
+    (15000, uint256("0x108dc0938f6285a53d074b9c2a803ade651102e8c9587970d014d7bf8d559944"))
+    (28000, uint256("0x8d5cca7aceb236db91018887aa0df5f51ce4b06cc70ea656d8321bc804fda6cf"))
+    (62000, uint256("0x03d938fb7b372b34ae710631b9e716d8f2687457938635f544d5b01b53954ae3"))
+    (79000, uint256("0xe5d9136fe32f26ff0d6a23b31bcf84dfaa7a1ecd242e6cf224aaded3895e67bf"))
+    (95000, uint256("0xb7bde5d0a8a224cf0766113774452c64f430fff7336f527ef3e3a4cb6057ae38"))
+    (122000, uint256("0x6f07dd05a2281613c63121281bbaa68b7248a40a58c251af6924feeb8c8ca89d"))
     (125500, uint256("0xf9f6972155d5390189b9e938e9ceb973acaa3e528c7dd3aedc89840b7e1c76bc"));
+
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     //1516926684, // * UNIX timestamp of last checkpoint block
