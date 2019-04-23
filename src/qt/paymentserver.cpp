@@ -409,7 +409,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
                     emit receivedPaymentRequest(recipient);
             } else
                 emit message(tr("URI handling"),
-                    tr("URI cannot be parsed! This can be caused by an invalid REL address or malformed URI parameters."),
+                    tr("URI cannot be parsed! This can be caused by an invalid REEX address or malformed URI parameters."),
                     CClientUIInterface::ICON_WARNING);
 
             return;
