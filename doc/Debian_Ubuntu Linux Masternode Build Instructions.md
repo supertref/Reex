@@ -35,7 +35,7 @@ daemon=1
 logintimestamps=1
 maxconnections=256
 masternode=1
-externalip=yourvpsIP:3010
+externalip=yourvpsIP:43210
 masternodeprivkey=xxxxxxxxxxxxxxxxx (that you get in windows console)
 ```
 now we come back to windows wallet, go to tools, and open masternode conf file and add:
