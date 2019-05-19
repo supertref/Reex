@@ -502,9 +502,9 @@ void RPCConsole::clear()
         "b { color: #006060; } ");
 
     message(CMD_REPLY, (tr("Welcome to the REEX RPC console.") + "<br>" +
-                      tr("Use up and down arrows to navigate history, and %1 to clear screen.").arg("<b>"+clsKey+"</b>") + 
-                        tr("Type <b>help</b> for an overview of available commands.") +
-                        "<br><span class=\"secwarning\"><br>" +
+                  tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + 
+                        tr("Type <b>help</b> for an overview of available commands.\n") + "<br>" +
+                        "<br><span class=\"secwarning\">" +
                         tr("WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.") +
                         "</span>"),
                         true);
