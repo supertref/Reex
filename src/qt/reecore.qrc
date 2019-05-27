@@ -63,7 +63,7 @@
         <file alias="default">res/css/default.css</file>
     </qresource>
     <qresource prefix="/images">
-        <file alias="reecore_logo_horizontal">res/images/reecore_logo_horizontal.png</file>
+        //<file alias="reecore_logo_horizontal">res/images/reecore_logo_horizontal.png</file>
         <file alias="about">res/images/about.png</file>
         <file alias="downArrow_small">res/images/downArrow_small_dark.png</file>
         <file alias="downArrow_small_white">res/images/downArrow_small.png</file>
