@@ -91,7 +91,7 @@ Masternode Governance:
 # Debian/Ubuntu Linux Daemon Build Instructions
 
 ```
-git clone https://github.com/Hser2bio/Reex.git
+git clone https://github.com/reecore-coin/Reex.git
 cd Reex
 ./autogen.sh
 ./configure --disable-tests
