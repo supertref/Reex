@@ -21,6 +21,7 @@ The project is leaded by 5 members: (telegram)
 - @saajan4: Community leader
 - @Wundef: Marketing developer
 - @lanoes: Core developer
+- @ZioFabry: Core developer
 
 ReeCore Specifications:
 
