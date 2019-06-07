@@ -1,3 +1,8 @@
+// Copyright (c) 2014-2016 The Dash Developers
+// Copyright (c) 2016-2017 The PIVX developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #ifndef MASTERNODELIST_H
 #define MASTERNODELIST_H
 
@@ -48,6 +53,7 @@ private:
 public Q_SLOTS:
     void updateMyMasternodeInfo(QString strAlias, QString strAddr, CMasternode* pmn);
     void updateMyNodeList(bool fForce = false);
+    void updateNodeList();
 
 Q_SIGNALS:
 
@@ -57,6 +63,13 @@ private:
     ClientModel* clientModel;
     WalletModel* walletModel;
     CCriticalSection cs_mnlistupdate;
+
+    // Protects tableWidgetMasternodes
+    CCriticalSection cs_mnlist;
+
+    // Protects tableWidgetMyMasternodes
+    CCriticalSection cs_mymnlist;
+
     QString strCurrentFilter;
 
 private Q_SLOTS:
@@ -66,5 +79,6 @@ private Q_SLOTS:
     void on_startMissingButton_clicked();
     void on_tableWidgetMyMasternodes_itemSelectionChanged();
     void on_UpdateButton_clicked();
+    void on_filterLineEdit_textChanged(const QString &strFilterIn);
 };
 #endif // MASTERNODELIST_H
