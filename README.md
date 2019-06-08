@@ -1,4 +1,4 @@
-# Reex
+# REEX
 
 ReeCore is a peer-to-peer decentralized digital currency for ordinary people, easy to use and acquire.
 
@@ -14,14 +14,17 @@ ReeCore is fork of Pivx, improved with some of the following features:
 - Low transaction fee
 
 
-The project is leaded by 5 members: (telegram)
+The project is leaded by 9 members: (Telegram/Discord)
 
 - @Cryptowaker: Team leader
 - @CryptoExtrem: Social manager
-- @saajan4: Community leader
+- @saajan4: Communication lead
+- @barjan0x: Communication Support
 - @Wundef: Marketing developer
 - @lanoes: Core developer
 - @ZioFabry: Core developer
+- @GreatDaneGH: Software developer
+- @ennybelly: Blockchain/web developer
 
 ReeCore Specifications:
 
