@@ -2,6 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2017-2019 The Reecore developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -313,6 +314,75 @@ void SendMoney(const CTxDestination& address, CAmount nValue, CWalletTx& wtxNew,
     }
     if (!pwalletMain->CommitTransaction(wtxNew, reservekey, (!fUseIX ? "tx" : "ix")))
         throw JSONRPCError(RPC_WALLET_ERROR, "Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.");
+}
+
+void SendMoneySC(const CScript scriptPubKeyIn, CAmount nValue, CWalletTx& wtxNew, bool fUseIX = false)
+{
+    // Check amount
+    if (nValue <= 0)
+        throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid amount");
+
+    if (nValue > pwalletMain->GetBalance())
+        throw JSONRPCError(RPC_WALLET_INSUFFICIENT_FUNDS, "Insufficient funds");
+
+    string strError;
+    if (pwalletMain->IsLocked()) {
+        strError = "Error: Wallet locked, unable to create transaction!";
+        LogPrintf("SendMoneySC() : %s", strError);
+        throw JSONRPCError(RPC_WALLET_ERROR, strError);
+    }
+
+    // get ScriptPubKey
+    CScript scriptPubKey = scriptPubKeyIn;
+
+    // Create and send the transaction
+    CReserveKey reservekey(pwalletMain);
+    CAmount nFeeRequired;
+    if (!pwalletMain->CreateTransaction(scriptPubKey, nValue, wtxNew, reservekey, nFeeRequired, strError, NULL, ALL_COINS, fUseIX, (CAmount)0)) {
+        if (nValue + nFeeRequired > pwalletMain->GetBalance())
+            strError = strprintf("Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!", FormatMoney(nFeeRequired));
+        LogPrintf("SendMoneySC() : %s\n", strError);
+        throw JSONRPCError(RPC_WALLET_ERROR, strError);
+    }
+
+    if (!pwalletMain->CommitTransaction(wtxNew, reservekey, (!fUseIX ? "tx" : "ix")))
+        throw JSONRPCError(RPC_WALLET_ERROR, "Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.");
+}
+
+UniValue burn(const UniValue& params, bool fHelp)
+{
+    if (!IsSporkActive(SPORK_20_ENABLE_BURN_FEATURE))
+        throw runtime_error("Burn feature not enable");
+
+    if (fHelp || params.size() < 1 || params.size() > 2)
+        throw runtime_error(
+            "burn <amount> [hex string]\n"
+            "This command is used to Burn DOGEC Coins \n"
+            "<amount> is a real and is rounded to the nearest 0.00000001"
+            + HelpRequiringPassphrase());
+
+    CScript scriptPubKey;
+
+    if (params.size() > 1) {
+        vector<unsigned char> data;
+        if (params[1].get_str().size() > 0){
+            data = ParseHexV(params[1], "data");
+        } else {
+            // Empty data is valid
+        }
+        scriptPubKey = CScript() << OP_RETURN << data;
+    } else {
+        scriptPubKey = CScript() << OP_RETURN;
+    }
+
+    // Amount
+    int64_t nAmount = AmountFromValue(params[0]);
+    CTxDestination address1;
+    CWalletTx wtx;
+    SendMoneySC(scriptPubKey, nAmount, wtx,false);
+
+    EnsureWalletIsUnlocked();
+    return wtx.GetHash().GetHex();
 }
 
 UniValue sendtoaddress(const UniValue& params, bool fHelp)
