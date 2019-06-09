@@ -81,10 +81,10 @@ QT_TRANSLATE_NOOP("reecore-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("reecore-core", ""
-"Fees (in REL/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in REEX/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("reecore-core", ""
-"Fees (in REL/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in REEX/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("reecore-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -168,7 +168,7 @@ QT_TRANSLATE_NOOP("reecore-core", ""
 "Unable to bind to %s on this computer. reecore Core is probably already running."),
 QT_TRANSLATE_NOOP("reecore-core", ""
 "Unable to locate enough funds for this transaction that are not equal 1000 "
-"REL."),
+"REEX."),
 QT_TRANSLATE_NOOP("reecore-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -276,7 +276,7 @@ QT_TRANSLATE_NOOP("reecore-core", "Failed to listen on any port. Use -listen=0 i
 QT_TRANSLATE_NOOP("reecore-core", "Failed to read block index"),
 QT_TRANSLATE_NOOP("reecore-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("reecore-core", "Failed to write block index"),
-QT_TRANSLATE_NOOP("reecore-core", "Fee (in REL/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("reecore-core", "Fee (in REEX/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("reecore-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("reecore-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("reecore-core", "Found enough users, signing ( waiting %s )"),

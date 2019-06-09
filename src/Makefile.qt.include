@@ -234,12 +234,12 @@ RES_ICONS = \
   qt/res/icons/tx_input.png \
   qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
-  qt/res/icons/unit_bitg.png \
-  qt/res/icons/unit_mbitg.png \
-  qt/res/icons/unit_ubitg.png \
-  qt/res/icons/unit_tbitg.png \
-  qt/res/icons/unit_tmbitg.png \
-  qt/res/icons/unit_tubitg.png
+  qt/res/icons/unit_reex.png \
+  qt/res/icons/unit_mreex.png \
+  qt/res/icons/unit_ureex.png \
+  qt/res/icons/unit_treex.png \
+  qt/res/icons/unit_tmreex.png \
+  qt/res/icons/unit_tureex.png
 
 BITCOIN_QT_CPP = \
   qt/bitcoinaddressvalidator.cpp \
@@ -369,7 +369,7 @@ endif
 qt_reecore_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_reecore_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_reecore_qt_LDFLAGS = $(REEXDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 qt_reecore_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm

@@ -995,8 +995,8 @@ MultiEnvío: %1</translation>
         <translation>medio-alta</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubitg per input.</source>
-        <translation>Puede variar +/- %1 ubitg por entrada.</translation>
+        <source>Can vary +/- %1 ureex per input.</source>
+        <translation>Puede variar +/- %1 ureex por entrada.</translation>
     </message>
     <message>
         <source>medium</source>

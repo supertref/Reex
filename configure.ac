@@ -19,9 +19,9 @@ BITCOIN_TX_NAME=reecore-tx
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef REL_CONFIG_H])
-AH_TOP([#define REL_CONFIG_H])
-AH_BOTTOM([#endif //REL_CONFIG_H])
+AH_TOP([#ifndef REEX_CONFIG_H])
+AH_TOP([#define REEX_CONFIG_H])
+AH_BOTTOM([#endif //REEX_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME
@@ -614,7 +614,7 @@ fi
 
 if test x$use_reduce_exports != xno; then
     CXXFLAGS="$CXXFLAGS $RE_CXXFLAGS"
-    AX_CHECK_LINK_FLAG([[-Wl,--exclude-libs,ALL]], [RELDFLAGS="-Wl,--exclude-libs,ALL"])
+    AX_CHECK_LINK_FLAG([[-Wl,--exclude-libs,ALL]], [REEXDFLAGS="-Wl,--exclude-libs,ALL"])
 fi
 
 if test x$use_tests = xyes; then
@@ -1002,7 +1002,7 @@ AC_SUBST(BITCOIN_GUI_NAME)
 AC_SUBST(BITCOIN_CLI_NAME)
 AC_SUBST(BITCOIN_TX_NAME)
 
-AC_SUBST(RELDFLAGS)
+AC_SUBST(REEXDFLAGS)
 AC_SUBST(LIBTOOL_APP_LDFLAGS)
 AC_SUBST(USE_UPNP)
 AC_SUBST(USE_QRCODE)

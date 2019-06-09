@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX Core developers
-// Copyright (c) 2017 The reecore Core developers
+// Copyright (c) 2017-2019 The reecore Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -97,6 +97,7 @@ public:
     int64_t StartMasternodePayments() const { return nStartMasternodePayments; }
     int64_t Budget_Fee_Confirmations() const { return nBudget_Fee_Confirmations; }
     CBaseChainParams::Network NetworkID() const { return networkID; }
+    std::string TreasuryAddress() const { return strTreasuryAddress; }
 
 protected:
     CChainParams() {}
@@ -139,6 +140,7 @@ protected:
     std::string strMasternodePoolDummyAddress;
     int64_t nStartMasternodePayments;
     int64_t nBudget_Fee_Confirmations;
+    std::string strTreasuryAddress;
 };
 
 /**
@@ -159,7 +161,6 @@ public:
     virtual void setAllowMinDifficultyBlocks(bool aAllowMinDifficultyBlocks) = 0;
     virtual void setSkipProofOfWorkCheck(bool aSkipProofOfWorkCheck) = 0;
 };
-
 
 /**
  * Return the currently selected parameters. This won't change after app startup

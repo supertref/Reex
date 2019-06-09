@@ -873,7 +873,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
             ui->labelCoinControlChangeLabel->setText("");
         } else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid REL address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid REEX address"));
         } else // Valid address
         {
             CPubKey pubkey;

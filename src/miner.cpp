@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2017 The reecore developers
+// Copyright (c) 2017-2019 The Reecore developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -117,7 +117,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
     txNew.vout[0].scriptPubKey = scriptPubKeyIn;
 
     CBlockIndex* prev = chainActive.Tip();
-    txNew.vout[0].nValue = GetBlockValue(prev->nHeight);
+    txNew.vout[0].nValue = GetBlockValue(prev->nHeight+1);
 
     pblock->vtx.push_back(txNew);
     pblocktemplate->vTxFees.push_back(-1);   // updated at end
@@ -357,7 +357,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
 
         nLastBlockTx = nBlockTx;
         nLastBlockSize = nBlockSize;
-        LogPrintf("CreateNewBlock(): total size %u\n", nBlockSize);
+        //LogPrintf("CreateNewBlock(): total size %u\n", nBlockSize);
 
         // Compute final coinbase transaction.
         pblock->vtx[0].vin[0].scriptSig = CScript() << nHeight << OP_0;
@@ -460,13 +460,18 @@ bool fGenerateBitcoins = false;
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrintf("ReecoreMiner started\n");
+    LogPrintf("ReecoreMiner started (POS=%s)\n", (fProofOfStake ? "true" : "false") );
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("reecore-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
     unsigned int nExtraNonce = 0;
+
+    if( fProofOfStake )
+    {
+        MilliSleep(30 * 1000);
+    }
 
     //control the amount of times the client will check for mintable coins
     static bool fMintableCoins = false;
@@ -480,7 +485,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
         }
 
         if (fProofOfStake) {
-            if (chainActive.Tip()->nHeight < Params().LAST_POW_BLOCK()) {
+            if (chainActive.Tip()->nHeight < Params().LAST_POW_BLOCK() || fImporting || fReindex) {
                 MilliSleep(5000);
                 continue;
             }
@@ -499,7 +504,14 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
                     continue;
                 }
             }
+        } else {
+            if (chainActive.Tip()->nHeight >= Params().LAST_POW_BLOCK()) {
+                LogPrintf("POW ended\n");
+                break;
+            }
         }
+
+        MilliSleep( 1000 );
 
         //
         // Create new block
@@ -533,8 +545,8 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             continue;
         }
 
-        LogPrintf("Running reecoreMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
-            ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
+        //LogPrintf("Running reecoreMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        //    ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
         // Search

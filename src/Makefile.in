@@ -496,9 +496,9 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bitcoinaddressvalidator.cpp \
 	qt/res/icons/transaction_conflicted.png \
 	qt/res/icons/tx_inout.png qt/res/icons/tx_input.png \
 	qt/res/icons/tx_output.png qt/res/icons/tx_mined.png \
-	qt/res/icons/unit_bitg.png qt/res/icons/unit_mbitg.png \
-	qt/res/icons/unit_ubitg.png qt/res/icons/unit_tbitg.png \
-	qt/res/icons/unit_tmbitg.png qt/res/icons/unit_tubitg.png \
+	qt/res/icons/unit_reex.png qt/res/icons/unit_mreex.png \
+	qt/res/icons/unit_ureex.png qt/res/icons/unit_treex.png \
+	qt/res/icons/unit_tmreex.png qt/res/icons/unit_tureex.png \
 	qt/res/images/reecore_logo_horizontal.png \
 	qt/res/images/about.png qt/res/images/splash.png \
 	qt/res/images/splash_testnet.png \
@@ -710,13 +710,13 @@ libbitcoinconsensus_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 @BUILD_BITCOIN_UTILS_TRUE@	reecore-tx$(EXEEXT)
 @ENABLE_TESTS_TRUE@am__EXEEXT_3 = test/test_reecore$(EXEEXT)
 @ENABLE_QT_TRUE@am__EXEEXT_4 = qt/reecore-qt$(EXEEXT)
-@ENABLE_QT_TESTS_TRUE@am__EXEEXT_5 =  \
-@ENABLE_QT_TESTS_TRUE@	qt/test/test_reecore-qt$(EXEEXT)
+@ENABLE_QT_TESTS_TRUE@am__EXEEXT_5 = qt/test/test_reecore-qt$(EXEEXT)
 PROGRAMS = $(bin_PROGRAMS)
 am__qt_reecore_qt_SOURCES_DIST = qt/reecore.cpp \
 	qt/macdockiconhandler.mm qt/macnotificationhandler.mm \
 	qt/res/reecore-qt-res.rc
-@ENABLE_QT_TRUE@am__objects_10 = qt/qt_reecore_qt-macdockiconhandler.$(OBJEXT) \
+@ENABLE_QT_TRUE@am__objects_10 =  \
+@ENABLE_QT_TRUE@	qt/qt_reecore_qt-macdockiconhandler.$(OBJEXT) \
 @ENABLE_QT_TRUE@	qt/qt_reecore_qt-macnotificationhandler.$(OBJEXT)
 @ENABLE_QT_TRUE@@TARGET_DARWIN_TRUE@am__objects_11 =  \
 @ENABLE_QT_TRUE@@TARGET_DARWIN_TRUE@	$(am__objects_10)
@@ -1427,7 +1427,7 @@ QT_TRANSLATION_DIR = @QT_TRANSLATION_DIR@
 RANLIB = @RANLIB@
 RCC = @RCC@
 READELF = @READELF@
-RELDFLAGS = @RELDFLAGS@
+REEXDFLAGS = @REEXDFLAGS@
 RSVG_CONVERT = @RSVG_CONVERT@
 SED = @SED@
 SET_MAKE = @SET_MAKE@
@@ -1800,7 +1800,7 @@ reecored_LDADD = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_COMMON) \
 	$(EVENT_LIBS)
 reecored_SOURCES = reecored.cpp $(am__append_12)
 reecored_CPPFLAGS = $(BITCOIN_INCLUDES)
-reecored_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+reecored_LDFLAGS = $(REEXDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 # reecore-cli binary #
 reecore_cli_LDADD = \
@@ -1829,8 +1829,8 @@ reecore_tx_LDADD = \
 reecore_tx_SOURCES = reecore-tx.cpp
 reecore_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-reecore_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-reecore_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+reecore_tx_LDFLAGS = $(REEXDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+reecore_cli_LDFLAGS = $(REEXDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 @BUILD_BITCOIN_LIBS_TRUE@include_HEADERS = script/bitcoinconsensus.h
 @BUILD_BITCOIN_LIBS_TRUE@libbitcoinconsensus_la_SOURCES =  \
 @BUILD_BITCOIN_LIBS_TRUE@	allocators.cpp \
@@ -1845,7 +1845,7 @@ reecore_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 @BUILD_BITCOIN_LIBS_TRUE@	script/bitcoinconsensus.cpp \
 @BUILD_BITCOIN_LIBS_TRUE@	uint256.cpp utilstrencodings.cpp \
 @BUILD_BITCOIN_LIBS_TRUE@	$(am__append_14)
-@BUILD_BITCOIN_LIBS_TRUE@libbitcoinconsensus_la_LDFLAGS = -no-undefined $(RELDFLAGS)
+@BUILD_BITCOIN_LIBS_TRUE@libbitcoinconsensus_la_LDFLAGS = -no-undefined $(REEXDFLAGS)
 @BUILD_BITCOIN_LIBS_TRUE@libbitcoinconsensus_la_LIBADD =  \
 @BUILD_BITCOIN_LIBS_TRUE@	$(CRYPTO_LIBS) $(BOOST_LIBS) \
 @BUILD_BITCOIN_LIBS_TRUE@	$(am__append_15)
@@ -1917,7 +1917,7 @@ EXTRA_DIST = leveldb $(am__append_18)
 @ENABLE_TESTS_TRUE@	$(LIBBITCOIN_CONSENSUS) $(BDB_LIBS) \
 @ENABLE_TESTS_TRUE@	$(SSL_LIBS) $(CRYPTO_LIBS) \
 @ENABLE_TESTS_TRUE@	$(MINIUPNPC_LIBS) $(am__append_21)
-@ENABLE_TESTS_TRUE@test_test_reecore_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
+@ENABLE_TESTS_TRUE@test_test_reecore_LDFLAGS = $(REEXDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
 @ENABLE_TESTS_TRUE@nodist_test_test_reecore_SOURCES = $(GENERATED_TEST_FILES)
 @ENABLE_TESTS_TRUE@CLEAN_BITCOIN_TEST = test/*.gcda test/*.gcno $(GENERATED_TEST_FILES)
 
@@ -2152,12 +2152,12 @@ EXTRA_DIST = leveldb $(am__append_18)
 @ENABLE_QT_TRUE@  qt/res/icons/tx_input.png \
 @ENABLE_QT_TRUE@  qt/res/icons/tx_output.png \
 @ENABLE_QT_TRUE@  qt/res/icons/tx_mined.png \
-@ENABLE_QT_TRUE@  qt/res/icons/unit_bitg.png \
-@ENABLE_QT_TRUE@  qt/res/icons/unit_mbitg.png \
-@ENABLE_QT_TRUE@  qt/res/icons/unit_ubitg.png \
-@ENABLE_QT_TRUE@  qt/res/icons/unit_tbitg.png \
-@ENABLE_QT_TRUE@  qt/res/icons/unit_tmbitg.png \
-@ENABLE_QT_TRUE@  qt/res/icons/unit_tubitg.png
+@ENABLE_QT_TRUE@  qt/res/icons/unit_reex.png \
+@ENABLE_QT_TRUE@  qt/res/icons/unit_mreex.png \
+@ENABLE_QT_TRUE@  qt/res/icons/unit_ureex.png \
+@ENABLE_QT_TRUE@  qt/res/icons/unit_treex.png \
+@ENABLE_QT_TRUE@  qt/res/icons/unit_tmreex.png \
+@ENABLE_QT_TRUE@  qt/res/icons/unit_tureex.png
 
 @ENABLE_QT_TRUE@BITCOIN_QT_CPP = qt/bitcoinaddressvalidator.cpp \
 @ENABLE_QT_TRUE@	qt/bitcoinamountfield.cpp qt/bitcoingui.cpp \
@@ -2224,7 +2224,7 @@ EXTRA_DIST = leveldb $(am__append_18)
 @ENABLE_QT_TRUE@	$(CRYPTO_LIBS) $(MINIUPNPC_LIBS) \
 @ENABLE_QT_TRUE@	$(LIBSECP256K1) $(EVENT_PTHREADS_LIBS) \
 @ENABLE_QT_TRUE@	$(EVENT_LIBS)
-@ENABLE_QT_TRUE@qt_reecore_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+@ENABLE_QT_TRUE@qt_reecore_qt_LDFLAGS = $(REEXDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 @ENABLE_QT_TRUE@qt_reecore_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
@@ -2245,19 +2245,18 @@ EXTRA_DIST = leveldb $(am__append_18)
 @ENABLE_QT_TESTS_TRUE@	qt/test/uritests.cpp $(TEST_QT_H) \
 @ENABLE_QT_TESTS_TRUE@	$(am__append_34)
 @ENABLE_QT_TESTS_TRUE@nodist_qt_test_test_reecore_qt_SOURCES = $(TEST_QT_MOC_CPP)
-@ENABLE_QT_TESTS_TRUE@qt_test_test_reecore_qt_LDADD =  \
-@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
-@ENABLE_QT_TESTS_TRUE@	$(am__append_35) $(am__append_36) \
-@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
-@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) \
-@ENABLE_QT_TESTS_TRUE@	$(LIBUNIVALUE) $(LIBLEVELDB) \
-@ENABLE_QT_TESTS_TRUE@	$(LIBMEMENV) $(BOOST_LIBS) \
+@ENABLE_QT_TESTS_TRUE@qt_test_test_reecore_qt_LDADD = $(LIBBITCOINQT) \
+@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_SERVER) $(am__append_35) \
+@ENABLE_QT_TESTS_TRUE@	$(am__append_36) $(LIBBITCOIN_CLI) \
+@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
+@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) \
+@ENABLE_QT_TESTS_TRUE@	$(LIBLEVELDB) $(LIBMEMENV) $(BOOST_LIBS) \
 @ENABLE_QT_TESTS_TRUE@	$(QT_DBUS_LIBS) $(QT_TEST_LIBS) \
 @ENABLE_QT_TESTS_TRUE@	$(QT_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) \
 @ENABLE_QT_TESTS_TRUE@	$(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) \
 @ENABLE_QT_TESTS_TRUE@	$(MINIUPNPC_LIBS) $(LIBSECP256K1) \
 @ENABLE_QT_TESTS_TRUE@	$(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-@ENABLE_QT_TESTS_TRUE@qt_test_test_reecore_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+@ENABLE_QT_TESTS_TRUE@qt_test_test_reecore_qt_LDFLAGS = $(REEXDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 @ENABLE_QT_TESTS_TRUE@CLEAN_BITCOIN_QT_TEST = $(TEST_QT_MOC_CPP) qt/test/*.gcda qt/test/*.gcno
 all: all-recursive
 
@@ -2632,8 +2631,8 @@ qt/qt_libbitcoinqt_a-paymentrequest.pb.$(OBJEXT): qt/$(am__dirstamp) \
 	qt/$(DEPDIR)/$(am__dirstamp)
 qt/qt_libbitcoinqt_a-qrc_reecore.$(OBJEXT): qt/$(am__dirstamp) \
 	qt/$(DEPDIR)/$(am__dirstamp)
-qt/qt_libbitcoinqt_a-qrc_reecore_locale.$(OBJEXT):  \
-	qt/$(am__dirstamp) qt/$(DEPDIR)/$(am__dirstamp)
+qt/qt_libbitcoinqt_a-qrc_reecore_locale.$(OBJEXT): qt/$(am__dirstamp) \
+	qt/$(DEPDIR)/$(am__dirstamp)
 
 qt/libbitcoinqt.a: $(qt_libbitcoinqt_a_OBJECTS) $(qt_libbitcoinqt_a_DEPENDENCIES) $(EXTRA_qt_libbitcoinqt_a_DEPENDENCIES) qt/$(am__dirstamp)
 	$(AM_V_at)-rm -f qt/libbitcoinqt.a
@@ -2755,8 +2754,8 @@ qt/qt_reecore_qt-reecore.$(OBJEXT): qt/$(am__dirstamp) \
 	qt/$(DEPDIR)/$(am__dirstamp)
 qt/qt_reecore_qt-macdockiconhandler.$(OBJEXT): qt/$(am__dirstamp) \
 	qt/$(DEPDIR)/$(am__dirstamp)
-qt/qt_reecore_qt-macnotificationhandler.$(OBJEXT):  \
-	qt/$(am__dirstamp) qt/$(DEPDIR)/$(am__dirstamp)
+qt/qt_reecore_qt-macnotificationhandler.$(OBJEXT): qt/$(am__dirstamp) \
+	qt/$(DEPDIR)/$(am__dirstamp)
 qt/res/$(am__dirstamp):
 	@$(MKDIR_P) qt/res
 	@: > qt/res/$(am__dirstamp)
@@ -2821,8 +2820,8 @@ test/test_test_reecore-Checkpoints_tests.$(OBJEXT):  \
 	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-coins_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
-test/test_test_reecore-compress_tests.$(OBJEXT):  \
-	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
+test/test_test_reecore-compress_tests.$(OBJEXT): test/$(am__dirstamp) \
+	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-crypto_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-DoS_tests.$(OBJEXT): test/$(am__dirstamp) \
@@ -2839,8 +2838,8 @@ test/test_test_reecore-mempool_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-mruset_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
-test/test_test_reecore-multisig_tests.$(OBJEXT):  \
-	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
+test/test_test_reecore-multisig_tests.$(OBJEXT): test/$(am__dirstamp) \
+	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-netbase_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-pmt_tests.$(OBJEXT): test/$(am__dirstamp) \
@@ -2865,20 +2864,20 @@ test/test_test_reecore-sighash_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-sigopcount_tests.$(OBJEXT):  \
 	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
-test/test_test_reecore-skiplist_tests.$(OBJEXT):  \
-	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
+test/test_test_reecore-skiplist_tests.$(OBJEXT): test/$(am__dirstamp) \
+	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-test_reecore.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
-test/test_test_reecore-timedata_tests.$(OBJEXT):  \
-	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
+test/test_test_reecore-timedata_tests.$(OBJEXT): test/$(am__dirstamp) \
+	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-torcontrol_tests.$(OBJEXT):  \
 	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-transaction_tests.$(OBJEXT):  \
 	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-uint256_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
-test/test_test_reecore-univalue_tests.$(OBJEXT):  \
-	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
+test/test_test_reecore-univalue_tests.$(OBJEXT): test/$(am__dirstamp) \
+	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-util_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_reecore-accounting_tests.$(OBJEXT):  \

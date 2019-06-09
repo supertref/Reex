@@ -1010,8 +1010,8 @@ Adresse: %4</translation>
         <translation>mittel-hoch</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubitg per input.</source>
-        <translation>Kann um +/- %1 ubitg pro Eingang variieren.</translation>
+        <source>Can vary +/- %1 ureex per input.</source>
+        <translation>Kann um +/- %1 ureex pro Eingang variieren.</translation>
     </message>
     <message>
         <source>medium</source>

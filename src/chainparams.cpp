@@ -1,9 +1,8 @@
-
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Reliance developers
+// Copyright (c) 2017-2019 The Reecore developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -157,28 +156,24 @@ public:
         genesis.nNonce = 347336;
         hashGenesisBlock = genesis.GetHash();
 
-           assert(hashGenesisBlock == uint256("0x00000c1b8abb8755561c46ea298cf725c940ca71409f7024bc3ad82fdb1bdc7f"));
-           assert(genesis.hashMerkleRoot == uint256("0x71db3668e0435a23f1222acfcc186b84699bc1f9da54dcbb3cff6bf04dbc04af"));
-        
-        //vSeeds.push_back(CDNSSeedData("", ""));
-          
-          vSeeds.push_back(CDNSSeedData("173.249.1.107", "173.249.1.107"));  
-          vSeeds.push_back(CDNSSeedData("35.237.166.130", "35.237.166.130"));
-	      vSeeds.push_back(CDNSSeedData("35.196.193.43", "35.196.193.43"));
-		  vSeeds.push_back(CDNSSeedData("35.228.129.243", "35.228.129.243"));
-		  vSeeds.push_back(CDNSSeedData("35.231.79.133", "35.231.79.133"));
-		  vSeeds.push_back(CDNSSeedData("35.229.199.16", "35.229.199.16"));
-		  vSeeds.push_back(CDNSSeedData("35.229.68.236", "35.229.68.236"));
-		  vSeeds.push_back(CDNSSeedData("35.231.5.87", "35.231.5.87"));
-          vSeeds.push_back(CDNSSeedData("35.237.248.253", "35.237.248.253"));
-		  vSeeds.push_back(CDNSSeedData("173.212.231.29", "173.212.231.29"));
-		  vSeeds.push_back(CDNSSeedData("35.237.76.125", "35.237.76.125"));
-		   vSeeds.push_back(CDNSSeedData("35.243.175.130", "35.243.175.130"));
-		  vSeeds.push_back(CDNSSeedData("35.227.93.52", "35.227.93.52"));
-                  vSeeds.push_back(CDNSSeedData("34.73.151.66", "34.73.151.66")); 
-		   
-		  
-          
+        assert(hashGenesisBlock == uint256("0x00000c1b8abb8755561c46ea298cf725c940ca71409f7024bc3ad82fdb1bdc7f"));
+        assert(genesis.hashMerkleRoot == uint256("0x71db3668e0435a23f1222acfcc186b84699bc1f9da54dcbb3cff6bf04dbc04af"));
+
+        vSeeds.push_back(CDNSSeedData("173.249.1.107", "173.249.1.107"));  
+        vSeeds.push_back(CDNSSeedData("35.237.166.130", "35.237.166.130"));
+        vSeeds.push_back(CDNSSeedData("35.196.193.43", "35.196.193.43"));
+        vSeeds.push_back(CDNSSeedData("35.228.129.243", "35.228.129.243"));
+        vSeeds.push_back(CDNSSeedData("35.231.79.133", "35.231.79.133"));
+        vSeeds.push_back(CDNSSeedData("35.229.199.16", "35.229.199.16"));
+        vSeeds.push_back(CDNSSeedData("35.229.68.236", "35.229.68.236"));
+        vSeeds.push_back(CDNSSeedData("35.231.5.87", "35.231.5.87"));
+        vSeeds.push_back(CDNSSeedData("35.237.248.253", "35.237.248.253"));
+        vSeeds.push_back(CDNSSeedData("173.212.231.29", "173.212.231.29"));
+        vSeeds.push_back(CDNSSeedData("35.237.76.125", "35.237.76.125"));
+        vSeeds.push_back(CDNSSeedData("35.243.175.130", "35.243.175.130"));
+        vSeeds.push_back(CDNSSeedData("35.227.93.52", "35.227.93.52"));
+        vSeeds.push_back(CDNSSeedData("34.73.151.66", "34.73.151.66")); 
+
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 61);  // R
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 122); // r
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 189);     // +128
@@ -203,6 +198,8 @@ public:
         nStartMasternodePayments = genesis.nTime + (3600); // one week after genesis creation
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
+
+        strTreasuryAddress = ""; // Empty Treasury Address = no Treasury
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const

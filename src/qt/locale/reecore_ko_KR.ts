@@ -979,8 +979,8 @@ Address: %4
         <translation>중간 높음</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubitg per input.</source>
-        <translation>입력당 +/- %1 ubitg을 변경할 수 있습니다.</translation>
+        <source>Can vary +/- %1 ureex per input.</source>
+        <translation>입력당 +/- %1 ureex을 변경할 수 있습니다.</translation>
     </message>
     <message>
         <source>medium</source>

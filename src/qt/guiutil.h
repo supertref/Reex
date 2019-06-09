@@ -38,7 +38,7 @@ namespace GUIUtil
 QString dateTimeStr(const QDateTime& datetime);
 QString dateTimeStr(qint64 nTime);
 
-// Render REL addresses in monospace font
+// Render REEX addresses in monospace font
 QFont bitcoinAddressFont();
 
 // Set up widgets for address and amounts

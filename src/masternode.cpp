@@ -216,7 +216,7 @@ void CMasternode::Check(bool forceCheck)
     if (!unitTest) {
         CValidationState state;
         CMutableTransaction tx = CMutableTransaction();
-        CTxOut vout = CTxOut((MASTERNODE_COLLATERAL-0.01) * COIN, masternodeSigner.collateralPubKey);
+        CTxOut vout = CTxOut((GetMasternodeCollateral()-0.01) * COIN, masternodeSigner.collateralPubKey);
         tx.vin.push_back(vin);
         tx.vout.push_back(vout);
 
@@ -576,7 +576,7 @@ bool CMasternodeBroadcast::CheckInputsAndAdd(int& nDoS)
 
     CValidationState state;
     CMutableTransaction tx = CMutableTransaction();
-    CTxOut vout = CTxOut((MASTERNODE_COLLATERAL-0.01) * COIN, masternodeSigner.collateralPubKey);
+    CTxOut vout = CTxOut((GetMasternodeCollateral()-0.01) * COIN, masternodeSigner.collateralPubKey);
     tx.vin.push_back(vin);
     tx.vout.push_back(vout);
 
@@ -607,7 +607,7 @@ bool CMasternodeBroadcast::CheckInputsAndAdd(int& nDoS)
     }
 
     // verify that sig time is legit in past
-    // should be at least not earlier than block when 1000 REL tx got MASTERNODE_MIN_CONFIRMATIONS
+    // should be at least not earlier than block when 1000 REEX tx got MASTERNODE_MIN_CONFIRMATIONS
     uint256 hashBlock = 0;
     CTransaction tx2;
     GetTransaction(vin.prevout.hash, tx2, hashBlock, true);

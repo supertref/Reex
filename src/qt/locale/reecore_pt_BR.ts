@@ -964,8 +964,8 @@ MultiSend: %1</translation>
         <translation>médio-alto</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubitg per input.</source>
-        <translation>pode variar entre +/-%1 ubitg por input</translation>
+        <source>Can vary +/- %1 ureex per input.</source>
+        <translation>pode variar entre +/-%1 ureex por input</translation>
     </message>
     <message>
         <source>medium</source>

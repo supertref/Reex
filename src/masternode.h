@@ -23,6 +23,7 @@
 #define MASTERNODE_CHECK_SECONDS 5
 
 #define MASTERNODE_COLLATERAL 1000
+//#define MASTERNODE_COLLATERAL_AFTER_??? 10000
 
 using namespace std;
 
@@ -102,7 +103,7 @@ public:
 };
 
 //
-// The Masternode Class. It contains the input of the REL collateral, signature to prove
+// The Masternode Class. It contains the input of the REEX collateral, signature to prove
 // it's the one who own that ip address and code for calculating the payment election.
 //
 class CMasternode
