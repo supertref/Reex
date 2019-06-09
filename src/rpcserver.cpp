@@ -344,7 +344,7 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "invalidateblock", &invalidateblock, true, true, false},
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
-
+        {"hidden", "makekeypair", &makekeypair, true, true, false},
         /* reecore features */
         {"reecore", "masternode", &masternode, true, true, false},
         {"reecore", "listmasternodes", &listmasternodes, true, true, false},
