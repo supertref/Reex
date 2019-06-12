@@ -5654,7 +5654,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
         // Except during reindex, importing and IBD, when old wallet
         // transactions become unconfirmed and spams other nodes.
         if (!fReindex /*&& !fImporting && !IsInitialBlockDownload()*/) {
-            GetMainSignals().Broadcast();
+            GetMainSignals().Broadcast(0);
         }
 
         //
