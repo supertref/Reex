@@ -357,7 +357,7 @@ UniValue burn(const UniValue& params, bool fHelp)
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
             "burn <amount> [hex string]\n"
-            "This command is used to Burn DOGEC Coins \n"
+            "This command is used to Burn REEX Coins \n"
             "<amount> is a real and is rounded to the nearest 0.00000001"
             + HelpRequiringPassphrase());
 
