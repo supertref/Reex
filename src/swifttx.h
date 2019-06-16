@@ -16,7 +16,7 @@
 
 /*
     At 15 signatures, 1/2 of the masternode network can be owned by
-    one party without comprimising the security of SwiftTX
+    one party without comprimising the security of SwiftX
     (1000/2150.0)**10 = 0.00047382219560689856
     (1000/2900.0)**10 = 2.3769498616783657e-05
 
@@ -50,7 +50,7 @@ bool IsIXTXValid(const CTransaction& txCollateral);
 // if two conflicting locks are approved by the network, they will cancel out
 bool CheckForConflictingLocks(CTransaction& tx);
 
-void ProcessMessageSwiftTX(CNode* pfrom, std::string& strCommand, CDataStream& vRecv);
+void ProcessMessageSwiftX(CNode* pfrom, std::string& strCommand, CDataStream& vRecv);
 
 //check if we need to vote on this transaction
 void DoConsensusVote(CTransaction& tx, int64_t nBlockHeight);

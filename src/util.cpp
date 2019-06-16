@@ -111,9 +111,9 @@ bool fMasterNode = false;
 string strMasterNodePrivKey = "";
 string strMasterNodeAddr = "";
 bool fLiteMode = false;
-// SwiftTX
-bool fEnableSwiftTX = true;
-int nSwiftTXDepth = 5;
+// SwiftX
+bool fEnableSwiftX = true;
+int nSwiftXDepth = 5;
 /** Spork enforcement enabled time */
 int64_t enforceMasternodePaymentsTime = 4085657524;
 bool fSucessfullyLoaded = false;

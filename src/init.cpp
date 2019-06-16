@@ -407,10 +407,10 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageGroup(_("ZeroMQ notification options:"));
     strUsage += HelpMessageOpt("-zmqpubhashblock=<address>", _("Enable publish hash block in <address>"));
     strUsage += HelpMessageOpt("-zmqpubhashtx=<address>", _("Enable publish hash transaction in <address>"));
-    strUsage += HelpMessageOpt("-zmqpubhashtxlock=<address>", _("Enable publish hash transaction (locked via SwiftTX) in <address>"));
+    strUsage += HelpMessageOpt("-zmqpubhashtxlock=<address>", _("Enable publish hash transaction (locked via SwiftX) in <address>"));
     strUsage += HelpMessageOpt("-zmqpubrawblock=<address>", _("Enable publish raw block in <address>"));
     strUsage += HelpMessageOpt("-zmqpubrawtx=<address>", _("Enable publish raw transaction in <address>"));
-    strUsage += HelpMessageOpt("-zmqpubrawtxlock=<address>", _("Enable publish raw transaction (locked via SwiftTX) in <address>"));
+    strUsage += HelpMessageOpt("-zmqpubrawtxlock=<address>", _("Enable publish raw transaction (locked via SwiftX) in <address>"));
 #endif
 
     strUsage += HelpMessageGroup(_("Debugging/Testing options:"));
@@ -458,7 +458,7 @@ std::string HelpMessage(HelpMessageMode mode)
     }
     strUsage += HelpMessageOpt("-shrinkdebugfile", _("Shrink debug.log file on client startup (default: 1 when no -debug)"));
     strUsage += HelpMessageOpt("-testnet", _("Use the test network"));
-    strUsage += HelpMessageOpt("-litemode=<n>", strprintf(_("Disable all reecore specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)"), 0));
+    strUsage += HelpMessageOpt("-litemode=<n>", strprintf(_("Disable all reecore specific functionality (Masternodes, SwiftX, Budgeting) (0-1, default: %u)"), 0));
 
 #ifdef ENABLE_WALLET
     strUsage += HelpMessageGroup(_("Staking options:"));
@@ -478,9 +478,9 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-masternodeaddr=<n>", strprintf(_("Set external address:port to get to this masternode (example: %s)"), "128.127.106.235:43210"));
     strUsage += HelpMessageOpt("-budgetvotemode=<mode>", _("Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)"));
 
-    strUsage += HelpMessageGroup(_("SwiftTX options:"));
+    strUsage += HelpMessageGroup(_("SwiftX options:"));
     strUsage += HelpMessageOpt("-enableswifttx=<n>", strprintf(_("Enable swifttx, show confirmations for locked transactions (bool, default: %s)"), "true"));
-    strUsage += HelpMessageOpt("-swifttxdepth=<n>", strprintf(_("Show N confirmations for a successfully locked transaction (0-9999, default: %u)"), nSwiftTXDepth));
+    strUsage += HelpMessageOpt("-swifttxdepth=<n>", strprintf(_("Show N confirmations for a successfully locked transaction (0-9999, default: %u)"), nSwiftXDepth));
 
     strUsage += HelpMessageGroup(_("Node relay options:"));
     strUsage += HelpMessageOpt("-datacarrier", strprintf(_("Relay and mine data carrier transactions (default: %u)"), 1));
@@ -762,9 +762,9 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
             LogPrintf("AppInit2 : parameter interaction: -zapwallettxes=<mode> -> setting -rescan=1\n");
     }
 
-    if (!GetBoolArg("-enableswifttx", fEnableSwiftTX)) {
+    if (!GetBoolArg("-enableswifttx", fEnableSwiftX)) {
         if (SoftSetArg("-swifttxdepth", 0))
-            LogPrintf("AppInit2 : parameter interaction: -enableswifttx=false -> setting -nSwiftTXDepth=0\n");
+            LogPrintf("AppInit2 : parameter interaction: -enableswifttx=false -> setting -nSwiftXDepth=0\n");
     }
 
     if (mapArgs.count("-reservebalance")) {
@@ -1638,9 +1638,9 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
         }
     }
 
-    fEnableSwiftTX = GetBoolArg("-enableswifttx", fEnableSwiftTX);
-    nSwiftTXDepth = GetArg("-swifttxdepth", nSwiftTXDepth);
-    nSwiftTXDepth = std::min(std::max(nSwiftTXDepth, 0), 60);
+    fEnableSwiftX = GetBoolArg("-enableswifttx", fEnableSwiftX);
+    nSwiftXDepth = GetArg("-swifttxdepth", nSwiftXDepth);
+    nSwiftXDepth = std::min(std::max(nSwiftXDepth, 0), 60);
 
     //lite mode disables all Masternode related functionality
     fLiteMode = GetBoolArg("-litemode", false);
@@ -1649,7 +1649,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     }
 
     LogPrintf("fLiteMode %d\n", fLiteMode);
-    LogPrintf("nSwiftTXDepth %d\n", nSwiftTXDepth);
+    LogPrintf("nSwiftXDepth %d\n", nSwiftXDepth);
     LogPrintf("Budget Mode %s\n", strBudgetMode.c_str());
 
     masternodeSigner.InitCollateralAddress();

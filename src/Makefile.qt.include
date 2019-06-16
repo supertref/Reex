@@ -10,12 +10,18 @@ QT_TS = \
   qt/locale/reecore_de.ts \
   qt/locale/reecore_en.ts \
   qt/locale/reecore_en_US.ts \
+  qt/locale/reecore_eo.ts \
   qt/locale/reecore_es.ts \
+  qt/locale/reecore_es_ES.ts \
   qt/locale/reecore_fi.ts \
   qt/locale/reecore_fr_FR.ts \
+  qt/locale/reecore_hi_IN.ts \
+  qt/locale/reecore_hr.ts \
+  qt/locale/reecore_hr_HR.ts \
   qt/locale/reecore_it.ts \
   qt/locale/reecore_ja.ts \
   qt/locale/reecore_ko_KR.ts \
+  qt/locale/reecore_lt_LT.ts \
   qt/locale/reecore_nl.ts \
   qt/locale/reecore_pl.ts \
   qt/locale/reecore_pt.ts \
@@ -26,6 +32,7 @@ QT_TS = \
   qt/locale/reecore_sv.ts \
   qt/locale/reecore_tr.ts \
   qt/locale/reecore_uk.ts \
+  qt/locale/reecore_vi.ts \
   qt/locale/reecore_zh_CN.ts \
   qt/locale/reecore_zh_TW.ts
 
@@ -44,7 +51,9 @@ QT_FORMS_UI = \
   qt/forms/openuridialog.ui \
   qt/forms/optionsdialog.ui \
   qt/forms/overviewpage.ui \
+  qt/forms/newsitem.ui \
   qt/forms/receivecoinsdialog.ui \
+  qt/forms/proposaldialog.ui \
   qt/forms/receiverequestdialog.ui \
   qt/forms/rpcconsole.ui \
   qt/forms/sendcoinsdialog.ui \
@@ -56,6 +65,7 @@ QT_MOC_CPP = \
   qt/moc_addressbookpage.cpp \
   qt/moc_addresstablemodel.cpp \
   qt/moc_askpassphrasedialog.cpp \
+  qt/moc_bantablemodel.cpp \
   qt/moc_bip38tooldialog.cpp \
   qt/moc_bitcoinaddressvalidator.cpp \
   qt/moc_bitcoinamountfield.cpp \
@@ -79,8 +89,14 @@ QT_MOC_CPP = \
   qt/moc_optionsdialog.cpp \
   qt/moc_optionsmodel.cpp \
   qt/moc_overviewpage.cpp \
+  qt/moc_newsitem.cpp \
   qt/moc_peertablemodel.cpp \
   qt/moc_paymentserver.cpp \
+  qt/moc_columnalignedlayout.cpp \
+  qt/moc_proposaldialog.cpp \
+  qt/moc_proposalfilterproxy.cpp \
+  qt/moc_proposaltablemodel.cpp \
+  qt/moc_proposallist.cpp \
   qt/moc_qvalidatedlineedit.cpp \
   qt/moc_qvaluecombobox.cpp \
   qt/moc_receivecoinsdialog.cpp \
@@ -111,6 +127,7 @@ QT_MOC = \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
+  qt/newsitem.moc \
   qt/rpcconsole.moc
 
 QT_QRC_CPP = qt/qrc_reecore.cpp
@@ -126,6 +143,7 @@ BITCOIN_QT_H = \
   qt/addressbookpage.h \
   qt/addresstablemodel.h \
   qt/askpassphrasedialog.h \
+  qt/bantablemodel.h \
   qt/bip38tooldialog.h \
   qt/bitcoinaddressvalidator.h \
   qt/bitcoinamountfield.h \
@@ -151,8 +169,15 @@ BITCOIN_QT_H = \
   qt/optionsdialog.h \
   qt/optionsmodel.h \
   qt/overviewpage.h \
+  qt/newsitem.h \
   qt/paymentrequestplus.h \
   qt/paymentserver.h \
+  qt/columnalignedlayout.h \
+  qt/proposaldialog.h \
+  qt/proposalfilterproxy.h \
+  qt/proposallist.h \
+  qt/proposalrecord.h \
+  qt/proposaltablemodel.h \
   qt/peertablemodel.h \
   qt/platformstyle.h \
   qt/qvalidatedlineedit.h \
@@ -199,6 +224,7 @@ RES_ICONS = \
   qt/res/icons/connect3_16.png \
   qt/res/icons/connect4_16.png \
   qt/res/icons/debugwindow.png \
+  qt/res/icons/proposal.png \
   qt/res/icons/edit.png \
   qt/res/icons/editcopy.png \
   qt/res/icons/editpaste.png \
@@ -242,6 +268,7 @@ RES_ICONS = \
   qt/res/icons/unit_tureex.png
 
 BITCOIN_QT_CPP = \
+  qt/bantablemodel.cpp \
   qt/bitcoinaddressvalidator.cpp \
   qt/bitcoinamountfield.cpp \
   qt/bitcoingui.cpp \
@@ -258,13 +285,17 @@ BITCOIN_QT_CPP = \
   qt/optionsmodel.cpp \
   qt/peertablemodel.cpp \
   qt/platformstyle.cpp \
+  qt/proposaldialog.cpp \
   qt/qvalidatedlineedit.cpp \
   qt/qvaluecombobox.cpp \
   qt/rpcconsole.cpp \
   qt/splashscreen.cpp \
   qt/trafficgraphwidget.cpp \
-  qt/utilitydialog.cpp \
-  qt/winshutdownmonitor.cpp
+  qt/utilitydialog.cpp
+
+if TARGET_WINDOWS
+BITCOIN_QT_CPP += qt/winshutdownmonitor.cpp
+endif
 
 if ENABLE_WALLET
 BITCOIN_QT_CPP += \
@@ -281,8 +312,15 @@ BITCOIN_QT_CPP += \
   qt/multisigdialog.cpp\
   qt/openuridialog.cpp \
   qt/overviewpage.cpp \
+  qt/newsitem.cpp \
   qt/paymentrequestplus.cpp \
   qt/paymentserver.cpp \
+  qt/columnalignedlayout.cpp \
+  qt/proposaldialog.cpp \
+  qt/proposalfilterproxy.cpp \
+  qt/proposallist.cpp \
+  qt/proposalrecord.cpp \
+  qt/proposaltablemodel.cpp \
   qt/receivecoinsdialog.cpp \
   qt/receiverequestdialog.cpp \
   qt/recentrequeststablemodel.cpp \

@@ -1734,7 +1734,7 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, CAmount> >& vecSend,
                     }
 
                     if (useIX) {
-                        strFailReason += " " + _("SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.");
+                        strFailReason += " " + _("SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.");
                     }
 
                     return false;
@@ -3008,7 +3008,7 @@ int CMerkleTx::GetDepthInMainChain(const CBlockIndex*& pindexRet, bool enableIX)
         if (nResult < 6) {
             int signatures = GetTransactionLockSignatures();
             if (signatures >= SWIFTTX_SIGNATURES_REQUIRED) {
-                return nSwiftTXDepth + nResult;
+                return nSwiftXDepth + nResult;
             }
         }
     }
@@ -3038,7 +3038,7 @@ int CMerkleTx::GetTransactionLockSignatures() const
 {
     if (fLargeWorkForkFound || fLargeWorkInvalidChainFound) return -2;
     if (!IsSporkActive(SPORK_2_SWIFTTX)) return -3;
-    if (!fEnableSwiftTX) return -1;
+    if (!fEnableSwiftX) return -1;
 
     //compile consessus vote
     std::map<uint256, CTransactionLock>::iterator i = mapTxLocks.find(GetHash());
@@ -3051,7 +3051,7 @@ int CMerkleTx::GetTransactionLockSignatures() const
 
 bool CMerkleTx::IsTransactionLockTimedOut() const
 {
-    if (!fEnableSwiftTX) return 0;
+    if (!fEnableSwiftX) return 0;
 
     //compile consessus vote
     std::map<uint256, CTransactionLock>::iterator i = mapTxLocks.find(GetHash());

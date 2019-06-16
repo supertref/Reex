@@ -172,8 +172,8 @@
         <translation>确认钱包加密</translation>
     </message>
     <message>
-        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
-        <translation>Reecore将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取REEXs。</translation>
+        <source>REEX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>REEX将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取REEXs。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,6 +225,9 @@
     </message>
 </context>
 <context>
+    <name>BanTableModel</name>
+    </context>
+<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -235,16 +238,8 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>输入您要使用BIP 38加密的REEX地址。在中间框中输入密码。按加密计算加密私钥。</translation>
-    </message>
-    <message>
         <source>Address:</source>
         <translation>地址：</translation>
-    </message>
-    <message>
-        <source>The REEX address to sign the message with</source>
-        <translation>该REEX地址签名的消息</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,16 +270,8 @@
         <translation>将当前签名复制到系统剪贴板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REEX address</source>
-        <translation>签署消息以证明您拥有此REEX地址</translation>
-    </message>
-    <message>
         <source>Encrypt &amp;Key</source>
         <translation>加密&amp;秘钥</translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation>重置所有签名信息</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -299,20 +286,8 @@
         <translation>输入BIP 38加密私钥。 在中间框中输入密码。 单击解密密钥计算私钥。 密钥解密后，单击“导入地址”将将该私钥添加到钱包中。</translation>
     </message>
     <message>
-        <source>The REEX address the message was signed with</source>
-        <translation>由REEX地址签名的消息</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified REEX address</source>
-        <translation>验证消息确保它已使用指定的REEX地址进行签名</translation>
-    </message>
-    <message>
         <source>Decrypt &amp;Key</source>
         <translation>解密&amp;秘钥</translation>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation>重置所有验证消息</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -399,7 +374,7 @@
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;概述</translation>
+        <translation>&amp;O概述</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -407,15 +382,15 @@
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;发送</translation>
+        <translation>&amp;S发送</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;接收</translation>
+        <translation>&amp;R接收</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;交易</translation>
+        <translation>&amp;T交易</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
@@ -439,11 +414,11 @@
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;选项</translation>
+        <translation>&amp;Q选项</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;显示/隐藏</translation>
+        <translation>&amp;S显示/隐藏</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
@@ -451,7 +426,7 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;加密钱包...</translation>
+        <translation>&amp;E加密钱包...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
@@ -459,7 +434,7 @@
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;备份钱包...</translation>
+        <translation>&amp;B备份钱包...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -467,7 +442,7 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;修改密码</translation>
+        <translation>&amp;C修改密码</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -475,7 +450,7 @@
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;解锁钱包...</translation>
+        <translation>&amp;U解锁钱包...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -483,11 +458,11 @@
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;锁定钱包</translation>
+        <translation>&amp;L锁定钱包</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>签名&amp;消息</translation>
+        <translation>S签名&amp;消息</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -495,7 +470,7 @@
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;信息</translation>
+        <translation>&amp;I信息</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
@@ -503,7 +478,7 @@
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>&amp;调试控制台</translation>
+        <translation>&amp;D调试控制台</translation>
     </message>
     <message>
         <source>Open debugging console</source>
@@ -511,7 +486,7 @@
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>&amp;网络监视器</translation>
+        <translation>&amp;N网络监视器</translation>
     </message>
     <message>
         <source>Show network monitor</source>
@@ -519,7 +494,7 @@
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;并列列表</translation>
+        <translation>&amp;P并列列表</translation>
     </message>
     <message>
         <source>Show peers info</source>
@@ -527,7 +502,7 @@
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>钱包&amp;修复</translation>
+        <translation>W钱包&amp;修复</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
@@ -547,7 +522,7 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;发送地址...</translation>
+        <translation>&amp;S发送地址...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -555,7 +530,7 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;接收地址</translation>
+        <translation>&amp;R接收地址</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
@@ -563,11 +538,11 @@
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>打开&amp;URI</translation>
+        <translation>O打开&amp;URI</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;命令行选项</translation>
+        <translation>&amp;C命令行选项</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -575,55 +550,59 @@
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;文件</translation>
+        <translation>&amp;F文件</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;设置</translation>
+        <translation>&amp;S设置</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;工具</translation>
+        <translation>&amp;T工具</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;帮助</translation>
+        <translation>&amp;H帮助</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
         <translation>标签工具栏</translation>
     </message>
     <message>
-        <source>ReeCore</source>
-        <translation>Reecore 核心</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     <message>
         <source>Send coins to a REEX address</source>
         <translation>发送数字货币到REEX地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Reecore: URIs)</source>
-        <translation>请求支付（生成二维码和Reecore：URIs）</translation>
+        <source>Request payments (generates QR codes and reex: URIs)</source>
+        <translation>请求支付（生成二维码和reex：URIs）</translation>
+    </message>
+    <message>
+        <source>&amp;Privacy</source>
+        <translation>&amp;P隐私</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
-        <translation>&amp;主节点</translation>
+        <translation>&amp;M主节点</translation>
     </message>
     <message>
         <source>Browse masternodes</source>
         <translation>浏览主节点</translation>
     </message>
     <message>
-        <source>&amp;About ReeCore</source>
-        <translation>&amp;关于Reecore核心</translation>
+        <source>&amp;About REEX Core</source>
+        <translation>&amp;A关于REEX Core</translation>
     </message>
     <message>
-        <source>Show information about ReeCore</source>
-        <translation>显示Reecore核心的相关信息</translation>
+        <source>Show information about REEX Core</source>
+        <translation>显示REEX  Core的相关信息</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reecore</source>
-        <translation>修改Reecore的配置选项</translation>
+        <source>Modify configuration options for REEX</source>
+        <translation>修改REEX的配置选项</translation>
     </message>
     <message>
         <source>Sign messages with your REEX addresses to prove you own them</source>
@@ -643,7 +622,7 @@
     </message>
     <message>
         <source>&amp;MultiSend</source>
-        <translation>&amp;多重发送</translation>
+        <translation>&amp;M多重发送</translation>
     </message>
     <message>
         <source>MultiSend Settings</source>
@@ -662,24 +641,24 @@
         <translation>打开主节点配置文件</translation>
     </message>
     <message>
-        <source>Open a Reecore: URI or payment request</source>
-        <translation>打开Reecore：URI或付款请求</translation>
+        <source>Open a REEX: URI or payment request</source>
+        <translation>打开REEX：URI或付款请求</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
-        <translation>&amp;区块浏览器</translation>
+        <translation>&amp;B区块浏览器</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>区块浏览窗口</translation>
     </message>
     <message>
-        <source>Show the ReeCore help message to get a list with possible Reecore command-line options</source>
-        <translation>显示ReeCore帮助信息以获取可能的Reecore命令行选项的列表</translation>
+        <source>Show the REEX Core help message to get a list with possible REEX command-line options</source>
+        <translation>显示REEX Core帮助信息并获取REEX命令行选项列表</translation>
     </message>
     <message>
-        <source>ReeCore client</source>
-        <translation>Reecore核心客户端</translation>
+        <source>REEX Core client</source>
+        <translation>REEX Core 客户端</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -700,10 +679,6 @@
     <message>
         <source>Up to date</source>
         <translation>最新</translation>
-    </message>
-    <message>
-        <source>%1 behind</source>
-        <translation>%1 落后</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -730,6 +705,18 @@
         <translation>信息</translation>
     </message>
     <message>
+        <source>Sent transaction</source>
+        <translation>发送交易</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>接收交易</translation>
+    </message>
+    <message>
+        <source>Sent MultiSend transaction</source>
+        <translation>发送MultiSend交易</translation>
+    </message>
+    <message>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -740,6 +727,14 @@ Address: %4
 类型：%3
 地址：%4
 </translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation>激活</translation>
+    </message>
+    <message>
+        <source>Not Active</source>
+        <translation>未激活</translation>
     </message>
     </context>
 <context>
@@ -808,15 +803,31 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ReeCore</source>
-        <translation>Reecore 核心</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
+    </message>
+    <message>
+        <source>About REEX Core</source>
+        <translation>关于REEX Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>ReeCore</source>
-        <translation>Reecore 核心</translation>
+        <source>Welcome to REEX Core.</source>
+        <translation>欢迎使用 REEX Core</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where REEX Core will store its data.</source>
+        <translation>由于这是该程序第一次启动，您可以选择存储REEX Core 数据的位置。</translation>
+    </message>
+    <message>
+        <source>REEX Core will download and store a copy of the REEX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>REEX Core将下载并存储REEX区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
+    </message>
+    <message>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -836,6 +847,10 @@ Address: %4
     <message>
         <source>Address</source>
         <translation>地址</translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation>激活</translation>
     </message>
     <message>
         <source>S&amp;tart alias</source>
@@ -864,6 +879,20 @@ Address: %4
         <source>Address:</source>
         <translation>地址：</translation>
     </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>输入此地址的标签，将其添加到您的地址列表中</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>未设置标签</translation>
+    </message>
+    </context>
+<context>
+    <name>MultisigDialog</name>
+    </context>
+<context>
+    <name>ObfuscationConfig</name>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -891,16 +920,16 @@ Address: %4
         <translation>如果您要禁用未经确认发送，在至少有一个确认之前&lt;br/&gt;不能更改。&lt;br/&gt;这也将影响您的余额计算。</translation>
     </message>
     <message>
-        <source>Automatically open the Reecore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动打开路由器上的Reecore钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
+        <source>Automatically open the REEX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动打开路由器上的REEX钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
         <translation>&amp;使用SOCKS5代理（默认代理）</translation>
     </message>
     <message>
-        <source>&amp;Start Reecore on system login</source>
-        <translation>&amp;开机启动Reecore</translation>
+        <source>&amp;Start REEX on system login</source>
+        <translation>&amp;开机启动REEX</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -951,6 +980,10 @@ Address: %4
         <translation>选择&amp;语言包</translation>
     </message>
     <message>
+        <source>User Interface Theme:</source>
+        <translation>界面主题（语言包）:</translation>
+    </message>
+    <message>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;单位显示金额</translation>
     </message>
@@ -972,7 +1005,7 @@ Address: %4
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>上述选项的主动命令行选项：</translation>
+        <translation>激活上述选项的命令行选项：</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -1018,7 +1051,7 @@ Address: %4
         <source>The supplied proxy address is invalid.</source>
         <translation>提供的代理地址无效。</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>OverviewPage</name>
     <message>
@@ -1034,12 +1067,8 @@ Address: %4
         <translation>您目前的支出余额</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reecore network after a connection is established, but this process has not completed yet.</source>
-        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与Reecore网络同步，但此过程尚未完成。</translation>
-    </message>
-    <message>
-        <source>Your current total balance</source>
-        <translation>您当前的总余额</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the REEX network after a connection is established, but this process has not completed yet.</source>
+        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与REEX网络同步，但此过程尚未完成。</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1051,6 +1080,41 @@ Address: %4
     </context>
 <context>
     <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>PrivacyDialog</name>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the REEX network after a connection is established, but this process has not completed yet.</source>
+        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与REEX网络同步，但此过程尚未完成。</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>支&amp;付</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>选以前使用的地址</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>从剪贴板复制地址</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;标签</translation>
+    </message>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>A&amp;总计</translation>
+    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -1070,7 +1134,7 @@ Address: %4
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;信息</translation>
+        <translation>&amp;I信息</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1108,12 +1172,12 @@ Address: %4
         <translation>&amp;消息：</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reecore network.</source>
-        <translation>附加到付款请求的可选消息，将在请求打开时显示。 注意：消息不会在付款时通过Reecore网络发送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the REEX network.</source>
+        <translation>附加到付款请求的可选消息，将在请求打开时显示。 注意：消息不会在付款时通过REEX网络发送。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reecore network.</source>
-        <translation>附加到付款请求的可选消息，将在请求打开时显示。&lt;br&gt; 注意：消息不会在付款时通过Reecore网络发送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the REEX network.</source>
+        <translation>附加到付款请求的可选消息，将在请求打开时显示。&lt;br&gt; 注意：消息不会在付款时通过REEX网络发送。</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1248,8 +1312,8 @@ Address: %4
         <translation>消息:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Reecore: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reecore network.</source>
-        <translation>附加到Reecore：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过Reecore网络发送。</translation>
+        <source>A message that was attached to the REEX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the REEX network.</source>
+        <translation>附加到REEX：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过REEX网络发送。</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1389,8 +1453,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ReeCore</source>
-        <translation>Reecore 核心</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     </context>
 <context>
@@ -1469,14 +1533,17 @@ Address: %4
     </message>
     </context>
 <context>
-    <name>Reecore-core</name>
+    <name>ZReexControlDialog</name>
+    </context>
+<context>
+    <name>reex-core</name>
     <message>
-        <source>Execute command when a REEXevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>在收到相关警报时执行命令，或者看到一个很长的分叉（cmd中的%s被消息替换）</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ReeCore will not work properly.</source>
-        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，ReeCore将无法正常工作。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong REEX Core will not work properly.</source>
+        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，REEX Core将无法正常工作。</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
@@ -1491,7 +1558,7 @@ Address: %4
         <translation>信息</translation>
     </message>
     <message>
-        <source>This is a pre-REEXease test build - use at your own risk - do not use for staking or merchant applications!</source>
+        <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
         <translation>这是一个预发行测试版本 - 您自己承担风险 - 不要用于商业应用！</translation>
     </message>
     <message>

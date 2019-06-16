@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopírovat vybranou adresu do mezipaměti</translation>
+        <translation>Kopírovat vybranou adresu do schránky</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -172,8 +172,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
-        <translation>Reecore se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše REEXy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>REEX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>REEX se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše REEXy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,6 +225,9 @@
     </message>
 </context>
 <context>
+    <name>BanTableModel</name>
+    </context>
+<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -235,16 +238,8 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte REEX adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
-    </message>
-    <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
-    </message>
-    <message>
-        <source>The REEX address to sign the message with</source>
-        <translation>REEX adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,16 +270,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REEX address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto REEX adresu</translation>
-    </message>
-    <message>
         <source>Encrypt &amp;Key</source>
         <translation>Šifrovat &amp;Klíč</translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation>Resetovat všechny položky podepsání zprávy</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -299,20 +286,8 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The REEX address the message was signed with</source>
-        <translation>REEX adresa zprávy byla podpsána</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified REEX address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou REEX adresou</translation>
-    </message>
-    <message>
         <source>Decrypt &amp;Key</source>
         <translation>Dešifrovat &amp;Klíč</translation>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation>Resetovat všechny položky pro ověření zprávy</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -420,6 +395,10 @@
     <message>
         <source>Browse transaction history</source>
         <translation>Procházet historii transakcí</translation>
+    </message>
+    <message>
+        <source>Privacy Actions for zREEX</source>
+        <translation>Řešení soukromí pro zREEX</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -562,6 +541,30 @@
         <translation>Zobrazit seznam použitých adres  a popisků pro přijetí plateb</translation>
     </message>
     <message>
+        <source>&amp;Multisignature creation...</source>
+        <translation>&amp;Vytvoření multisignatury</translation>
+    </message>
+    <message>
+        <source>Create a new multisignature address and add it to this wallet</source>
+        <translation>Vytvořit novou multisignaturní adresu a přidat ji do této peněženky</translation>
+    </message>
+    <message>
+        <source>&amp;Multisignature spending...</source>
+        <translation>&amp;Multisignaturní výdaje...</translation>
+    </message>
+    <message>
+        <source>Spend from a multisignature address</source>
+        <translation>Uhradit z multisignaturní adresy</translation>
+    </message>
+    <message>
+        <source>&amp;Multisignature signing...</source>
+        <translation>&amp;Multisignaturní podepisování...</translation>
+    </message>
+    <message>
+        <source>Sign with a multisignature address</source>
+        <translation>Podepsat multisignaturní adresou</translation>
+    </message>
+    <message>
         <source>Open &amp;URI...</source>
         <translation>Otevřít &amp;URI...</translation>
     </message>
@@ -572,6 +575,10 @@
     <message>
         <source>Synchronizing additional data: %p%</source>
         <translation>Synchronizuji přídavná data: %p%</translation>
+    </message>
+    <message>
+        <source>%1 behind. Scanning block %2</source>
+        <translation>Zbývá %1 bloků. Skenuji blok %2</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -594,16 +601,20 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     <message>
         <source>Send coins to a REEX address</source>
         <translation>Odeslat platbuna REEX adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Reecore: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a Reecore: URIs)</translation>
+        <source>Request payments (generates QR codes and reex: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a reex: URIs)</translation>
+    </message>
+    <message>
+        <source>&amp;Privacy</source>
+        <translation>&amp;Soukromí</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,12 +625,12 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About ReeCore</source>
-        <translation>&amp;O ReeCore</translation>
+        <source>&amp;About REEX Core</source>
+        <translation>&amp;O REEX Core</translation>
     </message>
     <message>
-        <source>Show information about ReeCore</source>
-        <translation>Zobraz informace o ReeCore</translation>
+        <source>Show information about REEX Core</source>
+        <translation>Zobraz informace o REEX Core</translation>
     </message>
     <message>
         <source>Modify configuration options for REEX</source>
@@ -662,8 +673,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a Reecore: URI or payment request</source>
-        <translation>Otevřít Reecore: URI nebo platební žádost</translation>
+        <source>Open a REEX: URI or payment request</source>
+        <translation>Otevřít REEX: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,12 +685,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the ReeCore help message to get a list with possible Reecore command-line options</source>
-        <translation>Zobrazit ReeCore pomocnou zpráv pro získání seznamu možných parametrů Reecore pro příkazy do příkazové řádky</translation>
+        <source>Show the REEX Core help message to get a list with possible REEX command-line options</source>
+        <translation>Zobrazit REEX Core pomocnou zpráv pro získání seznamu možných parametrů REEX pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>ReeCore client</source>
-        <translation>ReeCore klient</translation>
+        <source>REEX Core client</source>
+        <translation>REEX Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -706,8 +717,8 @@
         <translation>%1 a %2</translation>
     </message>
     <message>
-        <source>%1 behind</source>
-        <translation>%1 za</translation>
+        <source>Catching up...</source>
+        <translation>Doháníme co se dá...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -789,6 +800,14 @@ MultiSend: %1</translation>
         <translation>Blockchainový průzkumník</translation>
     </message>
     <message>
+        <source>Back</source>
+        <translation>Zpět</translation>
+    </message>
+    <message>
+        <source>Forward</source>
+        <translation>Dále</translation>
+    </message>
+    <message>
         <source>Address / Block / Transaction</source>
         <translation>Adresa / Blok / Transakce</translation>
     </message>
@@ -801,12 +820,16 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (Reecore.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reex.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (reex.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
+    <message>
+        <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
+        <translation>Celkem: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / neznámé: %5)</translation>
+    </message>
     <message>
         <source>Network Alert</source>
         <translation>Upozornění sítě</translation>
@@ -1104,12 +1127,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     <message>
-        <source>About ReeCore</source>
-        <translation>O ReeCore</translation>
+        <source>About REEX Core</source>
+        <translation>O REEX Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1143,16 +1166,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to ReeCore.</source>
-        <translation>Vítejte v ReeCore.</translation>
+        <source>Welcome to REEX Core.</source>
+        <translation>Vítejte v REEX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where ReeCore will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude ReeCore ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where REEX Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude REEX Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>ReeCore will download and store a copy of the Reecore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>ReeCore stáhne a uloží kopii Reecore blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>REEX Core will download and store a copy of the REEX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>REEX Core stáhne a uloží kopii REEX blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1163,8 +1186,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1188,10 +1211,6 @@ MultiSend: %1</translation>
     <message>
         <source>Form</source>
         <translation>Od</translation>
-    </message>
-    <message>
-        <source>My Masternodes</source>
-        <translation>Moje Masternody</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -1369,6 +1388,10 @@ MultiSend: %1</translation>
         <translation>Poslat pro odměny masternodů</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(bez popisku)</translation>
+    </message>
+    <message>
         <source>The entered address:
 </source>
         <translation>Zadaná adresa:
@@ -1407,6 +1430,68 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 </translation>
     </message>
 </context>
+<context>
+    <name>MultisigDialog</name>
+    <message>
+        <source>Status:</source>
+        <translation>Stav:</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Hodnota:</translation>
+    </message>
+    </context>
+<context>
+    <name>ObfuscationConfig</name>
+    <message>
+        <source>Configure Obfuscation</source>
+        <translation>Konfigurace obfuskace</translation>
+    </message>
+    <message>
+        <source>Basic Privacy</source>
+        <translation>Základní ochrana soukromí</translation>
+    </message>
+    <message>
+        <source>High Privacy</source>
+        <translation>Vysoká ochrana soukromí</translation>
+    </message>
+    <message>
+        <source>Maximum Privacy</source>
+        <translation>Maximální ochrana soukromí</translation>
+    </message>
+    <message>
+        <source>Please select a privacy level.</source>
+        <translation>Vyberte úrpvěň ochrany soukromí</translation>
+    </message>
+    <message>
+        <source>Use 2 separate masternodes to mix funds up to 10000 REEX</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 REEX</translation>
+    </message>
+    <message>
+        <source>Use 16 separate masternodes</source>
+        <translation>Použít 16 oddělených masternodů</translation>
+    </message>
+    <message>
+        <source>This option is the quickest and will cost about ~0.025 REEX to anonymize 10000 REEX</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 REEX pro anonymizaci 10000 REEX</translation>
+    </message>
+    <message>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
+    </message>
+    <message>
+        <source>0.1 REEX per 10000 REEX you anonymize.</source>
+        <translation>0.1 REEX za 10000 REEX anonymizujete.</translation>
+    </message>
+    <message>
+        <source>Obfuscation Configuration</source>
+        <translation>Konfigurace obufuskace</translation>
+    </message>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1465,12 +1550,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Reecore after logging in to the system.</source>
-        <translation>Automaticky spustit Reecore po přihlášení do systému</translation>
+        <source>Automatically start REEX after logging in to the system.</source>
+        <translation>Automaticky spustit REEX po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Reecore on system login</source>
-        <translation>&amp;Spusti Reecore při přihlášení do systému</translation>
+        <source>&amp;Start REEX on system login</source>
+        <translation>&amp;Spusti REEX při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1552,22 +1637,14 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Zpracovávané:</translation>
     </message>
     <message>
-        <source>Balances</source>
-        <translation>Balance</translation>
-    </message>
-    <message>
         <source>Total:</source>
         <translation>Celkem:</translation>
-    </message>
-    <message>
-        <source>Your current total balance</source>
-        <translation>Vaše aktuální celková balance</translation>
     </message>
     <message>
         <source>Spendable:</source>
         <translation>Disponibilní:</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1586,6 +1663,89 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Čas pingnutí</translation>
     </message>
 </context>
+<context>
+    <name>PrivacyDialog</name>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Reset</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Množství:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Hodnota:</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Vyberte již dříve použitou adresu</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Vložit adresu z mezipamětí</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Popis</translation>
+    </message>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>H&amp;odnota:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Priorita:</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextPopisku</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Poplatek:</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Byty:</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Nedostatek prostředků!</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>střední</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Změna:</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Kopíroat množstí</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopírovat hodnotu</translation>
+    </message>
+    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -1971,10 +2131,6 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Přidat &amp;Příjemce</translation>
     </message>
     <message>
-        <source>SwiftTX</source>
-        <translation>SwiftTX</translation>
-    </message>
-    <message>
         <source>Balance:</source>
         <translation>Balance:</translation>
     </message>
@@ -2135,8 +2291,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     </context>
 <context>
@@ -2239,7 +2395,14 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>Reecore-core</name>
+    <name>ZReexControlDialog</name>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    </context>
+<context>
+    <name>reex-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>
@@ -2247,10 +2410,6 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     <message>
         <source>Information</source>
         <translation>Informace</translation>
-    </message>
-    <message>
-        <source>SwiftTX options:</source>
-        <translation>SwiftTx možnosti:</translation>
     </message>
     <message>
         <source>Synchronization failed</source>

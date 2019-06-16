@@ -172,8 +172,8 @@
         <translation>Підтвердження шифрування гаманця</translation>
     </message>
     <message>
-        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
-        <translation>Reecore зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші REEX'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
+        <source>REEX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>REEX зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші REEX'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -187,6 +187,9 @@
         <source>Wallet encrypted</source>
         <translation>Гаманець зашифровано</translation>
     </message>
+    </context>
+<context>
+    <name>BanTableModel</name>
     </context>
 <context>
     <name>Bip38ToolDialog</name>
@@ -232,6 +235,16 @@
     </context>
 <context>
     <name>MultiSendDialog</name>
+    <message>
+        <source>(no label)</source>
+        <translation>(без міток)</translation>
+    </message>
+    </context>
+<context>
+    <name>MultisigDialog</name>
+    </context>
+<context>
+    <name>ObfuscationConfig</name>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -247,6 +260,9 @@
     </context>
 <context>
     <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>PrivacyDialog</name>
     </context>
 <context>
     <name>QObject</name>
@@ -357,6 +373,9 @@
     </message>
     </context>
 <context>
-    <name>Reecore-core</name>
+    <name>ZReexControlDialog</name>
+    </context>
+<context>
+    <name>reex-core</name>
     </context>
 </TS>

@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
-        <translation>Reecore 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 REEX 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>REEX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>REEX 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 REEX 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -217,6 +217,9 @@
     </message>
 </context>
 <context>
+    <name>BanTableModel</name>
+    </context>
+<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -227,16 +230,8 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>輸入你想 BIP 38 加密的 REEX 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
-    </message>
-    <message>
         <source>Address:</source>
         <translation>位址:</translation>
-    </message>
-    <message>
-        <source>The REEX address to sign the message with</source>
-        <translation>對訊息簽名的 REEX 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,16 +262,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REEX address</source>
-        <translation>使用簽章來證明你是該  REEX 位址的擁有者,</translation>
-    </message>
-    <message>
         <source>Encrypt &amp;Key</source>
         <translation>加密 &amp;鑰匙</translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation>重設所有已簽章訊息</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -287,20 +274,8 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The REEX address the message was signed with</source>
-        <translation>此訊息之 REEX 位址已簽章於</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified REEX address</source>
-        <translation>驗證訊息以確保該  REEX 位址已被簽章</translation>
-    </message>
-    <message>
         <source>Decrypt &amp;Key</source>
         <translation>解密 &amp;鑰匙</translation>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation>重設所有驗證訊息的欄位</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -582,16 +557,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     <message>
         <source>Send coins to a REEX address</source>
         <translation>送出錢幣到 REEX 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Reecore: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 Reecore 位址)</translation>
+        <source>Request payments (generates QR codes and reex: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 reex 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,16 +577,16 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ReeCore</source>
-        <translation>&amp;關於 ReeCore</translation>
+        <source>&amp;About REEX Core</source>
+        <translation>&amp;關於 REEX Core</translation>
     </message>
     <message>
-        <source>Show information about ReeCore</source>
-        <translation>顯示 ReeCore 相關資訊</translation>
+        <source>Show information about REEX Core</source>
+        <translation>顯示 REEX Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reecore</source>
-        <translation>修改 Reecore 設定</translation>
+        <source>Modify configuration options for REEX</source>
+        <translation>修改 REEX 設定</translation>
     </message>
     <message>
         <source>Sign messages with your REEX addresses to prove you own them</source>
@@ -650,8 +625,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a Reecore: URI or payment request</source>
-        <translation>打開Reecore: 位址或付款請求 </translation>
+        <source>Open a REEX: URI or payment request</source>
+        <translation>打開REEX: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +637,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the ReeCore help message to get a list with possible Reecore command-line options</source>
-        <translation>顯示 ReeCore 幫助訊息以取得 Reecore 命令列表選項</translation>
+        <source>Show the REEX Core help message to get a list with possible REEX command-line options</source>
+        <translation>顯示 REEX Core 幫助訊息以取得 REEX 命令列表選項</translation>
     </message>
     <message>
-        <source>ReeCore client</source>
-        <translation>ReeCore 客戶端</translation>
+        <source>REEX Core client</source>
+        <translation>REEX Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +671,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     </context>
 <context>
@@ -724,6 +699,16 @@
         <source>Address:</source>
         <translation>位址:</translation>
     </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(沒有標記)</translation>
+    </message>
+    </context>
+<context>
+    <name>MultisigDialog</name>
+    </context>
+<context>
+    <name>ObfuscationConfig</name>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -739,6 +724,29 @@
     </context>
 <context>
     <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>PrivacyDialog</name>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>選擇之前用過的位址</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>從剪貼簿貼上</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>文字標籤</translation>
+    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -885,8 +893,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     </context>
 <context>
@@ -949,6 +957,9 @@
     </message>
     </context>
 <context>
-    <name>Reecore-core</name>
+    <name>ZReexControlDialog</name>
+    </context>
+<context>
+    <name>reex-core</name>
     </context>
 </TS>

@@ -841,7 +841,7 @@ int GetInputAgeIX(uint256 nTXHash, CTxIn& vin)
             sigs = (*i).second.CountSignatures();
         }
         if (sigs >= SWIFTTX_SIGNATURES_REQUIRED) {
-            return nSwiftTXDepth + nResult;
+            return nSwiftXDepth + nResult;
         }
     }
 
@@ -857,7 +857,7 @@ int GetIXConfirmations(uint256 nTXHash)
         sigs = (*i).second.CountSignatures();
     }
     if (sigs >= SWIFTTX_SIGNATURES_REQUIRED) {
-        return nSwiftTXDepth;
+        return nSwiftXDepth;
     }
 
     return 0;
@@ -2512,7 +2512,7 @@ bool DisconnectBlocksAndReprocess(int blocks)
 /*
     DisconnectBlockAndInputs
 
-    Remove conflicting blocks for successful SwiftTX transaction locks
+    Remove conflicting blocks for successful SwiftX transaction locks
     This should be very rare (Probably will never happen)
 */
 // ***TODO*** clean up here
@@ -5396,7 +5396,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         mnodeman.ProcessMessage(pfrom, strCommand, vRecv);
         budget.ProcessMessage(pfrom, strCommand, vRecv);
         masternodePayments.ProcessMessageMasternodePayments(pfrom, strCommand, vRecv);
-        ProcessMessageSwiftTX(pfrom, strCommand, vRecv);
+        ProcessMessageSwiftX(pfrom, strCommand, vRecv);
         ProcessSpork(pfrom, strCommand, vRecv);
         masternodeSync.ProcessMessage(pfrom, strCommand, vRecv);
     }
@@ -5654,7 +5654,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
         // Except during reindex, importing and IBD, when old wallet
         // transactions become unconfirmed and spams other nodes.
         if (!fReindex /*&& !fImporting && !IsInitialBlockDownload()*/) {
-            GetMainSignals().Broadcast(0);
+            GetMainSignals().Broadcast();
         }
 
         //

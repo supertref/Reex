@@ -45,13 +45,13 @@ QT_TRANSLATE_NOOP("reecore-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("reecore-core", ""
-"Disable all reecore specific functionality (Masternodes, SwiftTX, "
+"Disable all reecore specific functionality (Masternodes, SwiftX, "
 "Budgeting) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("reecore-core", ""
 "Distributed under the MIT software license, see the accompanying file "
 "COPYING or <http://www.opensource.org/licenses/mit-license.php>."),
 QT_TRANSLATE_NOOP("reecore-core", ""
-"Enable SwiftTX, show confirmations for locked transactions (bool, default: %s)"),
+"Enable SwiftX, show confirmations for locked transactions (bool, default: %s)"),
 QT_TRANSLATE_NOOP("reecore-core", ""
 "Enable spork administration functionality with the appropriate private key."),
 QT_TRANSLATE_NOOP("reecore-core", ""
@@ -142,7 +142,7 @@ QT_TRANSLATE_NOOP("reecore-core", ""
 QT_TRANSLATE_NOOP("reecore-core", ""
 "Support filtering of blocks and transaction with bloom filters (default: %u)"),
 QT_TRANSLATE_NOOP("reecore-core", ""
-"SwiftTX requires inputs with at least 6 confirmations, you might need to wait "
+"SwiftX requires inputs with at least 6 confirmations, you might need to wait "
 "a few minutes and try again."),
 QT_TRANSLATE_NOOP("reecore-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
@@ -249,10 +249,10 @@ QT_TRANSLATE_NOOP("reecore-core", "Do not load the wallet and disable wallet RPC
 QT_TRANSLATE_NOOP("reecore-core", "Do you want to rebuild the block database now?"),
 QT_TRANSLATE_NOOP("reecore-core", "Done loading"),
 QT_TRANSLATE_NOOP("reecore-core", "Enable publish hash block in <address>"),
-QT_TRANSLATE_NOOP("reecore-core", "Enable publish hash transaction (locked via SwiftTX) in <address>"),
+QT_TRANSLATE_NOOP("reecore-core", "Enable publish hash transaction (locked via SwiftX) in <address>"),
 QT_TRANSLATE_NOOP("reecore-core", "Enable publish hash transaction in <address>"),
 QT_TRANSLATE_NOOP("reecore-core", "Enable publish raw block in <address>"),
-QT_TRANSLATE_NOOP("reecore-core", "Enable publish raw transaction (locked via SwiftTX) in <address>"),
+QT_TRANSLATE_NOOP("reecore-core", "Enable publish raw transaction (locked via SwiftX) in <address>"),
 QT_TRANSLATE_NOOP("reecore-core", "Enable publish raw transaction in <address>"),
 QT_TRANSLATE_NOOP("reecore-core", "Enable staking functionality (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("reecore-core", "Enable the client to act as a masternode (0-1, default: %u)"),
@@ -392,7 +392,7 @@ QT_TRANSLATE_NOOP("reecore-core", "Stop running after importing blocks from disk
 QT_TRANSLATE_NOOP("reecore-core", "Submitted following entries to masternode: %u / %d"),
 QT_TRANSLATE_NOOP("reecore-core", "Submitted to masternode, waiting for more entries ( %u / %d ) %s"),
 QT_TRANSLATE_NOOP("reecore-core", "Submitted to masternode, waiting in queue %s"),
-QT_TRANSLATE_NOOP("reecore-core", "SwiftTX options:"),
+QT_TRANSLATE_NOOP("reecore-core", "SwiftX options:"),
 QT_TRANSLATE_NOOP("reecore-core", "Synchronization failed"),
 QT_TRANSLATE_NOOP("reecore-core", "Synchronization finished"),
 QT_TRANSLATE_NOOP("reecore-core", "Synchronization pending..."),

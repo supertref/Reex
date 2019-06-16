@@ -696,7 +696,7 @@ UniValue sendrawtransaction(const UniValue& params, bool fHelp)
             "\nArguments:\n"
             "1. \"hexstring\"    (string, required) The hex string of the raw transaction)\n"
             "2. allowhighfees    (boolean, optional, default=false) Allow high fees\n"
-            "3. swifttx           (boolean, optional, default=false) Use SwiftTX to send this transaction\n"
+            "3. swifttx           (boolean, optional, default=false) Use SwiftX to send this transaction\n"
             "\nResult:\n"
             "\"hex\"             (string) The transaction hash in hex\n"
             "\nExamples:\n"
@@ -718,9 +718,9 @@ UniValue sendrawtransaction(const UniValue& params, bool fHelp)
     if (params.size() > 1)
         fOverrideFees = params[1].get_bool();
 
-    bool fSwiftTX = false;
+    bool fSwiftX = false;
     if (params.size() > 2)
-        fSwiftTX = params[2].get_bool();
+        fSwiftX = params[2].get_bool();
 
     CCoinsViewCache& view = *pcoinsTip;
     const CCoins* existingCoins = view.AccessCoins(hashTx);
@@ -728,7 +728,7 @@ UniValue sendrawtransaction(const UniValue& params, bool fHelp)
     bool fHaveChain = existingCoins && existingCoins->nHeight < 1000000000;
     if (!fHaveMempool && !fHaveChain) {
         // push to local node and sync with wallets
-        if (fSwiftTX) {
+        if (fSwiftX) {
             mapTxLockReq.insert(make_pair(tx.GetHash(), tx));
             CreateNewLock(tx);
             RelayTransactionLockReq(tx, true);

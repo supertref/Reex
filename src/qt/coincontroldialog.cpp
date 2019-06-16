@@ -37,7 +37,7 @@ QList<CAmount> CoinControlDialog::payAmounts;
 int CoinControlDialog::nSplitBlockDummy;
 CCoinControl* CoinControlDialog::coinControl = new CCoinControl();
 
-CoinControlDialog::CoinControlDialog(QWidget* parent, bool fMultisigEnabled) : QDialog(parent),
+CoinControlDialog::CoinControlDialog(QWidget* parent, bool fMultisigEnabled) : QDialog(parent, Qt::WindowSystemMenuHint | Qt::WindowTitleHint | Qt::WindowCloseButtonHint),
                                                         ui(new Ui::CoinControlDialog),
                                                         model(0)
 {
@@ -619,7 +619,7 @@ void CoinControlDialog::updateLabels(WalletModel* model, QDialog* dialog)
         nPayFee = CWallet::GetMinimumFee(nBytes, nTxConfirmTarget, mempool);
 
         // IX Fee
-        if (coinControl->useSwiftTX) nPayFee = max(nPayFee, CENT);
+        if (coinControl->useSwiftX) nPayFee = max(nPayFee, CENT);
         // Allow free?
         double dPriorityNeeded = mempoolEstimatePriority;
         if (dPriorityNeeded <= 0)

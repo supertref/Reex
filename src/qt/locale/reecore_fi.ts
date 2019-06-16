@@ -93,7 +93,11 @@
         <source>Exporting Failed</source>
         <translation>Vienti epäonnistui</translation>
     </message>
-    </context>
+    <message>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Tapahtui virhe osoitelistan tallennuksessa %1. Yritä uudestaan.</translation>
+    </message>
+</context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -168,8 +172,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
-        <translation>Reecore sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella REEXien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>REEX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>REEX sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella REEXien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -221,6 +225,9 @@
     </message>
 </context>
 <context>
+    <name>BanTableModel</name>
+    </context>
+<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -231,17 +238,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a REEX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä REEX osoite, jonnka tahtoisit salata käyttäen BIP 38.
-Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
-    </message>
-    <message>
         <source>Address:</source>
         <translation>Osoite:</translation>
-    </message>
-    <message>
-        <source>The REEX address to sign the message with</source>
-        <translation>REEX osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -272,16 +270,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this REEX address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän REEX osoitteen</translation>
-    </message>
-    <message>
         <source>Encrypt &amp;Key</source>
         <translation>Salaus &amp;Avain</translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation>Tyhjennä kaikki allekirjoita viesti kentät</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -296,20 +286,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The REEX address the message was signed with</source>
-        <translation>REEX osoite, jolla viesti allekirjoitettiin</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified REEX address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla REEX osoitteella.</translation>
-    </message>
-    <message>
         <source>Decrypt &amp;Key</source>
         <translation>Salauksen avaus &amp;Avain</translation>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation>Tyhjennä kaikki vahvista viesti kentät</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -587,16 +565,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>ReeCore</source>
-        <translation>Reecore Ydin</translation>
+        <source>REEX Core</source>
+        <translation>REEX Ydin</translation>
     </message>
     <message>
         <source>Send coins to a REEX address</source>
         <translation>Lähetä kolikkoja REEX osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Reecore: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja Reecore: URIja)</translation>
+        <source>Request payments (generates QR codes and reex: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja reex: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -607,16 +585,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About ReeCore</source>
-        <translation>ReeCore &amp;ytimestä</translation>
+        <source>&amp;About REEX Core</source>
+        <translation>REEX Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about ReeCore</source>
-        <translation>Näytä tietoja Reecore Ytimestä</translation>
+        <source>Show information about REEX Core</source>
+        <translation>Näytä tietoja REEX Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reecore</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja Reecore:lle</translation>
+        <source>Modify configuration options for REEX</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja REEX:lle</translation>
     </message>
     <message>
         <source>Sign messages with your REEX addresses to prove you own them</source>
@@ -655,8 +633,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a Reecore: URI or payment request</source>
-        <translation>Avaa Reecore: URI tai pyydä maksua</translation>
+        <source>Open a REEX: URI or payment request</source>
+        <translation>Avaa REEX: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -667,12 +645,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the ReeCore help message to get a list with possible Reecore command-line options</source>
-        <translation>Näytä Reecore Ydin apuviesti saadaksesi lista mahdollisista Reecore komentolinja komennoista.</translation>
+        <source>Show the REEX Core help message to get a list with possible REEX command-line options</source>
+        <translation>Näytä REEX Ydin apuviesti saadaksesi lista mahdollisista REEX komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>ReeCore client</source>
-        <translation>Reecore Ydin asiakasohjelma</translation>
+        <source>REEX Core client</source>
+        <translation>REEX Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -697,10 +675,6 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     <message>
         <source>%1 and %2</source>
         <translation>%1 ja %2</translation>
-    </message>
-    <message>
-        <source>%1 behind</source>
-        <translation>%1 takana</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -807,6 +781,10 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
     <message>
         <source>Amount</source>
         <translation>Määrä</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tyyppi</translation>
     </message>
     <message>
         <source>Date</source>
@@ -930,8 +908,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ReeCore</source>
-        <translation>Reecore Ydin</translation>
+        <source>REEX Core</source>
+        <translation>REEX Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -949,12 +927,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to ReeCore.</source>
-        <translation>Tervetuloa Reecore Ytimeen.</translation>
+        <source>Welcome to REEX Core.</source>
+        <translation>Tervetuloa REEX Ytimeen.</translation>
     </message>
     <message>
-        <source>ReeCore</source>
-        <translation>Reecore Ydin</translation>
+        <source>REEX Core</source>
+        <translation>REEX Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1075,6 +1053,10 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lähetä Masternode palkkioihin</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(ei nimikettä)</translation>
+    </message>
+    <message>
         <source>The entered address:
 </source>
         <translation>Syötetty osoite:</translation>
@@ -1108,6 +1090,76 @@ Please check the address and try again.</source>
         <translation>Osoitetta ei löytynyt</translation>
     </message>
 </context>
+<context>
+    <name>MultisigDialog</name>
+    <message>
+        <source>Status:</source>
+        <translation>Tila:</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Määrä:</translation>
+    </message>
+    </context>
+<context>
+    <name>ObfuscationConfig</name>
+    <message>
+        <source>Configure Obfuscation</source>
+        <translation>Konfiguroi Hämäys</translation>
+    </message>
+    <message>
+        <source>Basic Privacy</source>
+        <translation>Perus Yksityisyys</translation>
+    </message>
+    <message>
+        <source>High Privacy</source>
+        <translation>Korkea Yksityisyys</translation>
+    </message>
+    <message>
+        <source>Maximum Privacy</source>
+        <translation>Maksimi Yksityisyys</translation>
+    </message>
+    <message>
+        <source>Please select a privacy level.</source>
+        <translation>Valitse yksityisyyden taso.</translation>
+    </message>
+    <message>
+        <source>Use 2 separate masternodes to mix funds up to 10000 REEX</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 REEX</translation>
+    </message>
+    <message>
+        <source>Use 8 separate masternodes to mix funds up to 10000 REEX</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 REEX</translation>
+    </message>
+    <message>
+        <source>Use 16 separate masternodes</source>
+        <translation>Käytä 16 erillistä masternodea</translation>
+    </message>
+    <message>
+        <source>This option is the quickest and will cost about ~0.025 REEX to anonymize 10000 REEX</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 REEX anonymoidaksesi 10000 REEX</translation>
+    </message>
+    <message>
+        <source>This option is moderately fast and will cost about 0.05 REEX to anonymize 10000 REEX</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 REEX anonymoidaksesi 10000 REEX</translation>
+    </message>
+    <message>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
+    </message>
+    <message>
+        <source>0.1 REEX per 10000 REEX you anonymize.</source>
+        <translation>0.1 per 10000 REEX, jotka anonymisoit.</translation>
+    </message>
+    <message>
+        <source>Obfuscation Configuration</source>
+        <translation>Hämäys konfiguraatio</translation>
+    </message>
+    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1150,12 +1202,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start Reecore after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä Reecore kun kirjaudut sisään.</translation>
+        <source>Automatically start REEX after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä REEX kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start Reecore on system login</source>
-        <translation>&amp;Aloita Reecore järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start REEX on system login</source>
+        <translation>&amp;Aloita REEX järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1174,12 +1226,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reecore.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting REEX.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the Reecore network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Reecore verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the REEX network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä REEX verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1224,6 +1276,10 @@ Please check the address and try again.</source>
     <message>
         <source>User Interface &amp;language:</source>
         <translation>Käyttöliittymän &amp;kieli:</translation>
+    </message>
+    <message>
+        <source>User Interface Theme:</source>
+        <translation>Käyttöliittymän teema:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1277,7 +1333,7 @@ Please check the address and try again.</source>
         <source>The supplied proxy address is invalid.</source>
         <translation>Tarjottu proxy osoite on virheellinen.</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>OverviewPage</name>
     <message>
@@ -1313,10 +1369,6 @@ Please check the address and try again.</source>
         <translation>Määrä:</translation>
     </message>
     <message>
-        <source>Your current total balance</source>
-        <translation>Sinun nykyinen kokonaissaldo</translation>
-    </message>
-    <message>
         <source>Spendable:</source>
         <translation>Käytettävää:</translation>
     </message>
@@ -1335,6 +1387,93 @@ Please check the address and try again.</source>
         <translation>Ping aika</translation>
     </message>
 </context>
+<context>
+    <name>PrivacyDialog</name>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Määrä:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Määrä:</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Valitse aikaisemmin käytetty osoite</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Liitä osoite leikepöydältä</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Nimike:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Syötä nimike tälle osoittelle lisätäksesi se käytettävien osoitteiden listaan</translation>
+    </message>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>M&amp;äärä:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Tärkeys:</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TekstiNimike</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Taksa:</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Tavut:</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Puutteelliset varat!</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>kohtalainen</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Muutos:</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Kopioi määrä</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopioi määrä</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Vahvista kolikoiden lähetys</translation>
+    </message>
+    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -1396,8 +1535,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the Reecore debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Reecore debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the REEX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa REEX debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1508,8 +1647,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the Reecore RPC console.</source>
-        <translation>Tervetuloa Reecore RPC konsoliin.</translation>
+        <source>Welcome to the REEX RPC console.</source>
+        <translation>Tervetuloa REEX RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1526,10 +1665,6 @@ Please check the address and try again.</source>
     <message>
         <source>Unknown</source>
         <translation>Tuntematon</translation>
-    </message>
-    <message>
-        <source>Fetching...</source>
-        <translation>Haetaan...</translation>
     </message>
 </context>
 <context>
@@ -1551,12 +1686,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reecore network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Reecore verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the REEX network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana REEX verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reecore network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Reecore verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the REEX network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana REEX  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1812,10 +1947,6 @@ Please check the address and try again.</source>
         <translation>Lisää &amp;Vastaanottaja</translation>
     </message>
     <message>
-        <source>SwiftTX</source>
-        <translation>SwiftTX</translation>
-    </message>
-    <message>
         <source>Balance:</source>
         <translation>Saldo:</translation>
     </message>
@@ -1830,10 +1961,6 @@ Please check the address and try again.</source>
     <message>
         <source>Copy fee</source>
         <translation>Kopioi taksa</translation>
-    </message>
-    <message>
-        <source>using</source>
-        <translation>käyttää</translation>
     </message>
     <message>
         <source>Warning: Invalid REEX address</source>
@@ -1862,6 +1989,18 @@ Please check the address and try again.</source>
     <message>
         <source>Transaction creation failed!</source>
         <translation>Maksun luonti epäonnistui!</translation>
+    </message>
+    <message>
+        <source>Error: The wallet was unlocked only to anonymize coins.</source>
+        <translation>Virhe: Lompakko avattiin vain kolikoiden anonymisointiin</translation>
+    </message>
+    <message>
+        <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
+        <translation>Virhe: Lompakko avattiin vain kolikoiden anonymisointiin. Avaus peruutettu.</translation>
+    </message>
+    <message>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Maksa vain %1 minimi taksa</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1918,8 +2057,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>ReeCore is shutting down...</source>
-        <translation>ReeCore sammuu...</translation>
+        <source>REEX Core is shutting down...</source>
+        <translation>REEX core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2060,8 +2199,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ReeCore</source>
-        <translation>Reecore Ydin</translation>
+        <source>REEX Core</source>
+        <translation>REEX Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2076,12 +2215,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>PIVX core kehittäjät</translation>
-    </message>
-    <message>
-        <source>The ReeCore developers</source>
-        <translation>ReeCore kehittäjät</translation>
+        <source>The REEX Core developers</source>
+        <translation>REEX core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2186,10 +2321,6 @@ Please check the address and try again.</source>
     <message>
         <source>Payment to yourself</source>
         <translation>Maksut itsellesi</translation>
-    </message>
-    <message>
-        <source>Minted</source>
-        <translation>Luotu</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -2330,6 +2461,10 @@ Please check the address and try again.</source>
         <source>Exporting Successful</source>
         <translation>Vienti onnistui</translation>
     </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>Rahansiirto historia onnistuneesti tallennettu %1</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -2374,17 +2509,16 @@ Please check the address and try again.</source>
         <source>Wallet Data (*.dat)</source>
         <translation>Lompakko Data (*.dat)</translation>
     </message>
+</context>
+<context>
+    <name>ZReexControlDialog</name>
     <message>
-        <source>Backup Failed</source>
-        <translation>Varmuuskopiointi epäonnistui</translation>
-    </message>
-    <message>
-        <source>Backup Successful</source>
-        <translation>Varmuuskopiointi onnistui</translation>
+        <source>0</source>
+        <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>Reecore-core</name>
+    <name>reex-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2434,8 +2568,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of ReeCore</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version ReeCoresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of REEX Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version REEX Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

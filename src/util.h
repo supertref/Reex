@@ -33,8 +33,8 @@
 
 extern bool fMasterNode;
 extern bool fLiteMode;
-extern bool fEnableSwiftTX;
-extern int nSwiftTXDepth;
+extern bool fEnableSwiftX;
+extern int nSwiftXDepth;
 extern int64_t enforceMasternodePaymentsTime;
 extern std::string strMasterNodeAddr;
 extern int keysLoaded;

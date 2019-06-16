@@ -136,6 +136,10 @@
         <translation>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</translation>
     </message>
     <message>
+        <source>For anonymization and staking only</source>
+        <translation>For anonymization and staking only</translation>
+    </message>
+    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>
@@ -172,8 +176,8 @@
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
-        <translation>Reecore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</translation>
+        <source>REEX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</source>
+        <translation>REEX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your REEXs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -598,16 +602,16 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     <message>
         <source>Send coins to a REEX address</source>
         <translation>Send coins to a REEX address</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and Reecore: URIs)</source>
-        <translation>Request payments (generates QR codes and Reecore: URIs)</translation>
+        <source>Request payments (generates QR codes and reex: URIs)</source>
+        <translation>Request payments (generates QR codes and reex: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,16 +622,16 @@
         <translation>Browse masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ReeCore</source>
-        <translation>&amp;About ReeCore</translation>
+        <source>&amp;About REEX Core</source>
+        <translation>&amp;About REEX Core</translation>
     </message>
     <message>
-        <source>Show information about ReeCore</source>
-        <translation>Show information about ReeCore</translation>
+        <source>Show information about REEX Core</source>
+        <translation>Show information about REEX Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reecore</source>
-        <translation>Modify configuration options for Reecore</translation>
+        <source>Modify configuration options for REEX</source>
+        <translation>Modify configuration options for REEX</translation>
     </message>
     <message>
         <source>Sign messages with your REEX addresses to prove you own them</source>
@@ -666,8 +670,8 @@
         <translation>Open Masternode configuration file</translation>
     </message>
     <message>
-        <source>Open a Reecore: URI or payment request</source>
-        <translation>Open a Reecore: URI or payment request</translation>
+        <source>Open a REEX: URI or payment request</source>
+        <translation>Open a REEX: URI or payment request</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,16 +682,16 @@
         <translation>Block explorer window</translation>
     </message>
     <message>
-        <source>Show the ReeCore help message to get a list with possible Reecore command-line options</source>
-        <translation>Show the ReeCore help message to get a list with possible Reecore command-line options</translation>
+        <source>Show the REEX Core help message to get a list with possible REEX command-line options</source>
+        <translation>Show the REEX Core help message to get a list with possible REEX command-line options</translation>
     </message>
     <message>
-        <source>ReeCore client</source>
-        <translation>ReeCore client</translation>
+        <source>REEX Core client</source>
+        <translation>REEX Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reecore network</source>
-        <translation><numerusform>%n active connection(s) to Reecore network</numerusform><numerusform>%n active connection(s) to Reecore network</numerusform></translation>
+        <source>%n active connection(s) to REEX network</source>
+        <translation><numerusform>%n active connection(s) to REEX network</numerusform><numerusform>%n active connection(s) to REEX network</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -806,6 +810,10 @@ Address: %4
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
     </message>
     <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
+        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</translation>
+    </message>
+    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
@@ -829,8 +837,8 @@ Address: %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</source>
-        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (Reecore.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reex.conf).</source>
+        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (reex.conf).</translation>
     </message>
 </context>
 <context>
@@ -915,6 +923,10 @@ Address: %4
         <translation>Received with address</translation>
     </message>
     <message>
+        <source>DS Rounds</source>
+        <translation>DS Rounds</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Date</translation>
     </message>
@@ -987,6 +999,10 @@ Address: %4
         <translation>Please switch to "List mode" to use this function.</translation>
     </message>
     <message>
+        <source>Non-anonymized input selected. &lt;b&gt;Obfuscation will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscation, please deselect all non-nonymized inputs first and then check Obfuscation checkbox again.</source>
+        <translation>Non-anonymized input selected. &lt;b&gt;Obfuscation will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscation, please deselect all non-nonymized inputs first and then check Obfuscation checkbox again.</translation>
+    </message>
+    <message>
         <source>highest</source>
         <translation>highest</translation>
     </message>
@@ -1003,8 +1019,8 @@ Address: %4
         <translation>medium-high</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ureex per input.</source>
-        <translation>Can vary +/- %1 ureex per input.</translation>
+        <source>Can vary +/- %1 duff(s) per input.</source>
+        <translation>Can vary +/- %1 duff(s) per input.</translation>
     </message>
     <message>
         <source>n/a</source>
@@ -1168,16 +1184,16 @@ Address: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About ReeCore</source>
-        <translation>About ReeCore</translation>
+        <source>About REEX Core</source>
+        <translation>About REEX Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1223,16 +1239,16 @@ Address: %4
         <translation>Welcome</translation>
     </message>
     <message>
-        <source>Welcome to ReeCore.</source>
-        <translation>Welcome to ReeCore.</translation>
+        <source>Welcome to REEX Core.</source>
+        <translation>Welcome to REEX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where ReeCore will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where ReeCore will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where REEX Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where REEX Core will store its data.</translation>
     </message>
     <message>
-        <source>ReeCore will download and store a copy of the Reecore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>ReeCore will download and store a copy of the Reecore block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>REEX Core will download and store a copy of the REEX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>REEX Core will download and store a copy of the REEX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1243,8 +1259,8 @@ Address: %4
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1506,6 +1522,73 @@ Please check the address and try again.</translation>
     </message>
 </context>
 <context>
+    <name>ObfuscationConfig</name>
+    <message>
+        <source>Configure Obfuscation</source>
+        <translation>Configure Obfuscation</translation>
+    </message>
+    <message>
+        <source>Basic Privacy</source>
+        <translation>Basic Privacy</translation>
+    </message>
+    <message>
+        <source>High Privacy</source>
+        <translation>High Privacy</translation>
+    </message>
+    <message>
+        <source>Maximum Privacy</source>
+        <translation>Maximum Privacy</translation>
+    </message>
+    <message>
+        <source>Please select a privacy level.</source>
+        <translation>Please select a privacy level.</translation>
+    </message>
+    <message>
+        <source>Use 2 separate masternodes to mix funds up to 10000 REEX</source>
+        <translation>Use 2 separate masternodes to mix funds up to 10000 REEX</translation>
+    </message>
+    <message>
+        <source>Use 8 separate masternodes to mix funds up to 10000 REEX</source>
+        <translation>Use 8 separate masternodes to mix funds up to 10000 REEX</translation>
+    </message>
+    <message>
+        <source>Use 16 separate masternodes</source>
+        <translation>Use 16 separate masternodes</translation>
+    </message>
+    <message>
+        <source>This option is the quickest and will cost about ~0.025 REEX to anonymize 10000 REEX</source>
+        <translation>This option is the quickest and will cost about ~0.025 REEX to anonymize 10000 REEX</translation>
+    </message>
+    <message>
+        <source>This option is moderately fast and will cost about 0.05 REEX to anonymize 10000 REEX</source>
+        <translation>This option is moderately fast and will cost about 0.05 REEX to anonymize 10000 REEX</translation>
+    </message>
+    <message>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation>This is the slowest and most secure option. Using maximum anonymity will cost</translation>
+    </message>
+    <message>
+        <source>0.1 REEX per 10000 REEX you anonymize.</source>
+        <translation>0.1 REEX per 10000 REEX you anonymize.</translation>
+    </message>
+    <message>
+        <source>Obfuscation Configuration</source>
+        <translation>Obfuscation Configuration</translation>
+    </message>
+    <message>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening REEX's configuration screen.</source>
+        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening REEX's configuration screen.</translation>
+    </message>
+    <message>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening REEX's configuration screen.</source>
+        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening REEX's configuration screen.</translation>
+    </message>
+    <message>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening REEX's configuration screen.</source>
+        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening REEX's configuration screen.</translation>
+    </message>
+</context>
+<context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
@@ -1563,8 +1646,8 @@ Please check the address and try again.</translation>
         <translation>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</translation>
     </message>
     <message>
-        <source>Automatically open the Reecore client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Reecore client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the REEX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the REEX client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1583,12 +1666,28 @@ Please check the address and try again.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Reecore after logging in to the system.</source>
-        <translation>Automatically start Reecore after logging in to the system.</translation>
+        <source>Automatically start REEX after logging in to the system.</source>
+        <translation>Automatically start REEX after logging in to the system.</translation>
     </message>
     <message>
-        <source>&amp;Start Reecore on system login</source>
-        <translation>&amp;Start Reecore on system login</translation>
+        <source>&amp;Start REEX on system login</source>
+        <translation>&amp;Start REEX on system login</translation>
+    </message>
+    <message>
+        <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
+        <translation>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</translation>
+    </message>
+    <message>
+        <source>Obfuscation rounds to use</source>
+        <translation>Obfuscation rounds to use</translation>
+    </message>
+    <message>
+        <source>This amount acts as a threshold to turn off Obfuscation once it's reached.</source>
+        <translation>This amount acts as a threshold to turn off Obfuscation once it's reached.</translation>
+    </message>
+    <message>
+        <source>Amount of REEX to keep anonymized</source>
+        <translation>Amount of REEX to keep anonymized</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1615,16 +1714,22 @@ Please check the address and try again.</translation>
         <translation>&amp;Network</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reecore.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Reecore.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting REEX.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting REEX.</translation>
+    </message>
+    <message>
+        <source>Language missing or translation incomplete? Help contributing translations here:
+https://www.transifex.com/reex-project/reex-project-translations</source>
+        <translation>Language missing or translation incomplete? Help contributing translations here:
+https://www.transifex.com/reex-project/reex-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Reecore network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Reecore network through a SOCKS5 proxy.</translation>
+        <source>Connect to the REEX network through a SOCKS5 proxy.</source>
+        <translation>Connect to the REEX network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1669,6 +1774,10 @@ Please check the address and try again.</translation>
     <message>
         <source>User Interface &amp;language:</source>
         <translation>User Interface &amp;language:</translation>
+    </message>
+    <message>
+        <source>User Interface Theme:</source>
+        <translation>User Interface Theme:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1774,8 +1883,8 @@ Please check the address and try again.</translation>
         <translation>Balances</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reecore network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Reecore network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the REEX network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the REEX network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1814,8 +1923,68 @@ Please check the address and try again.</translation>
         <translation>Status:</translation>
     </message>
     <message>
+        <source>Obfuscation Balance:</source>
+        <translation>Obfuscation Balance:</translation>
+    </message>
+    <message>
+        <source>0 REEX / 0 Rounds</source>
+        <translation>0 REEX / 0 Rounds</translation>
+    </message>
+    <message>
+        <source>Enabled/Disabled</source>
+        <translation>Enabled/Disabled</translation>
+    </message>
+    <message>
+        <source>Try to manually submit a Obfuscation request.</source>
+        <translation>Try to manually submit a Obfuscation request.</translation>
+    </message>
+    <message>
+        <source>Reset the current status of Obfuscation (can interrupt Obfuscation if it's in the process of Mixing, which can cost you money!)</source>
+        <translation>Reset the current status of Obfuscation (can interrupt Obfuscation if it's in the process of Mixing, which can cost you money!)</translation>
+    </message>
+    <message>
+        <source>Obfuscation</source>
+        <translation>Obfuscation</translation>
+    </message>
+    <message>
+        <source>Completion:</source>
+        <translation>Completion:</translation>
+    </message>
+    <message>
+        <source>Amount and Rounds:</source>
+        <translation>Amount and Rounds:</translation>
+    </message>
+    <message>
+        <source>Submitted Denom:</source>
+        <translation>Submitted Denom:</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
         <source>Recent transactions</source>
         <translation>Recent transactions</translation>
+    </message>
+    <message>
+        <source>Start/Stop Mixing</source>
+        <translation>Start/Stop Mixing</translation>
+    </message>
+    <message>
+        <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
+        <translation>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</translation>
+    </message>
+    <message>
+        <source>(Last Message)</source>
+        <translation>(Last Message)</translation>
+    </message>
+    <message>
+        <source>Try Mix</source>
+        <translation>Try Mix</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Reset</translation>
     </message>
     <message>
         <source>out of sync</source>
@@ -1828,6 +1997,76 @@ Please check the address and try again.</translation>
     <message>
         <source>No inputs detected</source>
         <translation>No inputs detected</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n Rounds</source>
+        <translation><numerusform>%n Round</numerusform><numerusform>%n Rounds</numerusform></translation>
+    </message>
+    <message>
+        <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
+        <translation>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</translation>
+    </message>
+    <message>
+        <source>Overall progress</source>
+        <translation>Overall progress</translation>
+    </message>
+    <message>
+        <source>Denominated</source>
+        <translation>Denominated</translation>
+    </message>
+    <message>
+        <source>Anonymized</source>
+        <translation>Anonymized</translation>
+    </message>
+    <message numerus="yes">
+        <source>Denominated inputs have %5 of %n rounds on average</source>
+        <translation><numerusform>Denominated inputs have %5 of %n rounds on average</numerusform><numerusform>Denominated inputs have %5 of %n rounds on average</numerusform></translation>
+    </message>
+    <message>
+        <source>Last Obfuscation message:
+</source>
+        <translation>Last Obfuscation message:
+</translation>
+    </message>
+    <message>
+        <source>Obfuscation was successfully reset.</source>
+        <translation>Obfuscation was successfully reset.</translation>
+    </message>
+    <message>
+        <source>If you don't want to see internal Obfuscation fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
+        <translation>If you don't want to see internal Obfuscation fees/transactions select "Most Common" as Type on the "Transactions" tab.</translation>
+    </message>
+    <message>
+        <source>Obfuscation requires at least %1 to use.</source>
+        <translation>Obfuscation requires at least %1 to use.</translation>
+    </message>
+    <message>
+        <source>Wallet is locked and user declined to unlock. Disabling Obfuscation.</source>
+        <translation>Wallet is locked and user declined to unlock. Disabling Obfuscation.</translation>
+    </message>
+    <message>
+        <source>Found enough compatible inputs to anonymize %1</source>
+        <translation>Found enough compatible inputs to anonymize %1</translation>
+    </message>
+    <message>
+        <source>Start Obfuscation</source>
+        <translation>Start Obfuscation</translation>
+    </message>
+    <message>
+        <source>Stop Obfuscation</source>
+        <translation>Stop Obfuscation</translation>
+    </message>
+    <message>
+        <source>Mixed</source>
+        <translation>Mixed</translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Enabled</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
     </message>
 </context>
 <context>
@@ -1853,8 +2092,8 @@ Please check the address and try again.</translation>
         <translation>Invalid payment address %1</translation>
     </message>
     <message>
-        <source>Cannot start Reecore: click-to-pay handler</source>
-        <translation>Cannot start Reecore: click-to-pay handler</translation>
+        <source>Cannot start reex: click-to-pay handler</source>
+        <translation>Cannot start reex: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid REEX address or malformed URI parameters.</source>
@@ -2077,8 +2316,8 @@ Please check the address and try again.</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the Reecore debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Reecore debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the REEX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the REEX debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2245,8 +2484,8 @@ Please check the address and try again.</translation>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the Reecore RPC console.</source>
-        <translation>Welcome to the Reecore RPC console.</translation>
+        <source>Welcome to the REEX RPC console.</source>
+        <translation>Welcome to the REEX RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2316,12 +2555,12 @@ Please check the address and try again.</translation>
         <translation>An optional label to associate with the new receiving address.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reecore network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reecore network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the REEX network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the REEX network.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reecore network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reecore network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the REEX network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the REEX network.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2573,6 +2812,10 @@ Please check the address and try again.</translation>
         <translation>Minimize</translation>
     </message>
     <message>
+        <source>Obfuscation</source>
+        <translation>Obfuscation</translation>
+    </message>
+    <message>
         <source>per kilobyte</source>
         <translation>per kilobyte</translation>
     </message>
@@ -2605,8 +2848,8 @@ Please check the address and try again.</translation>
         <translation>If the custom fee is set to 1000 uREEXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uREEXs in fee,&lt;br /&gt;while "total at least" pays 1000 uREEXs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Reecore transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Reecore transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for REEX transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for REEX transactions than the network can process.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2653,8 +2896,8 @@ Please check the address and try again.</translation>
         <translation>Add &amp;Recipient</translation>
     </message>
     <message>
-        <source>SwiftTX</source>
-        <translation>SwiftTX</translation>
+        <source>SwiftX</source>
+        <translation>SwiftX</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2705,6 +2948,10 @@ Please check the address and try again.</translation>
         <translation>using</translation>
     </message>
     <message>
+        <source>anonymous funds</source>
+        <translation>anonymous funds</translation>
+    </message>
+    <message>
         <source>Warning: Invalid REEX address</source>
         <translation>Warning: Invalid REEX address</translation>
     </message>
@@ -2713,8 +2960,8 @@ Please check the address and try again.</translation>
         <translation>any available funds (not recommended)</translation>
     </message>
     <message>
-        <source>and SwiftTX</source>
-        <translation>and SwiftTX</translation>
+        <source>and SwiftX</source>
+        <translation>and SwiftX</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2749,6 +2996,10 @@ Please check the address and try again.</translation>
         <translation>The recipient address is not valid, please recheck.</translation>
     </message>
     <message>
+        <source>(obfuscation requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(obfuscation requires this amount to be rounded up to the nearest %1).</translation>
+    </message>
+    <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
         <translation> split into %1 outputs using the UTXO splitter.</translation>
     </message>
@@ -2779,6 +3030,10 @@ Please check the address and try again.</translation>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
+    </message>
+    <message>
+        <source>Error: The wallet was unlocked only to anonymize coins.</source>
+        <translation>Error: The wallet was unlocked only to anonymize coins.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
@@ -2844,8 +3099,8 @@ Please check the address and try again.</translation>
         <translation>Message:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Reecore: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reecore network.</source>
-        <translation>A message that was attached to the Reecore: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reecore network.</translation>
+        <source>A message that was attached to the REEX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the REEX network.</source>
+        <translation>A message that was attached to the REEX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the REEX network.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2871,8 +3126,8 @@ Please check the address and try again.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>ReeCore is shutting down...</source>
-        <translation>ReeCore is shutting down...</translation>
+        <source>REEX Core is shutting down...</source>
+        <translation>REEX Core is shutting down...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3021,8 +3276,8 @@ Please check the address and try again.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ReeCore</source>
-        <translation>ReeCore</translation>
+        <source>REEX Core</source>
+        <translation>REEX Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3037,12 +3292,8 @@ Please check the address and try again.</translation>
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>The PIVX Core developers</translation>
-    </message>
-    <message>
-        <source>The ReeCore developers</source>
-        <translation>The ReeCore developers</translation>
+        <source>The REEX Core developers</source>
+        <translation>The REEX Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3095,24 +3346,24 @@ Please check the address and try again.</translation>
         <translation>%1 confirmations</translation>
     </message>
     <message>
-        <source>%1/offline (SwiftTX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/offline (SwiftTX verification in progress - %2 of %3 signatures)</translation>
+        <source>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</translation>
     </message>
     <message>
-        <source>%1/confirmed (SwiftTX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/confirmed (SwiftTX verification in progress - %2 of %3 signatures )</translation>
+        <source>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</source>
+        <translation>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</translation>
     </message>
     <message>
-        <source>%1 confirmations (SwiftTX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 confirmations (SwiftTX verification in progress - %2 of %3 signatures)</translation>
+        <source>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</translation>
     </message>
     <message>
-        <source>%1/offline (SwiftTX verification failed)</source>
-        <translation>%1/offline (SwiftTX verification failed)</translation>
+        <source>%1/offline (SwiftX verification failed)</source>
+        <translation>%1/offline (SwiftX verification failed)</translation>
     </message>
     <message>
-        <source>%1/confirmed (SwiftTX verification failed)</source>
-        <translation>%1/confirmed (SwiftTX verification failed)</translation>
+        <source>%1/confirmed (SwiftX verification failed)</source>
+        <translation>%1/confirmed (SwiftX verification failed)</translation>
     </message>
     <message>
         <source>Status</source>
@@ -3317,6 +3568,26 @@ Please check the address and try again.</translation>
         <translation>Received from</translation>
     </message>
     <message>
+        <source>Received via Obfuscation</source>
+        <translation>Received via Obfuscation</translation>
+    </message>
+    <message>
+        <source>Obfuscation Denominate</source>
+        <translation>Obfuscation Denominate</translation>
+    </message>
+    <message>
+        <source>Obfuscation Collateral Payment</source>
+        <translation>Obfuscation Collateral Payment</translation>
+    </message>
+    <message>
+        <source>Obfuscation Make Collateral Inputs</source>
+        <translation>Obfuscation Make Collateral Inputs</translation>
+    </message>
+    <message>
+        <source>Obfuscation Create Denominations</source>
+        <translation>Obfuscation Create Denominations</translation>
+    </message>
+    <message>
         <source>Sent to</source>
         <translation>Sent to</translation>
     </message>
@@ -3335,6 +3606,10 @@ Please check the address and try again.</translation>
     <message>
         <source>Mined</source>
         <translation>Mined</translation>
+    </message>
+    <message>
+        <source>Obfuscated</source>
+        <translation>Obfuscated</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3410,6 +3685,26 @@ Please check the address and try again.</translation>
     <message>
         <source>Sent to</source>
         <translation>Sent to</translation>
+    </message>
+    <message>
+        <source>Obfuscated</source>
+        <translation>Obfuscated</translation>
+    </message>
+    <message>
+        <source>Obfuscation Make Collateral Inputs</source>
+        <translation>Obfuscation Make Collateral Inputs</translation>
+    </message>
+    <message>
+        <source>Obfuscation Create Denominations</source>
+        <translation>Obfuscation Create Denominations</translation>
+    </message>
+    <message>
+        <source>Obfuscation Denominate</source>
+        <translation>Obfuscation Denominate</translation>
+    </message>
+    <message>
+        <source>Obfuscation Collateral Payment</source>
+        <translation>Obfuscation Collateral Payment</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3545,8 +3840,8 @@ Please check the address and try again.</translation>
         <translation>Send Coins</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 REEX.</source>
-        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 REEX.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 REEX.</source>
+        <translation>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 REEX.</translation>
     </message>
 </context>
 <context>
@@ -3589,7 +3884,7 @@ Please check the address and try again.</translation>
     </message>
 </context>
 <context>
-    <name>Reecore-core</name>
+    <name>reex-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
@@ -3615,8 +3910,8 @@ Please check the address and try again.</translation>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. ReeCore is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. ReeCore is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. REEX Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. REEX Core is probably already running.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3635,8 +3930,8 @@ Please check the address and try again.</translation>
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
-        <source>Disable all Reecore specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all Reecore specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all REEX specific functionality (Masternodes, Obfuscation, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all REEX specific functionality (Masternodes, Obfuscation, SwiftX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3651,6 +3946,10 @@ Please check the address and try again.</translation>
         <translation>Enable swifttx, show confirmations for locked transactions (bool, default: %s)</translation>
     </message>
     <message>
+        <source>Enable use of automated obfuscation for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>Enable use of automated obfuscation for funds stored in this wallet (0-1, default: %u)</translation>
+    </message>
+    <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
         <translation>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</translation>
     </message>
@@ -3663,8 +3962,8 @@ Please check the address and try again.</translation>
         <translation>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</translation>
     </message>
     <message>
-        <source>Execute command when a REEXevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Execute command when a REEXevant alert is received or we see a really long fork (%s in cmd is replaced by message)</translation>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -3675,8 +3974,8 @@ Please check the address and try again.</translation>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in REEX/Kb) smaller than this are considered zero fee for REEXaying (default: %s)</source>
-        <translation>Fees (in REEX/Kb) smaller than this are considered zero fee for REEXaying (default: %s)</translation>
+        <source>Fees (in REEX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in REEX/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
         <source>Fees (in REEX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
@@ -3685,6 +3984,10 @@ Please check the address and try again.</translation>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
         <translation>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</translation>
+    </message>
+    <message>
+        <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
+        <translation>Found unconfirmed denominated outputs, will wait till they confirm to continue.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
@@ -3699,8 +4002,8 @@ Please check the address and try again.</translation>
         <translation>In this mode -genproclimit controls how many blocks are generated immediately.</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minREEXay fee of %s to prevent stuck transactions)</source>
-        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minREEXay fee of %s to prevent stuck transactions)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
     </message>
     <message>
         <source>Keep the specified amount available for spending at all times (default: 0)</source>
@@ -3715,8 +4018,8 @@ Please check the address and try again.</translation>
         <translation>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</translation>
     </message>
     <message>
-        <source>Maximum size of data in data carrier transactions we REEXay and mine (default: %u)</source>
-        <translation>Maximum size of data in data carrier transactions we REEXay and mine (default: %u)</translation>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
@@ -3727,16 +4030,24 @@ Please check the address and try again.</translation>
         <translation>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</translation>
     </message>
     <message>
+        <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</translation>
+    </message>
+    <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
         <translation>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</translation>
+    </message>
+    <message>
+        <source>Provide liquidity to Obfuscation by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation>Provide liquidity to Obfuscation by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
     </message>
     <message>
-        <source>Require high priority for REEXaying free or low-fee transactions (default:%u)</source>
-        <translation>Require high priority for REEXaying free or low-fee transactions (default:%u)</translation>
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Require high priority for relaying free or low-fee transactions (default:%u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
@@ -3763,40 +4074,48 @@ Please check the address and try again.</translation>
         <translation>Support filtering of blocks and transaction with bloom filters (default: %u)</translation>
     </message>
     <message>
-        <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</translation>
+        <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use Reecored, or the -server option to Reecore-qt, you must set an rpcpassword in the configuration file:
+        <source>To use reexd, or the -server option to reex-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Reecorerpc
+rpcuser=reexrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "REEX Alert" admin@foo.com
 </source>
-        <translation>To use Reecored, or the -server option to Reecore-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use reexd, or the -server option to reex-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Reecorerpc
+rpcuser=reexrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "REEX Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. ReeCore is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. ReeCore is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. REEX Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. REEX Core is probably already running.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
+        <translation>Unable to locate enough Obfuscation denominated funds for this transaction.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 REEX.</source>
+        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 REEX.</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 REEX.</source>
@@ -3815,8 +4134,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ReeCore will not work properly.</source>
-        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong ReeCore will not work properly.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong REEX Core will not work properly.</source>
+        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong REEX Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3839,16 +4158,16 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</translation>
     </message>
     <message>
-        <source>Whitelisted peers cannot be DoS banned and their transactions are always REEXayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Whitelisted peers cannot be DoS banned and their transactions are always REEXayed, even if they are already in the mempool, useful e.g. for a gateway</translation>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
         <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <source>(43210 could be used only on mainnet)</source>
-        <translation>(43210 could be used only on mainnet)</translation>
+        <source>(9229 could be used only on mainnet)</source>
+        <translation>(9229 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3859,8 +4178,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 43210 for mainnet)</source>
-        <translation>(must be 43210 for mainnet)</translation>
+        <source>(must be 9229 for mainnet)</source>
+        <translation>(must be 9229 for mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -3903,8 +4222,16 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Block creation options:</translation>
     </message>
     <message>
+        <source>Can't denominate: no compatible inputs left.</source>
+        <translation>Can't denominate: no compatible inputs left.</translation>
+    </message>
+    <message>
         <source>Can't find random Masternode.</source>
         <translation>Can't find random Masternode.</translation>
+    </message>
+    <message>
+        <source>Can't mix while sync in progress.</source>
+        <translation>Can't mix while sync in progress.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -3955,12 +4282,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
-    </message>
-    <message>
-        <source>Copyright (C) 2017-%i The ReeCore Developers</source>
-        <translation>Copyright (C) 2017-%i The ReeCore Developers</translation>
+        <source>Copyright (C) 2015-%i The REEX Core Developers</source>
+        <translation>Copyright (C) 2015-%i The REEX Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4031,8 +4354,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Error loading wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of ReeCore</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of ReeCore</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of REEX Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of REEX Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4055,6 +4378,10 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Error: A fatal internal error occured, see debug.log for details</translation>
     </message>
     <message>
+        <source>Error: Can't select current denominated inputs</source>
+        <translation>Error: Can't select current denominated inputs</translation>
+    </message>
+    <message>
         <source>Error: Disk space is low!</source>
         <translation>Error: Disk space is low!</translation>
     </message>
@@ -4065,6 +4392,10 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Error: Wallet locked, unable to create transaction!</translation>
+    </message>
+    <message>
+        <source>Error: You already have pending entries in the Obfuscation pool</source>
+        <translation>Error: You already have pending entries in the Obfuscation pool</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -4135,8 +4466,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. ReeCore is shutting down.</source>
-        <translation>Initialization sanity check failed. ReeCore is shutting down.</translation>
+        <source>Initialization sanity check failed. REEX Core is shutting down.</source>
+        <translation>Initialization sanity check failed. REEX Core is shutting down.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4159,8 +4490,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Invalid amount for -minREEXaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Invalid amount for -minREEXaytxfee=&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
@@ -4199,8 +4530,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Invalid script detected.</translation>
     </message>
     <message>
-        <source>This is a pre-REEXease test build - use at your own risk - do not use for staking or merchant applications!</source>
-        <translation>This is a pre-REEXease test build - use at your own risk - do not use for staking or merchant applications!</translation>
+        <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
+        <translation>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -4223,8 +4554,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Enable publish hash block in &lt;address&gt;</translation>
     </message>
     <message>
-        <source>Enable publish hash transaction (locked via SwiftTX) in &lt;address&gt;</source>
-        <translation>Enable publish hash transaction (locked via SwiftTX) in &lt;address&gt;</translation>
+        <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
+        <translation>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
@@ -4235,8 +4566,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Enable publish raw block in &lt;address&gt;</translation>
     </message>
     <message>
-        <source>Enable publish raw transaction (locked via SwiftTX) in &lt;address&gt;</source>
-        <translation>Enable publish raw transaction (locked via SwiftTX) in &lt;address&gt;</translation>
+        <source>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</source>
+        <translation>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
@@ -4247,8 +4578,20 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Enable staking functionality (0-1, default: %u)</translation>
     </message>
     <message>
+        <source>Keep N REEX anonymized (default: %u)</source>
+        <translation>Keep N REEX anonymized (default: %u)</translation>
+    </message>
+    <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</translation>
+    </message>
+    <message>
+        <source>Last Obfuscation was too recent.</source>
+        <translation>Last Obfuscation was too recent.</translation>
+    </message>
+    <message>
+        <source>Last successful Obfuscation action was too recent.</source>
+        <translation>Last successful Obfuscation action was too recent.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
@@ -4331,6 +4674,10 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Missing input transaction information.</translation>
     </message>
     <message>
+        <source>Mixing in progress...</source>
+        <translation>Mixing in progress...</translation>
+    </message>
+    <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>Need to specify a port with -whitebind: '%s'</translation>
     </message>
@@ -4343,8 +4690,16 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>No compatible Masternode found.</translation>
     </message>
     <message>
-        <source>Node REEXay options:</source>
-        <translation>Node REEXay options:</translation>
+        <source>No funds detected in need of denominating.</source>
+        <translation>No funds detected in need of denominating.</translation>
+    </message>
+    <message>
+        <source>No matching denominations found for mixing.</source>
+        <translation>No matching denominations found for mixing.</translation>
+    </message>
+    <message>
+        <source>Node relay options:</source>
+        <translation>Node relay options:</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
@@ -4365,6 +4720,22 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
         <translation>Number of automatic wallet backups (default: 10)</translation>
+    </message>
+    <message>
+        <source>Obfuscation is idle.</source>
+        <translation>Obfuscation is idle.</translation>
+    </message>
+    <message>
+        <source>Obfuscation options:</source>
+        <translation>Obfuscation options:</translation>
+    </message>
+    <message>
+        <source>Obfuscation request complete:</source>
+        <translation>Obfuscation request complete:</translation>
+    </message>
+    <message>
+        <source>Obfuscation request incomplete:</source>
+        <translation>Obfuscation request incomplete:</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
@@ -4419,12 +4790,12 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Receive and display P2P network alerts (default: %u)</translation>
     </message>
     <message>
-        <source>REEXay and mine data carrier transactions (default: %u)</source>
-        <translation>REEXay and mine data carrier transactions (default: %u)</translation>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <translation>Relay and mine data carrier transactions (default: %u)</translation>
     </message>
     <message>
-        <source>REEXay non-P2SH multisig (default: %u)</source>
-        <translation>REEXay non-P2SH multisig (default: %u)</translation>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Relay non-P2SH multisig (default: %u)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
@@ -4567,8 +4938,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Submitted to masternode, waiting in queue %s</translation>
     </message>
     <message>
-        <source>SwiftTX options:</source>
-        <translation>SwiftTX options:</translation>
+        <source>SwiftX options:</source>
+        <translation>SwiftX options:</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -4671,6 +5042,10 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Upgrade wallet to latest format</translation>
     </message>
     <message>
+        <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
+        <translation>Use N separate masternodes to anonymize funds  (2-8, default: %u)</translation>
+    </message>
+    <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Use OpenSSL (https) for JSON-RPC connections</translation>
     </message>
@@ -4691,6 +5066,10 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Username for JSON-RPC connections</translation>
     </message>
     <message>
+        <source>Value more than Obfuscation pool maximum allows.</source>
+        <translation>Value more than Obfuscation pool maximum allows.</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
         <translation>Verifying blocks...</translation>
     </message>
@@ -4707,8 +5086,8 @@ for example: alertnotify=echo %%s | mail -s "Reecore Alert" admin@foo.com
         <translation>Wallet is locked.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart ReeCore to complete</source>
-        <translation>Wallet needed to be rewritten: restart ReeCore to complete</translation>
+        <source>Wallet needed to be rewritten: restart REEX Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart REEX Core to complete</translation>
     </message>
     <message>
         <source>Wallet options:</source>
