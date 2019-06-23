@@ -159,13 +159,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000c1b8abb8755561c46ea298cf725c940ca71409f7024bc3ad82fdb1bdc7f"));
         assert(genesis.hashMerkleRoot == uint256("0x71db3668e0435a23f1222acfcc186b84699bc1f9da54dcbb3cff6bf04dbc04af"));
 
-        vSeeds.push_back(CDNSSeedData("173.249.1.107", "173.249.1.107"));  
-        vSeeds.push_back(CDNSSeedData("193.37.152.99", "193.37.152.99"));
-        vSeeds.push_back(CDNSSeedData("173.212.231.29", "173.212.231.29"));
-        vSeeds.push_back(CDNSSeedData("35.237.76.125", "35.237.76.125"));
-        vSeeds.push_back(CDNSSeedData("35.243.175.130", "35.243.175.130"));
-        vSeeds.push_back(CDNSSeedData("35.227.93.52", "35.227.93.52"));
-        vSeeds.push_back(CDNSSeedData("34.73.151.66", "34.73.151.66")); 
+        vSeeds.push_back(CDNSSeedData("seeder.reecore.org", "seeder.reecore.org"));  
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 61);  // R
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 122); // r
