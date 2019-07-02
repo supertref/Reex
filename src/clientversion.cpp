@@ -13,7 +13,7 @@
  * for both reecored and reecore-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("ReeCore");
+const std::string CLIENT_NAME("Reex");
 
 /**
  * Client version number
