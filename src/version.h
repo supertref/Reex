@@ -20,6 +20,7 @@ static const int INIT_PROTO_VERSION = 209;
 
 //! In this version, 'getheaders' was introduced.
 static const int GETHEADERS_VERSION = 70077;
+define LIMIT_POS_FORK_HEIGHT 375000 // +1
 
 //! disconnect from peers older than this proto version
 static const int MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT_1 = 70914;

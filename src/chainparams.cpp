@@ -140,6 +140,7 @@ public:
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
         nModifierUpdateBlock = 1;
+        nStakeInputMinimal = 10 * COIN;
 
         //  nTime: 1531169926
         //  nNonce: 474276
