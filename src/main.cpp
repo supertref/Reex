@@ -1613,7 +1613,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 int64_t GetTreasuryPayment(int nHeight, int64_t blockValue)
 {
     // Treasury Handling implemented for future possibility
-    return 0;
+    return 0.04;
 }
 
 bool IsMasternodeCollateral(CAmount value)
@@ -1624,8 +1624,8 @@ bool IsMasternodeCollateral(CAmount value)
 CAmount GetMasternodeCollateral()
 {
     // Collateral Increase implemented for future possibility
-    //if( chainActive.Height() >= ??? )
-    //    return MASTERNODE_COLLATERAL_AFTER_???;
+    if( chainActive.Height() >= 400000)
+        return MASTERNODE_COLLATERAL_AFTER;
 
     return MASTERNODE_COLLATERAL;
 }
