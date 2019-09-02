@@ -1613,7 +1613,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 int64_t GetTreasuryPayment(int nHeight, int64_t blockValue)
 {
     // Treasury Handling implemented for future possibility
-    return 0.04;
+    return blockValue * 0.04;
 }
 
 bool IsMasternodeCollateral(CAmount value)
