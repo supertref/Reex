@@ -191,7 +191,7 @@ public:
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
 
-        strTreasuryAddress = ""; // Empty Treasury Address = no Treasury
+        strTreasuryAddress = "RiG2XFS4UcrjnCtJYr6cZdFtdaJNi4ugcH"; // Empty Treasury Address = no Treasury
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
