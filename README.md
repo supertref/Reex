@@ -1,4 +1,5 @@
 # REEX
+![REEX Logo](https://reex.ccore.online/images/coins_custom/reex_45.png)<br>
 
 ReeCore is a peer-to-peer decentralized digital currency for ordinary people, easy to use and acquire.
 
