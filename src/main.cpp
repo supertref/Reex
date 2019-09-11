@@ -1614,7 +1614,8 @@ int64_t GetTreasuryPayment(int nHeight, int64_t blockValue)
 {
     // Treasury Handling implemented for future possibility
     if(chainActive.Height() >= 450000)
- return blockValue * 0.04;
+    return blockValue * 0.04;
+    return 0;
 }
 
 bool IsMasternodeCollateral(CAmount value)
