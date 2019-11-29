@@ -13,7 +13,7 @@
 #include "masternodeconfig.h"
 #include "masternodeman.h"
 #include "masternode-helpers.h"
-#include "rpcserver.h"
+#include "rpc/server.h"
 #include "utilmoneystr.h"
 
 #include <univalue.h>
