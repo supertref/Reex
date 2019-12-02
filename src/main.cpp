@@ -2182,15 +2182,11 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     if (block.IsProofOfWork())
         nExpectedMint += nFees;
 
+    //Check that the block does not overmint
     if (!IsBlockValueValid(block, nExpectedMint, pindex->nMint)) {
-        // Due to the bugfix on the call of GetBlockValue above called
-        // I must skip the wrong block value of the blocks 1001 & 44201
-        if(pindex->nHeight > 254000)
-        {
-            return state.DoS(100,
-                error("ConnectBlock() : reward pays too much (actual=%s vs limit=%s)", FormatMoney(pindex->nMint), FormatMoney(nExpectedMint)),
-                REJECT_INVALID, "bad-cb-amount");
-        }
+        return state.DoS(100, error("ConnectBlock() : reward pays too much (actual=%s vs limit=%s)",
+                FormatMoney(pindex->nMint), FormatMoney(nExpectedMint)),
+            REJECT_INVALID, "bad-cb-amount");
     }
 
     if (!control.Wait())
