@@ -1,7 +1,12 @@
 # REEX
 ![REEX Logo](https://reex.ccore.online/images/coins_custom/reex_45.png)<br>
 
-ReeCore is a peer-to-peer decentralized digital currency for ordinary people, easy to use and acquire.
+What is ReeCore (REEX)?
+
+ReeCore is a peer-to-peer decentralized digital currency for ordinary people, easy to use and acquire. We’re pushing for blockchain mass adoption through education and charity. A sustainable and scalable solutions in the charity and educational sectors on the Blockchain. ReeCore summarizes the best characteristics of digital currencies, which were issued earlier (Bitcoin, Dash,PIVX), such as: increased security, fast consensus mechanism, and increased decentralization achieved by requiring miners to prove the knowledge of the transaction data. The community has created a coin with faster transaction, more secure, masternode and low transaction fee.
+
+ReeCore is not just another cryptocurrency in the market. It has specific use cases in the
+educational and charity sectors
 
 ReeCore is fork of Pivx, improved with some of the following features: 
 
@@ -14,8 +19,14 @@ ReeCore is fork of Pivx, improved with some of the following features:
 - Intregated BIP38, multisignature, blockexplorer, wallet repair and multisend functions in wallet
 - Low transaction fee
 
+Reecore’s Use-cases:
+- Help bloggers to get tip using REEX. 
+- Providing an online educational resources library for professional courses, writers and readers. 
+- Provide Charity organizations with option to be supported by using REEX.
+- Convert your REEX coin to ($) Dollar/ (£) Euro and use it REEX for coin listing and any node hosting
 
-The project is leaded by 9 members: (Telegram/Discord)
+
+The project is led by 12 members: (Telegram/Discord)
 
 - @Cryptowaker: Team leader
 - @CryptoExtrem: Social manager
@@ -26,20 +37,24 @@ The project is leaded by 9 members: (Telegram/Discord)
 - @ZioFabry: Core developer
 - @GreatDaneGH: Software developer
 - @ennybelly: Blockchain/web developer
+- @Alain#4172: Full-stack Software developer
+- @SeunCrypton#7048: Graphics and Animation
 
 ReeCore Specifications:
-
-- Type: POS + MASTERNODE
+- Coin Name: Reecore
 - Ticker: REEX
-- Block time: 90 seconds
-- Block size: 3 MB
-- Transaction confirmation: 15 blocks
-- Min Stake: 10 hours
-- Max Supply: 21 Millions
-- Swap Supply: 1 Million  
-- Premined amount: 240.000 REEX (0.11% premined aprox)
-- Masternode amount: 1.000 REEX
-
+- Type: POS + Masternode
+- Block time 60 seconds
+- Block size 3 MB
+- Block Reward 10 REEX and will be reducing
+- Algorithm Quark (pow period end)
+- Transaction confirmation: 16 blocks
+- Min Stake: 6 hours
+- Max Supply: 21 Million
+- Swap Supply: 1 Million
+- Premined amount: 240.000 REEX (0.11% approx)
+- Masternode Collateral: 15.000 REEX
+- Reward: 90% masternode, 10% POS
 
 ReeCore Rewards:
 
@@ -104,3 +119,18 @@ make -j2 (2 is must be changed for number os Cpus that have VPS)
 cd src
 strip reecored reecore-cli
 ./reecored -daemon
+
+REEX important links
+Website: https://reecore.org
+Whitepaper: https://reecore.org/wp-content/uploads/2019/11/Reecore_Whitepaper_1.2.0.0.pdf
+Block Explorer :  https://reex.ccore.online or  https://reexexplorer.reecore.org 
+Github : https://github.com/reecore-coin/Reex
+Bitcointalk ANN: #msg48756089" rel="noopener noreferrer" target="_blank">https://bitcointalk.org/index.php?topic=5086942.msg48756089#msg48756089
+Telegram-English: https://t.me/ReeCore_official
+Telegram-Announcements: https://t.me/Reecore_Announcement
+Official Twitter: https://twitter.com/ReeCore_coin
+Facebook: https://www.facebook.com/ReeCoreCoin
+Discord: https://discord.gg/sze9AaV
+Masternode guide: https://github.com/reecore-coin/Reex-MN
+Masternode Monitoring/Statistics: 1. https://mnrank.com/coin/REEX/ 2. https://masternodes.biz/coindetail.php?c=REEX
+ReeCore Coin Tracker: https://www.coingecko.com/en/coins/reecore
