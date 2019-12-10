@@ -119,8 +119,10 @@ make -j2 (2 is must be changed for number os Cpus that have VPS)
 cd src
 strip reecored reecore-cli
 ./reecored -daemon
+```
 
 REEX important links
+```
 Website: https://reecore.org
 Whitepaper: https://reecore.org/wp-content/uploads/2019/11/Reecore_Whitepaper_1.2.0.0.pdf
 Block Explorer :  https://reex.ccore.online or  https://reexexplorer.reecore.org 
@@ -134,3 +136,4 @@ Discord: https://discord.gg/sze9AaV
 Masternode guide: https://github.com/reecore-coin/Reex-MN
 Masternode Monitoring/Statistics: 1. https://mnrank.com/coin/REEX/ 2. https://masternodes.biz/coindetail.php?c=REEX
 ReeCore Coin Tracker: https://www.coingecko.com/en/coins/reecore
+```
