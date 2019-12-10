@@ -121,7 +121,7 @@ strip reecored reecore-cli
 ./reecored -daemon
 ```
 
-REEX important links
+# REEX important links
 ```
 Website: https://reecore.org
 Whitepaper: https://reecore.org/wp-content/uploads/2019/11/Reecore_Whitepaper_1.2.0.0.pdf
