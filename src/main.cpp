@@ -2182,15 +2182,11 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     if (block.IsProofOfWork())
         nExpectedMint += nFees;
 
+    //Check that the block does not overmint
     if (!IsBlockValueValid(block, nExpectedMint, pindex->nMint)) {
-        // Due to the bugfix on the call of GetBlockValue above called
-        // I must skip the wrong block value of the blocks 1001 & 44201
-        if(pindex->nHeight > 254000)
-        {
-            return state.DoS(100,
-                error("ConnectBlock() : reward pays too much (actual=%s vs limit=%s)", FormatMoney(pindex->nMint), FormatMoney(nExpectedMint)),
-                REJECT_INVALID, "bad-cb-amount");
-        }
+        return state.DoS(100, error("ConnectBlock() : reward pays too much (actual=%s vs limit=%s)",
+                FormatMoney(pindex->nMint), FormatMoney(nExpectedMint)),
+            REJECT_INVALID, "bad-cb-amount");
     }
 
     if (!control.Wait())
@@ -2775,7 +2771,7 @@ bool ActivateBestChain(CValidationState& state, CBlock* pblock, bool fAlreadyChe
             GetMainSignals().UpdatedBlockTip(pindexNewTip);
         }
     } while (pindexMostWork != chainActive.Tip());
-    CheckBlockIndex();
+    if (!IsInitialBlockDownload()) CheckBlockIndex();
 
     // Write changes periodically to disk, after relay.
     if (!FlushStateToDisk(state, FLUSH_STATE_PERIODIC)) {
@@ -5123,7 +5119,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             pfrom->PushMessage("getheaders", chainActive.GetLocator(pindexLast), uint256(0));
         }
 
-        CheckBlockIndex();
+        if (!IsInitialBlockDownload()) CheckBlockIndex();
     }
 
     else if (strCommand == "block" && !fImporting && !fReindex) // Ignore blocks received while importing

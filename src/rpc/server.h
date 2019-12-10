@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2019 The Reecore developers
+// Copyright (c) 2017-2020 The REEX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,7 +9,7 @@
 #define BITCOIN_RPCSERVER_H
 
 #include "amount.h"
-#include "rpcprotocol.h"
+#include "rpc/protocol.h"
 #include "uint256.h"
 
 #include <list>

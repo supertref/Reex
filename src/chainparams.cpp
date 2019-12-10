@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2019 The Reecore developers
+// Copyright (c) 2017-2020 The REEX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -221,8 +221,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Reliance: 1 day
-        nTargetSpacing = 2 * 60;  // Reliance: 1 minute
+        nTargetTimespan = 1 * 60; // 
+        nTargetSpacing = 2 * 60;  // 
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -239,15 +239,15 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        // Testnet Reliance addresses start with 's'
+        // Testnet addresses start with 's'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 48);
-        // Testnet Reliance script addresses start with '5' or '6'
+        // Testnet script addresses start with '5' or '6'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);
         // Testnet private keys start with 'k'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 108);
-        // Testnet Reliance BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Reliance BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
         // Testnet bitcoin green BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
@@ -295,8 +295,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Reliance: 1 day
-        nTargetSpacing = 2 * 60;        // Reliance: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; //
+        nTargetSpacing = 2 * 60;        // 
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1525777781;
         genesis.nBits = 0x1e0ffff0;

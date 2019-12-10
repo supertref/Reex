@@ -12,7 +12,7 @@
 #include "masternodeconfig.h"
 #include "noui.h"
 #include "scheduler.h"
-#include "rpcserver.h"
+#include "rpc/server.h"
 #include "ui_interface.h"
 #include "util.h"
 
