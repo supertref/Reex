@@ -2771,7 +2771,7 @@ bool ActivateBestChain(CValidationState& state, CBlock* pblock, bool fAlreadyChe
             GetMainSignals().UpdatedBlockTip(pindexNewTip);
         }
     } while (pindexMostWork != chainActive.Tip());
-    if (!IsInitialBlockDownload()) CheckBlockIndex();
+    CheckBlockIndex();
 
     // Write changes periodically to disk, after relay.
     if (!FlushStateToDisk(state, FLUSH_STATE_PERIODIC)) {
@@ -5119,7 +5119,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             pfrom->PushMessage("getheaders", chainActive.GetLocator(pindexLast), uint256(0));
         }
 
-        if (!IsInitialBlockDownload()) CheckBlockIndex();
+        CheckBlockIndex();
     }
 
     else if (strCommand == "block" && !fImporting && !fReindex) // Ignore blocks received while importing
