@@ -10,11 +10,10 @@ educational and charity sectors
 
 ReeCore is fork of Pivx, improved with some of the following features: 
 
-- Segwit protocol applied: fast transaction aprox. 300 tx/s 
 - DNS hardcoded 
 - Supersecure
 - Consesus by masternode 
-- POS 3.0.
+- POS 3.0. fixed
 - Fast transactions featuring guaranteed zero confirmation transaction: Instantsend 
 - Intregated BIP38, multisignature, blockexplorer, wallet repair and multisend functions in wallet
 - Low transaction fee
@@ -125,7 +124,7 @@ strip reecored reecore-cli
 ```
 Website: https://reecore.org
 Whitepaper: https://reecore.org/wp-content/uploads/2019/11/Reecore_Whitepaper_1.2.0.0.pdf
-Block Explorer :  https://reex.ccore.online or  https://reexexplorer.reecore.org 
+Block Explorer :  https://reex.ccore.online or  https://reexexplorer.reecore.org
 Github : https://github.com/reecore-coin/Reex
 Bitcointalk ANN: #msg48756089" rel="noopener noreferrer" target="_blank">https://bitcointalk.org/index.php?topic=5086942.msg48756089#msg48756089
 Telegram-English: https://t.me/ReeCore_official
