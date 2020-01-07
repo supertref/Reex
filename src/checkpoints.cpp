@@ -12,6 +12,7 @@
 
 #include <stdint.h>
 
+#include <boost/foreach.hpp>
 
 namespace Checkpoints
 {
@@ -42,10 +43,10 @@ bool CheckBlock(int nHeight, const uint256& hash, bool fMatchesCheckpoint)
 //! Guess how far we are in the verification process at the given block index
 double GuessVerificationProgress(CBlockIndex* pindex, bool fSigchecks)
 {
-    if (pindex == nullptr)
+    if (pindex == NULL)
         return 0.0;
 
-    int64_t nNow = time(nullptr);
+    int64_t nNow = time(NULL);
 
     double fSigcheckVerificationFactor = fSigchecks ? SIGCHECK_VERIFICATION_FACTOR : 1.0;
     double fWorkBefore = 0.0; // Amount of work done before pindex
@@ -85,17 +86,17 @@ int GetTotalBlocksEstimate()
 CBlockIndex* GetLastCheckpoint()
 {
     if (!fEnabled)
-        return nullptr;
+        return NULL;
 
     const MapCheckpoints& checkpoints = *Params().Checkpoints().mapCheckpoints;
 
-    BOOST_REVERSE_FOREACH (const MapCheckpoints::value_type& i, checkpoints) {
+    for (const MapCheckpoints::value_type& i : checkpoints) {
         const uint256& hash = i.second;
         BlockMap::const_iterator t = mapBlockIndex.find(hash);
         if (t != mapBlockIndex.end())
             return t->second;
     }
-    return nullptr;
+    return NULL;
 }
 
 } // namespace Checkpoints
