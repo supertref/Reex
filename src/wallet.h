@@ -449,7 +449,7 @@ public:
     }
     bool IsMine(const CTransaction& tx) const
     {
-        BOOST_FOREACH (const CTxOut& txout, tx.vout)
+        for (const CTxOut& txout : tx.vout)
             if (IsMine(txout))
                 return true;
         return false;
@@ -462,7 +462,7 @@ public:
     CAmount GetDebit(const CTransaction& tx, const isminefilter& filter) const
     {
         CAmount nDebit = 0;
-        BOOST_FOREACH (const CTxIn& txin, tx.vin) {
+        for (const CTxIn& txin : tx.vin) {
             nDebit += GetDebit(txin, filter);
             if (!MoneyRange(nDebit))
                 throw std::runtime_error("CWallet::GetDebit() : value out of range");
@@ -472,7 +472,7 @@ public:
     CAmount GetCredit(const CTransaction& tx, const isminefilter& filter) const
     {
         CAmount nCredit = 0;
-        BOOST_FOREACH (const CTxOut& txout, tx.vout) {
+        for (const CTxOut& txout : tx.vout) {
             nCredit += GetCredit(txout, filter);
             if (!MoneyRange(nCredit))
                 throw std::runtime_error("CWallet::GetCredit() : value out of range");
@@ -482,7 +482,7 @@ public:
     CAmount GetChange(const CTransaction& tx) const
     {
         CAmount nChange = 0;
-        BOOST_FOREACH (const CTxOut& txout, tx.vout) {
+        for (const CTxOut& txout : tx.vout) {
             nChange += GetChange(txout);
             if (!MoneyRange(nChange))
                 throw std::runtime_error("CWallet::GetChange() : value out of range");
@@ -1102,7 +1102,7 @@ public:
             return false;
 
         // Trusted if all inputs are from us and are in the mempool:
-        BOOST_FOREACH (const CTxIn& txin, vin) {
+        for (const CTxIn& txin : vin) {
             // Transactions not sent by us: not trusted
             const CWalletTx* parent = pwallet->GetWalletTx(txin.prevout.hash);
             if (parent == nullptr)
