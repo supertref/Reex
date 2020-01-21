@@ -1,7 +1,7 @@
-# REEX 
+# REEX ![REEX Logo](https://reex.ccore.online/images/coins_custom/reex_45.png)<br> 
 
 Reex Release Tree [![GitHub version](https://img.shields.io/badge/Version-1.4.0.0-brightgreen.svg)](https://github.com/reecore-coin/Reex/releases/tag/v1.4.0.0)
-![REEX Logo](https://reex.ccore.online/images/coins_custom/reex_45.png)<br>
+
 
 What is ReeCore (REEX)?
 
