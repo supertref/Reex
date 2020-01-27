@@ -290,6 +290,7 @@ RPCConsole::RPCConsole(QWidget* parent) : QDialog(parent, Qt::WindowSystemMenuHi
 
     // set library version labels
 #ifdef ENABLE_WALLET
+    ui->openSSLVersion->setText(SSLeay_version(SSLEAY_VERSION));                                          
     ui->berkeleyDBVersion->setText(DbEnv::version(0, 0, 0));
     ui->wallet_path->setText(QString::fromStdString(GetDataDir().string() + QDir::separator().toLatin1() + GetArg("-wallet", "wallet.dat")));
 #else
