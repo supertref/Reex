@@ -7,11 +7,11 @@ a perl regex one liner.
 
 For example: if it finds something like this and we're in 2014
 
-// Copyright (c) 2009-2013 The Reecore developers
+// Copyright (c) 2009-2013 The Unnycore developers
 
 it will change it to
 
-// Copyright (c) 2009-2014 The Reecore developers
+// Copyright (c) 2009-2014 The Unnycore developers
 
 It will do this for all the files in the folder and its children.
 
@@ -22,7 +22,7 @@ import time
 
 year = time.gmtime()[0]
 last_year = year - 1
-command = "perl -pi -e 's/%s The Reecore/%s The Reecore/' %s"
+command = "perl -pi -e 's/%s The Unnycore/%s The Unnycore/' %s"
 listFilesCommand = "find . | grep %s"
 
 extensions = [".cpp",".h"]

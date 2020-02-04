@@ -6,22 +6,22 @@ define(_CLIENT_VERSION_REVISION, 1)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2020)
-AC_INIT([reecore],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.reecore.one],[reecore])
+AC_INIT([unnycore],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.unnycore.one],[unnycore])
 AC_CONFIG_SRCDIR([src/main.cpp])
-AC_CONFIG_HEADERS([src/config/reecore-config.h])
+AC_CONFIG_HEADERS([src/config/unnycore-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=reecored
-BITCOIN_GUI_NAME=reecore-qt
-BITCOIN_CLI_NAME=reecore-cli
-BITCOIN_TX_NAME=reecore-tx
+BITCOIN_DAEMON_NAME=unnycored
+BITCOIN_GUI_NAME=unnycore-qt
+BITCOIN_CLI_NAME=unnycore-cli
+BITCOIN_TX_NAME=unnycore-tx
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef REEX_CONFIG_H])
-AH_TOP([#define REEX_CONFIG_H])
-AH_BOTTOM([#endif //REEX_CONFIG_H])
+AH_TOP([#ifndef UNNY_CONFIG_H])
+AH_TOP([#define UNNY_CONFIG_H])
+AH_BOTTOM([#endif //UNNY_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME
@@ -199,7 +199,7 @@ CPPFLAGS="$CPPFLAGS -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build reecore-cli reecore-tx (default=yes)])],
+  [build unnycore-cli unnycore-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -211,7 +211,7 @@ AC_ARG_WITH([libs],
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
-  [build reecored daemon (default=yes)])],
+  [build unnycored daemon (default=yes)])],
   [build_bitcoind=$withval],
   [build_bitcoind=yes])
 
@@ -403,7 +403,7 @@ AC_C_BIGENDIAN([AC_MSG_ERROR("Big Endian not supported")])
 dnl Check for pthread compile/link requirements
 AX_PTHREAD
 
-# The following macro will add the necessary defines to reecore-config.h, but
+# The following macro will add the necessary defines to unnycore-config.h, but
 # they also need to be passed down to any subprojects. Pull the results out of
 # the cache and add them to CPPFLAGS.
 AC_SYS_LARGEFILE
@@ -614,7 +614,7 @@ fi
 
 if test x$use_reduce_exports != xno; then
     CXXFLAGS="$CXXFLAGS $RE_CXXFLAGS"
-    AX_CHECK_LINK_FLAG([[-Wl,--exclude-libs,ALL]], [REEXDFLAGS="-Wl,--exclude-libs,ALL"])
+    AX_CHECK_LINK_FLAG([[-Wl,--exclude-libs,ALL]], [UNNYDFLAGS="-Wl,--exclude-libs,ALL"])
 fi
 
 if test x$use_tests = xyes; then
@@ -836,11 +836,11 @@ LIBS="$LIBS_TEMP"
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build reecored])
+AC_MSG_CHECKING([whether to build unnycored])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (reecore-cli reecore-tx)])
+AC_MSG_CHECKING([whether to build utils (unnycore-cli unnycore-tx)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 
@@ -940,7 +940,7 @@ if test x$bitcoin_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_reecore-qt])
+  AC_MSG_CHECKING([whether to build test_unnycore-qt])
   if test x$use_tests$bitcoin_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="test"
@@ -951,7 +951,7 @@ fi
 
 AM_CONDITIONAL([ENABLE_ZMQ], [test "x$use_zmq" = "xyes"])
 
-AC_MSG_CHECKING([whether to build test_reecore])
+AC_MSG_CHECKING([whether to build test_unnycore])
 if test x$use_tests = xyes; then
   AC_MSG_RESULT([yes])
   BUILD_TEST="test"
@@ -1002,7 +1002,7 @@ AC_SUBST(BITCOIN_GUI_NAME)
 AC_SUBST(BITCOIN_CLI_NAME)
 AC_SUBST(BITCOIN_TX_NAME)
 
-AC_SUBST(REEXDFLAGS)
+AC_SUBST(UNNYDFLAGS)
 AC_SUBST(LIBTOOL_APP_LDFLAGS)
 AC_SUBST(USE_UPNP)
 AC_SUBST(USE_QRCODE)

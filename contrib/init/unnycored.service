@@ -1,0 +1,26 @@
+[Unit]
+Description=unnycore's distributed currency daemon
+After=network.target
+
+[Service]
+User=unnycore
+Group=unnycore
+
+Type=forking
+PIDFile=/var/lib/unnycored/unnycored.pid
+
+ExecStart=/usr/bin/unnycored -daemon -pid=/var/lib/unnycored/unnycored.pid \
+          -conf=/etc/unnycore/unnycore.conf -datadir=/var/lib/unnycored
+
+ExecStop=-/usr/bin/unnycore-cli -conf=/etc/unnycore/unnycore.conf \
+         -datadir=/var/lib/unnycored stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

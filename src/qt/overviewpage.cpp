@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018-2020 The REEX developers
+// Copyright (c) 2018-2020 The UNNY developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -32,7 +32,7 @@
 #define ICON_OFFSET 16
 #define NUM_ITEMS 7
 
-#define NEWS_URL "https://reecore.org/category/news/feed"
+#define NEWS_URL "https://unnycore.org/category/news/feed"
 
 extern CWallet* pwalletMain;
 
@@ -40,7 +40,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::REEX)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::UNNY)
     {
     }
 
@@ -198,16 +198,16 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
 
-    // REEX Balance
+    // UNNY Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
-    CAmount reexAvailableBalance = balance - immatureBalance - nLockedBalance;
+    CAmount unnyAvailableBalance = balance - immatureBalance - nLockedBalance;
 
-    // REEX Watch-Only Balance
+    // UNNY Watch-Only Balance
     CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance;
     CAmount nAvailableWatchBalance = watchOnlyBalance - watchImmatureBalance - nWatchOnlyLockedBalance;
 
-    // REEX labels
-    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, reexAvailableBalance, false, BitcoinUnits::separatorAlways));
+    // UNNY labels
+    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unnyAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
     ui->labelLockedBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nLockedBalance, false, BitcoinUnits::separatorAlways));
@@ -226,33 +226,33 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     bool showWatchOnly = nTotalWatchBalance != 0;
 
-    // REEX Available
-    bool showREEXAvailable = settingShowAllBalances || reexAvailableBalance != nTotalBalance;
-    bool showWatchOnlyREEXAvailable = showREEXAvailable || nAvailableWatchBalance != nTotalWatchBalance;
-    ui->labelBalanceText->setVisible(showREEXAvailable || showWatchOnlyREEXAvailable);
-    ui->labelBalance->setVisible(showREEXAvailable || showWatchOnlyREEXAvailable);
-    ui->labelWatchAvailable->setVisible(showREEXAvailable && showWatchOnly);
+    // UNNY Available
+    bool showUNNYAvailable = settingShowAllBalances || unnyAvailableBalance != nTotalBalance;
+    bool showWatchOnlyUNNYAvailable = showUNNYAvailable || nAvailableWatchBalance != nTotalWatchBalance;
+    ui->labelBalanceText->setVisible(showUNNYAvailable || showWatchOnlyUNNYAvailable);
+    ui->labelBalance->setVisible(showUNNYAvailable || showWatchOnlyUNNYAvailable);
+    ui->labelWatchAvailable->setVisible(showUNNYAvailable && showWatchOnly);
 
-    // REEX Pending
-    bool showREEXPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyREEXPending = showREEXPending || watchUnconfBalance != 0;
-    ui->labelPendingText->setVisible(showREEXPending || showWatchOnlyREEXPending);
-    ui->labelUnconfirmed->setVisible(showREEXPending || showWatchOnlyREEXPending);
-    ui->labelWatchPending->setVisible(showREEXPending && showWatchOnly);
+    // UNNY Pending
+    bool showUNNYPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyUNNYPending = showUNNYPending || watchUnconfBalance != 0;
+    ui->labelPendingText->setVisible(showUNNYPending || showWatchOnlyUNNYPending);
+    ui->labelUnconfirmed->setVisible(showUNNYPending || showWatchOnlyUNNYPending);
+    ui->labelWatchPending->setVisible(showUNNYPending && showWatchOnly);
 
-    // REEX Immature
+    // UNNY Immature
     bool showImmature = settingShowAllBalances || immatureBalance != 0;
     bool showWatchOnlyImmature = showImmature || watchImmatureBalance != 0;
     ui->labelImmatureText->setVisible(showImmature || showWatchOnlyImmature);
     ui->labelImmature->setVisible(showImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature && showWatchOnly); // show watch-only immature balance
 
-    // REEX Locked
-    bool showREEXLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyREEXLocked = showREEXLocked || nWatchOnlyLockedBalance != 0;
-    ui->labelLockedBalanceText->setVisible(showREEXLocked || showWatchOnlyREEXLocked);
-    ui->labelLockedBalance->setVisible(showREEXLocked || showWatchOnlyREEXLocked);
-    ui->labelWatchLocked->setVisible(showREEXLocked && showWatchOnly);
+    // UNNY Locked
+    bool showUNNYLocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyUNNYLocked = showUNNYLocked || nWatchOnlyLockedBalance != 0;
+    ui->labelLockedBalanceText->setVisible(showUNNYLocked || showWatchOnlyUNNYLocked);
+    ui->labelLockedBalance->setVisible(showUNNYLocked || showWatchOnlyUNNYLocked);
+    ui->labelWatchLocked->setVisible(showUNNYLocked && showWatchOnly);
 
     static int cachedTxLocks = 0;
 
@@ -322,7 +322,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default (REEX)
+    // update the display unit, to not use the default (UNNY)
     updateDisplayUnit();
 }
 
@@ -363,12 +363,12 @@ void OverviewPage::SetLinks()
     ui->labelLinks6->setText("Github:");
     ui->labelLinks7->setText("");
 
-    ui->labelLinksUrl1->setText("<a href=\"https://reecore.org/\">https://reecore.org</a>");
-    ui->labelLinksUrl2->setText("<a href=\"https://reex.ccore.online\">https://reex.ccore.online</a>");
+    ui->labelLinksUrl1->setText("<a href=\"https://unnycore.org/\">https://unnycore.org</a>");
+    ui->labelLinksUrl2->setText("<a href=\"https://unny.ccore.online\">https://unny.ccore.online</a>");
     ui->labelLinksUrl3->setText("<a href=\"https://discord.gg/sze9AaV\">https://discord.gg/sze9AaV</a>");
-    ui->labelLinksUrl4->setText("<a href=\"https://twitter.com/ReeCore_coin\">https://twitter.com/ReeCore_coin</a>");
-    ui->labelLinksUrl5->setText("<a href=\"https://www.facebook.com/ReeCoreCoin\">https://www.facebook.com/ReeCoreCoin</a>");
-    ui->labelLinksUrl6->setText("<a href=\"https://github.com/reecore-coin\">https://github.com/reecore-coin</a>");
+    ui->labelLinksUrl4->setText("<a href=\"https://twitter.com/UnnyCore_coin\">https://twitter.com/UnnyCore_coin</a>");
+    ui->labelLinksUrl5->setText("<a href=\"https://www.facebook.com/UnnyCoreCoin\">https://www.facebook.com/UnnyCoreCoin</a>");
+    ui->labelLinksUrl6->setText("<a href=\"https://github.com/unnycore-coin\">https://github.com/unnycore-coin</a>");
     ui->labelLinksUrl7->setText("");
 }
 

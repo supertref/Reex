@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(REEX);
-    unitlist.append(mREEX);
-    unitlist.append(uREEX);
+    unitlist.append(UNNY);
+    unitlist.append(mUNNY);
+    unitlist.append(uUNNY);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case REEX:
-    case mREEX:
-    case uREEX:
+    case UNNY:
+    case mUNNY:
+    case uUNNY:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case REEX:
-        return QString("reex");
-    case mREEX:
-        return QString("mreex");
-    case uREEX:
-        return QString::fromUtf8("ureex");
+    case UNNY:
+        return QString("unny");
+    case mUNNY:
+        return QString("munny");
+    case uUNNY:
+        return QString::fromUtf8("uunny");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case REEX:
-            return QString("REEX");
-        case mREEX:
-            return QString("mREEX");
-        case uREEX:
-            return QString::fromUtf8("μREEX");
+        case UNNY:
+            return QString("UNNY");
+        case mUNNY:
+            return QString("mUNNY");
+        case uUNNY:
+            return QString::fromUtf8("μUNNY");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case REEX:
-            return QString("tREEX");
-        case mREEX:
-            return QString("mtREEX");
-        case uREEX:
-            return QString::fromUtf8("μtREEX");
+        case UNNY:
+            return QString("tUNNY");
+        case mUNNY:
+            return QString("mtUNNY");
+        case uUNNY:
+            return QString::fromUtf8("μtUNNY");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case REEX:
-            return QString("REEX");
-        case mREEX:
-            return QString("Milli-REEX (1 / 1" THIN_SP_UTF8 "000)");
-        case uREEX:
-            return QString("Micro-REEX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case UNNY:
+            return QString("UNNY");
+        case mUNNY:
+            return QString("Milli-UNNY (1 / 1" THIN_SP_UTF8 "000)");
+        case uUNNY:
+            return QString("Micro-UNNY (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case REEX:
-            return QString("TestREEXs");
-        case mREEX:
-            return QString("Milli-TestREEX (1 / 1" THIN_SP_UTF8 "000)");
-        case uREEX:
-            return QString("Micro-TestREEX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case UNNY:
+            return QString("TestUNNYs");
+        case mUNNY:
+            return QString("Milli-TestUNNY (1 / 1" THIN_SP_UTF8 "000)");
+        case uUNNY:
+            return QString("Micro-TestUNNY (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case REEX:
+    case UNNY:
         return 100000000;
-    case mREEX:
+    case mUNNY:
         return 100000;
-    case uREEX:
+    case uUNNY:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case REEX:
+    case UNNY:
         return 8;
-    case mREEX:
+    case mUNNY:
         return 5;
-    case uREEX:
+    case uUNNY:
         return 2;
     default:
         return 0;

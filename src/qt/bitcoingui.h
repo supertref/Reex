@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2017-2018 The PIVX developers
 // Copyright (c) 2019 The Phore developers
-// Copyright (c) 2019 The Reecore developers
+// Copyright (c) 2019 The Unnycore developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,7 +9,7 @@
 #define BITCOIN_QT_BITCOINGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/reecore-config.h"
+#include "config/unnycore-config.h"
 #endif
 
 #include "amount.h"

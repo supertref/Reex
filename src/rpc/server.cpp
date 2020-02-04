@@ -269,11 +269,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw std::runtime_error(
             "stop\n"
-            "\nStop reecore server.");
+            "\nStop unnycore server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "reecore server stopping";
+    return "unnycore server stopping";
 }
 
 
@@ -359,33 +359,33 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "waitforblock", &waitforblock, true,  true, false},
         {"hidden", "waitforblockheight", &waitforblockheight, true, true, false},
 
-        /* reecore features */
-        {"reecore", "masternode", &masternode, true, true, false},
-        {"reecore", "listmasternodes", &listmasternodes, true, true, false},
-        {"reecore", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"reecore", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"reecore", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"reecore", "masternodedebug", &masternodedebug, true, true, false},
-        {"reecore", "startmasternode", &startmasternode, true, true, false},
-        {"reecore", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"reecore", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"reecore", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"reecore", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"reecore", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"reecore", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"reecore", "mnbudget", &mnbudget, true, true, false},
-        {"reecore", "preparebudget", &preparebudget, true, true, false},
-        {"reecore", "submitbudget", &submitbudget, true, true, false},
-        {"reecore", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"reecore", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"reecore", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"reecore", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"reecore", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"reecore", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"reecore", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"reecore", "checkbudgets", &checkbudgets, true, true, false},
-        {"reecore", "mnsync", &mnsync, true, true, false},
-        {"reecore", "spork", &spork, true, true, false},
+        /* unnycore features */
+        {"unnycore", "masternode", &masternode, true, true, false},
+        {"unnycore", "listmasternodes", &listmasternodes, true, true, false},
+        {"unnycore", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"unnycore", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"unnycore", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"unnycore", "masternodedebug", &masternodedebug, true, true, false},
+        {"unnycore", "startmasternode", &startmasternode, true, true, false},
+        {"unnycore", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"unnycore", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"unnycore", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"unnycore", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"unnycore", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"unnycore", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"unnycore", "mnbudget", &mnbudget, true, true, false},
+        {"unnycore", "preparebudget", &preparebudget, true, true, false},
+        {"unnycore", "submitbudget", &submitbudget, true, true, false},
+        {"unnycore", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"unnycore", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"unnycore", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"unnycore", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"unnycore", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"unnycore", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"unnycore", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"unnycore", "checkbudgets", &checkbudgets, true, true, false},
+        {"unnycore", "mnsync", &mnsync, true, true, false},
+        {"unnycore", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
@@ -599,7 +599,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(std::string methodname, std::string args)
 {
-    return "> reecore-cli " + methodname + " " + args + "\n";
+    return "> unnycore-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(std::string methodname, std::string args)

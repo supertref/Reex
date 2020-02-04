@@ -54,7 +54,7 @@ ds['.']['icvp'] = icvp
 ds['.']['vSrn'] = ('long', 1)
 
 ds['Applications']['Iloc'] = (370, 156)
-ds['reecore-Qt.app']['Iloc'] = (128, 156)
+ds['unnycore-Qt.app']['Iloc'] = (128, 156)
 
 ds.flush()
 ds.close()

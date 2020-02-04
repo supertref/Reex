@@ -158,13 +158,13 @@ public:
 
     bool IsDust(CFeeRate minRelayTxFee) const
     {
-        // "Dust" is defined in terms of CTransaction::minRelayTxFee, which has units ureex-per-kilobyte.
+        // "Dust" is defined in terms of CTransaction::minRelayTxFee, which has units uunny-per-kilobyte.
         // If you'd pay more than 1/3 in fees to spend something, then we consider it dust.
         // A typical txout is 34 bytes big, and will need a CTxIn of at least 148 bytes to spend
-        // i.e. total is 148 + 32 = 182 bytes. Default -minrelaytxfee is 10000 ureex per kB
-        // and that means that fee per txout is 182 * 10000 / 1000 = 1820 ureex.
-        // So dust is a txout less than 1820 *3 = 5460 ureex
-        // with default -minrelaytxfee = minRelayTxFee = 10000 ureex per kB.
+        // i.e. total is 148 + 32 = 182 bytes. Default -minrelaytxfee is 10000 uunny per kB
+        // and that means that fee per txout is 182 * 10000 / 1000 = 1820 uunny.
+        // So dust is a txout less than 1820 *3 = 5460 uunny
+        // with default -minrelaytxfee = minRelayTxFee = 10000 uunny per kB.
         size_t nSize = GetSerializeSize(SER_DISK,0)+148u;
         return (nValue < 3*minRelayTxFee.GetFee(nSize));
     }

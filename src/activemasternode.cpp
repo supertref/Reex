@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2020 The reecore developers
+// Copyright (c) 2017-2020 The unnycore developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,7 +17,7 @@
 CActiveMasternode activeMasternode;
 
 //
-// Bootup the Masternode, look for a REEX collateral input and register on the network
+// Bootup the Masternode, look for a UNNY collateral input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {

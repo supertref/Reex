@@ -4,7 +4,7 @@
 // Copyright (c) 2011-2013 The PPCoin developers
 // Copyright (c) 2013-2014 The NovaCoin Developers
 // Copyright (c) 2014-2018 The BlackCoin Developers
-// Copyright (c) 2017-2020 The REEX developers
+// Copyright (c) 2017-2020 The UNNY developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -34,7 +34,7 @@
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// reecoreMiner
+// unnycoreMiner
 //
 
 //
@@ -462,7 +462,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock))
-        return error("reecoreMiner : ProcessNewBlock, block not accepted");
+        return error("unnycoreMiner : ProcessNewBlock, block not accepted");
 
     for (CNode* node : vNodes) {
         node->PushInventory(CInv(MSG_BLOCK, pblock->GetHash()));
@@ -479,9 +479,9 @@ int nMintableLastCheck = 0;
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrintf("ReecoreMiner started (POS=%s)\n", (fProofOfStake ? "true" : "false") );
+    LogPrintf("UnnycoreMiner started (POS=%s)\n", (fProofOfStake ? "true" : "false") );
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("reecore-miner");
+    RenameThread("unnycore-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -563,7 +563,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             continue;
         }
 
-        //LogPrintf("Running reecoreMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        //LogPrintf("Running unnycoreMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
         //    ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //

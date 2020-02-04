@@ -1,7 +1,7 @@
 // Copyright (c) 2018 The Phore developers
 // Copyright (c) 2018 The Curium developers
 // Copyright (c) 2017-2018 The Bulwark Developers
-// Copyright (c) 2019 The Reecore Developers
+// Copyright (c) 2019 The Unnycore Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -204,7 +204,7 @@ QVariant ProposalTableModel::data(const QModelIndex &index, int role) const
                 case VotesNeeded:
                     return QString("%1").arg(rec->votesNeeded);
                 case Amount:
-                    return BitcoinUnits::format(BitcoinUnits::REEX, rec->amount);
+                    return BitcoinUnits::format(BitcoinUnits::UNNY, rec->amount);
             }
             break;
         case Qt::EditRole:

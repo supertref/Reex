@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: reecored.service
-Upstart: reecored.conf
-OpenRC:  reecored.openrc
-         reecored.openrcconf
-CentOS:  reecored.init
+SystemD: unnycored.service
+Upstart: unnycored.conf
+OpenRC:  unnycored.openrc
+         unnycored.openrcconf
+CentOS:  unnycored.init
 
 have been made available to assist packagers in creating node packages here.
 

@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2020 The REEX developers
+// Copyright (c) 2017-2020 The UNNY developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -54,8 +54,8 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (     0, uint256("0x00000c1b8abb8755561c46ea298cf725c940ca71409f7024bc3ad82fdb1bdc7f"))
-    (   500, uint256("0xa41b51720be8443abaf9445d1f80e8137d8834fd394dd9665ac107606d5428dc"))
+    (     0, uint256("0x00000c1b8abb8755561c46ea298cf725c940ca71409f7024bc3ad82fdb1bdc7f"));
+    /*(   500, uint256("0xa41b51720be8443abaf9445d1f80e8137d8834fd394dd9665ac107606d5428dc"))
     (  3500, uint256("0xdb2a3cbeb8a5d101893a2d2e6f19dc11bc96dd9e635267ef6b29909d46c15e43"))
     ( 15000, uint256("0x108dc0938f6285a53d074b9c2a803ade651102e8c9587970d014d7bf8d559944"))
     ( 28000, uint256("0x8d5cca7aceb236db91018887aa0df5f51ce4b06cc70ea656d8321bc804fda6cf"))
@@ -85,7 +85,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (250000, uint256("0xfd0b8a05097fa32c9570dcb1a26e6354c4bf50a3bc783177bea0fb2af7c7aa8b"))
     (260000, uint256("0x604fdc01c912161fec5a4b84b68c53d9cfb102893a24354d5796d963cacc1ec1"))
     (270000, uint256("0xe0356d2203bbe082ff45f17bde84ba2b0623aef2cffb19cd71b77bba4e12b6c1"))
-    (274780, uint256("0x65f3d56aa289cd02ec1063639b8f7a8f5bc610b9b69fe28e925a67bfc90852d9"));
+    (274780, uint256("0x65f3d56aa289cd02ec1063639b8f7a8f5bc610b9b69fe28e925a67bfc90852d9"));*/
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -145,7 +145,7 @@ public:
         //  nNonce: 474276
         //  Hash: 00000d6274a0459bc63c3b7ad6c03614bed636e2c43e10b466c553d03bb56ecc
         //  hashMerkleRoot: d356f4e8178a28f1ad5f15738db447731b86ca1a9a620ff8358fa607252f2220
-        const char* pszTimestamp = "reecore mainnet nov2018";
+        const char* pszTimestamp = "unnycore mainnet nov2018";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -164,14 +164,14 @@ public:
         assert(hashGenesisBlock == uint256("0x00000c1b8abb8755561c46ea298cf725c940ca71409f7024bc3ad82fdb1bdc7f"));
         assert(genesis.hashMerkleRoot == uint256("0x71db3668e0435a23f1222acfcc186b84699bc1f9da54dcbb3cff6bf04dbc04af"));
 
-        vSeeds.push_back(CDNSSeedData("seeder.reecore.org", "seeder.reecore.org"));  
+        vSeeds.push_back(CDNSSeedData("seeder.unny.nl", "seeder.unny.nl"));  
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 61);  // R
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 122); // r
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 189);     // +128
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        //BIP-44 reex is "222"
+        //BIP-44 unny is "222"
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0xde).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));

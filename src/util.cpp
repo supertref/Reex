@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/reecore-config.h"
+#include "config/unnycore-config.h"
 #endif
 
 #include "util.h"
@@ -84,7 +84,7 @@
 #include <openssl/crypto.h>
 #include <openssl/rand.h>
 
-// reecore only features
+// unnycore only features
 // Masternode
 bool fMasterNode = false;
 std::string strMasterNodePrivKey = "";
@@ -205,8 +205,8 @@ bool LogAcceptCategory(const char* category)
             const std::vector<std::string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new std::set<std::string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "reecore" is a composite category enabling all reecore-related debug output
-            if (ptrCategory->count(std::string("reecore"))) {
+            // "unnycore" is a composite category enabling all unnycore-related debug output
+            if (ptrCategory->count(std::string("unnycore"))) {
                 ptrCategory->insert(std::string("swifttx"));
                 ptrCategory->insert(std::string("masternode"));
                 ptrCategory->insert(std::string("mnpayments"));
@@ -369,7 +369,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "reecore";
+    const char* pszModule = "unnycore";
 #endif
     if (pex)
         return strprintf(
@@ -390,13 +390,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\reecore
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\reecore
-// Mac: ~/Library/Application Support/reecore
-// Unix: ~/.reecore
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\unnycore
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\unnycore
+// Mac: ~/Library/Application Support/unnycore
+// Unix: ~/.unnycore
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Reecore";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Unnycore";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -408,10 +408,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Reecore";
+    return pathRet / "Unnycore";
 #else
     // Unix
-    return pathRet / ".Reecore";
+    return pathRet / ".Unnycore";
 #endif
 #endif
 }
@@ -458,7 +458,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "Reecore.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "Unnycore.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -477,7 +477,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty reecore.conf if it does not exist
+        // Create empty unnycore.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -488,7 +488,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override reecore.conf
+        // Don't overwrite existing settings so command line settings override unnycore.conf
         std::string strKey = std::string("-") + it->string_key;
         std::string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);
@@ -503,7 +503,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "Reecored.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "Unnycored.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

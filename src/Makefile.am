@@ -72,15 +72,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += reecored
+  bin_PROGRAMS += unnycored
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += reecore-cli reecore-tx
+  bin_PROGRAMS += unnycore-cli unnycore-tx
 endif
 
 .PHONY: FORCE
-# reecore core #
+# unnycore core #
 BITCOIN_CORE_H = \
   bignum.h \
   activemasternode.h \
@@ -185,7 +185,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between reecored and reecore-qt
+# server: shared between unnycored and unnycore-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -232,7 +232,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between reecored and reecore-qt, but only linked
+# wallet: shared between unnycored and unnycore-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -294,7 +294,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between reecored, and reecore-qt and non-server tools
+# common: shared between unnycored, and unnycore-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -352,7 +352,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between reecore-cli and reecore-qt
+# cli: shared between unnycore-cli and unnycore-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpc/client.cpp \
@@ -362,7 +362,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-reecored_LDADD = \
+unnycored_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -373,26 +373,26 @@ reecored_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-reecored_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+unnycored_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-reecored_LDADD += libbitcoin_wallet.a
+unnycored_LDADD += libbitcoin_wallet.a
 endif
-reecored_SOURCES = reecored.cpp
+unnycored_SOURCES = unnycored.cpp
 #
 
 if TARGET_WINDOWS
-reecored_SOURCES += reecored-res.rc
+unnycored_SOURCES += unnycored-res.rc
 endif
 
-reecored_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-reecored_CPPFLAGS = $(BITCOIN_INCLUDES)
-reecored_LDFLAGS = $(REEXDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+unnycored_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+unnycored_CPPFLAGS = $(BITCOIN_INCLUDES)
+unnycored_LDFLAGS = $(UNNYDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# reecore-cli binary #
-reecore_cli_LDADD = \
+# unnycore-cli binary #
+unnycore_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
@@ -401,14 +401,14 @@ reecore_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-reecore_cli_SOURCES = \
-  reecore-cli.cpp
+unnycore_cli_SOURCES = \
+  unnycore-cli.cpp
 
-reecore_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+unnycore_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# reecore-tx binary #
-reecore_tx_LDADD = \
+# unnycore-tx binary #
+unnycore_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -417,15 +417,15 @@ reecore_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-reecore_tx_SOURCES = reecore-tx.cpp
-reecore_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+unnycore_tx_SOURCES = unnycore-tx.cpp
+unnycore_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-reecore_tx_LDFLAGS = $(REEXDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+unnycore_tx_LDFLAGS = $(UNNYDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-reecore_cli_SOURCES += reecore-cli-res.rc
+unnycore_cli_SOURCES += unnycore-cli-res.rc
 endif
-reecore_cli_LDFLAGS = $(REEXDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+unnycore_cli_LDFLAGS = $(UNNYDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h
@@ -453,7 +453,7 @@ if GLIBC_BACK_COMPAT
   libbitcoinconsensus_la_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-libbitcoinconsensus_la_LDFLAGS = -no-undefined $(REEXDFLAGS)
+libbitcoinconsensus_la_LDFLAGS = -no-undefined $(UNNYDFLAGS)
 libbitcoinconsensus_la_LIBADD = $(CRYPTO_LIBS) $(BOOST_LIBS)
 libbitcoinconsensus_la_CPPFLAGS = $(CRYPTO_CFLAGS) -I$(builddir)/obj -DBUILD_BITCOIN_INTERNAL
 if USE_LIBSECP256K1

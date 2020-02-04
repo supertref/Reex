@@ -7,12 +7,12 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/reecore
-src/reecored
-src/reecore-cli
-src/reecore-tx
-src/test/test_reecore
-src/qt/test/test_reecore-qt
+src/unnycore
+src/unnycored
+src/unnycore-cli
+src/unnycore-tx
+src/test/test_unnycore
+src/qt/test/test_unnycore-qt
 
 # autoreconf
 Makefile.in
@@ -38,8 +38,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/reecore-config.h
-src/config/reecore-config.h.in
+src/config/unnycore-config.h
+src/config/unnycore-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -62,7 +62,7 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-.reecore
+.unnycore
 *.a
 *.pb.cc
 *.pb.h
@@ -81,13 +81,13 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-reecore-qt
-Reecore-Qt.app
+unnycore-qt
+Unnycore-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-reecore-qt_test
+unnycore-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -103,7 +103,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_reecore.coverage/
+test_unnycore.coverage/
 total.coverage/
 coverage_percent.txt
 

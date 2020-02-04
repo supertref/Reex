@@ -1,6 +1,6 @@
 // Copyright (c) 2017-2018 The Bulwark Developers
 // Copyright (c) 2019 The Phore Developers
-// Copyright (c) 2019 The Reecore Developers
+// Copyright (c) 2019 The Unnycore Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 

@@ -7,7 +7,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/reecore-config.h"
+#include "config/unnycore-config.h"
 #endif
 
 #ifdef WIN32

@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/unnycore_bg.qm</file>
+        <file alias="ca">locale/unnycore_ca.qm</file>
+        <file alias="cs">locale/unnycore_cs.qm</file>
+        <file alias="da">locale/unnycore_da.qm</file>
+        <file alias="de">locale/unnycore_de.qm</file>
+        <file alias="en">locale/unnycore_en.qm</file>
+        <file alias="en_US">locale/unnycore_en_US.qm</file>
+        <file alias="es">locale/unnycore_es.qm</file>
+        <file alias="fi">locale/unnycore_fi.qm</file>
+        <file alias="fr_FR">locale/unnycore_fr_FR.qm</file>
+        <file alias="it">locale/unnycore_it.qm</file>
+        <file alias="ja">locale/unnycore_ja.qm</file>
+        <file alias="ko_KR">locale/unnycore_ko_KR.qm</file>
+        <file alias="nl">locale/unnycore_nl.qm</file>
+        <file alias="pl">locale/unnycore_pl.qm</file>
+        <file alias="pt">locale/unnycore_pt.qm</file>
+        <file alias="pt_BR">locale/unnycore_pt_BR.qm</file>
+        <file alias="ro_RO">locale/unnycore_ro_RO.qm</file>
+        <file alias="ru">locale/unnycore_ru.qm</file>
+        <file alias="sk">locale/unnycore_sk.qm</file>
+        <file alias="sv">locale/unnycore_sv.qm</file>
+        <file alias="tr">locale/unnycore_tr.qm</file>
+        <file alias="uk">locale/unnycore_uk.qm</file>
+        <file alias="zh_CN">locale/unnycore_zh_CN.qm</file>
+        <file alias="zh_TW">locale/unnycore_zh_TW.qm</file>
+    </qresource>
+</RCC>
